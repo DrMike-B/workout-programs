@@ -1012,5 +1012,13 @@
         }
       ]
     }
-  ]
+  ],
+  "infoText": {
+    "about": "Showing up is the workout. After 50, consistency beats intensity every time. Keep moving, stay injury-free, feel good doing it.",
+    "setsAndReps": "Most movements work well for 3 sets. Somewhere between 10 and 15 reps where the last few feel like work but form never breaks. Rest as long as you need. There is no rush.",
+    "floor": "Three movements per session. Primary option first, alternative after the slash \u2014 use whichever is free. No supersets, no circuits. Do your sets, rest, move on.",
+    "burnout": "Optional. Drop your main compound to 50\u201360% of working weight and take it to failure. Aim for 20\u201330 reps. Maintains muscle without heavy loading.",
+    "mat": "The mat is yours. Over time you will develop your own stretch and core routine \u2014 that is the goal. What we suggest here augments what you already know. The hamstring stretch is a daily constant. Everything else rotates. Props are always optional.",
+    "whenToGo": "No streaks. No guilt. The app picks up exactly where you left off \u2014 tomorrow or next week, it does not matter."
+  }
 }
