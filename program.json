@@ -65,29 +65,29 @@
       "Turkish Get-Up (KB)",
       "KB Swing (KB)",
       "Windmill (KB)",
-      "KB Clean â 3x8 each side (KB)",
+      "KB Clean Ã¢ÂÂ 3x8 each side (KB)",
       "Single Leg Deadlift with KB"
     ],
     "athletic": [
-      "Ski Erg â 2 minutes",
-      "Cardio Climber â 2 minutes",
-      "Battle Ropes â 30 sec full effort",
-      "Medicine Ball Slam â 3x10",
-      "Medicine Ball Toss â throw high catch x10",
-      "Farmer Carry â one lap heavy",
-      "Jump Rope â 2 minutes",
-      "Bear Crawl â 20 steps",
-      "Suitcase Carry â one side one lap",
-      "Lateral Bound â 10 each side",
-      "Sandbag Hold â 60 sec tight brace",
-      "Superman Hold â 3x10 slow"
+      "Ski Erg Ã¢ÂÂ 2 minutes",
+      "Cardio Climber Ã¢ÂÂ 2 minutes",
+      "Battle Ropes Ã¢ÂÂ 30 sec full effort",
+      "Medicine Ball Slam Ã¢ÂÂ 3x10",
+      "Medicine Ball Toss Ã¢ÂÂ throw high catch x10",
+      "Farmer Carry Ã¢ÂÂ one lap heavy",
+      "Jump Rope Ã¢ÂÂ 2 minutes",
+      "Bear Crawl Ã¢ÂÂ 20 steps",
+      "Suitcase Carry Ã¢ÂÂ one side one lap",
+      "Lateral Bound Ã¢ÂÂ 10 each side",
+      "Sandbag Hold Ã¢ÂÂ 60 sec tight brace",
+      "Superman Hold Ã¢ÂÂ 3x10 slow"
     ],
     "anchor": [
-      "Tree Pose â 30 sec each side",
-      "Russian Twist â 3x15",
-      "Superman Hold â 3x10 slow",
-      "Inchworm Walk â 10 reps",
-      "Agility Ladder Drills â 3 lengths"
+      "Tree Pose Ã¢ÂÂ 30 sec each side",
+      "Russian Twist Ã¢ÂÂ 3x15",
+      "Superman Hold Ã¢ÂÂ 3x10 slow",
+      "Inchworm Walk Ã¢ÂÂ 10 reps",
+      "Agility Ladder Drills Ã¢ÂÂ 3 lengths"
     ]
   },
   "myRoutine": [
@@ -639,7 +639,7 @@
           "alt": "Assisted Pull-Up"
         },
         {
-          "primary": "Leg Press",
+          "primary": "DB Thrusters",
           "alt": "Goblet Squat"
         }
       ]
@@ -1016,9 +1016,9 @@
   "infoText": {
     "about": "Showing up is the goal. After 50, consistency is more important than sets or reps. Keep moving, stay injury-free, feel good doing it.",
     "setsAndReps": "I usually do 3 sets with a 1/2 weight add-on finisher. Somewhere between 10 and 15 reps where the last few feel like work but form never breaks. Rest usually 2 minutes per set.",
-    "floor": "Three movements per session. Primary option first, alternative after the slash â use whichever is free. No supersets, no circuits. Do your sets, rest, move on.",
-    "burnout": "Optional. Drop your main compound to 50â60% of working weight and take it to failure. Aim for 20â30 reps. Maintains muscle without heavy loading.",
+    "floor": "Three movements per session. Primary option first, alternative after the slash Ã¢ÂÂ use whichever is free. No supersets, no circuits. Do your sets, rest, move on.",
+    "burnout": "Optional. Drop your main compound to 50Ã¢ÂÂ60% of working weight and take it to failure. Aim for 20Ã¢ÂÂ30 reps. Maintains muscle without heavy loading.",
     "mat": "Over time you should develop your own stretch and core routine using the suggestions here. What we suggest here augments what you already know. The hamstring stretch is a daily constant. Everything else rotates. Props are always optional.",
-    "whenToGo": "No streaks. No guilt. The app picks up exactly where you left off â tomorrow or next week, it does not matter."
+    "whenToGo": "No streaks. No guilt. The app picks up exactly where you left off Ã¢ÂÂ tomorrow or next week, it does not matter."
   }
 }
