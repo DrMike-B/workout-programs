@@ -1,33 +1,1016 @@
 {
   "version": "1.0",
   "updated": "2026-05-04",
-  "splits": {
-    "ppl": {
-      "push": {
-        "floor": [
-          {
-            "primary": "DB Bench Press",
-            "alt": "Chest Press Machine",
-            "sets": "3x12-15"
-          },
-          {
-            "primary": "Incline DB Press",
-            "alt": "Cable Fly",
-            "sets": "3x12"
-          },
-          {
-            "primary": "DB Lateral Raise",
-            "alt": "Cable Lateral Raise",
-            "sets": "3x15"
-          }
-        ],
-        "mat": [
-          "Dead Bug",
-          "Plank",
-          "Thread the Needle"
-        ],
-        "enrichment": "Tree Pose — 30 seconds each side"
-      }
+  "matPools": {
+    "push": [
+      "Thread the Needle",
+      "Prone Cobra",
+      "Chest Opener",
+      "Wrist Circles",
+      "Doorway Shoulder Stretch",
+      "Overhead Tricep Stretch",
+      "Cross Body Shoulder Stretch",
+      "Plank Hold",
+      "Dead Bug"
+    ],
+    "pull": [
+      "Cat-Cow",
+      "Child's Pose",
+      "Thoracic Rotation",
+      "Lat Stretch at Rack",
+      "Neck Rolls",
+      "Thread the Needle",
+      "Seated Spinal Twist",
+      "Overhead Lat Stretch"
+    ],
+    "legs": [
+      "Pigeon Pose",
+      "Figure Four",
+      "Hip Flexor Lunge",
+      "90/90 Hip Stretch",
+      "Calf Stretch at Wall",
+      "Glute Bridge Hold",
+      "Seated Forward Fold",
+      "Standing Quad Stretch"
+    ],
+    "fullbody": [
+      "Dead Bug",
+      "Bird Dog",
+      "Glute Bridge",
+      "Side Plank",
+      "World's Greatest Stretch",
+      "Cat-Cow",
+      "Hip Flexor Lunge",
+      "Thoracic Rotation",
+      "Child's Pose"
+    ]
+  },
+  "extraPools": {
+    "bands": [
+      "Clamshell (Bands)",
+      "Band Pull-Apart (Bands)",
+      "Glute Bridge with Band (Bands)",
+      "Lateral Band Walk (Bands)",
+      "Shoulder External Rotation (Bands)"
+    ],
+    "bosu": [
+      "Bosu Crunches (Bosu)",
+      "Bosu Leg Lifts (Bosu)",
+      "Bosu Plank (Bosu)",
+      "Single Leg Balance (Bosu)",
+      "Bosu Russian Twist (Bosu)"
+    ],
+    "kb": [
+      "KB Halo (KB)",
+      "Turkish Get-Up (KB)",
+      "KB Swing (KB)",
+      "Windmill (KB)",
+      "KB Clean \u2014 3x8 each side (KB)",
+      "Single Leg Deadlift with KB"
+    ],
+    "athletic": [
+      "Ski Erg \u2014 2 minutes",
+      "Cardio Climber \u2014 2 minutes",
+      "Battle Ropes \u2014 30 sec full effort",
+      "Medicine Ball Slam \u2014 3x10",
+      "Medicine Ball Toss \u2014 throw high catch x10",
+      "Farmer Carry \u2014 one lap heavy",
+      "Jump Rope \u2014 2 minutes",
+      "Bear Crawl \u2014 20 steps",
+      "Suitcase Carry \u2014 one side one lap",
+      "Lateral Bound \u2014 10 each side",
+      "Sandbag Hold \u2014 60 sec tight brace",
+      "Superman Hold \u2014 3x10 slow"
+    ],
+    "anchor": [
+      "Tree Pose \u2014 30 sec each side",
+      "Russian Twist \u2014 3x15",
+      "Superman Hold \u2014 3x10 slow",
+      "Inchworm Walk \u2014 10 reps",
+      "Agility Ladder Drills \u2014 3 lengths"
+    ]
+  },
+  "myRoutine": [
+    "Side back twist stretch",
+    "Dead bug hold",
+    "Overhead laying arm stretch",
+    "20 crunches",
+    "60 twisting crunches",
+    "Leg raises",
+    "Cat / Cow",
+    "Downward facing dog hold",
+    "Vinyasa lower to cobra",
+    "Cobra to child's pose"
+  ],
+  "ppl": [
+    {
+      "type": "push",
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "Shoulder Press Machine",
+          "alt": "DB Overhead Press"
+        },
+        {
+          "primary": "Cable Tricep Pushdown",
+          "alt": "DB Overhead Tricep Extension"
+        }
+      ]
+    },
+    {
+      "type": "pull",
+      "floor": [
+        {
+          "primary": "Seated Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Cable Bicep Curl",
+          "alt": "DB Hammer Curl"
+        }
+      ]
+    },
+    {
+      "type": "legs",
+      "floor": [
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "DB Romanian Deadlift"
+        }
+      ]
+    },
+    {
+      "type": "push",
+      "floor": [
+        {
+          "primary": "Incline DB Press",
+          "alt": "Incline Chest Press Machine"
+        },
+        {
+          "primary": "Standing DB Overhead Press",
+          "alt": "Seated DB Lateral Raise"
+        },
+        {
+          "primary": "Dip Machine",
+          "alt": "Prone Incline Tricep Extension"
+        }
+      ]
+    },
+    {
+      "type": "pull",
+      "floor": [
+        {
+          "primary": "High Row Machine",
+          "alt": "Face Pull"
+        },
+        {
+          "primary": "Single Arm Cable Row",
+          "alt": "KB Single Arm Row"
+        },
+        {
+          "primary": "Incline DB Curl",
+          "alt": "Machine Preacher Curl"
+        }
+      ]
+    },
+    {
+      "type": "legs",
+      "floor": [
+        {
+          "primary": "Cable Kickback",
+          "alt": "DB Donkey Kick"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "Lateral Band Walk"
+        },
+        {
+          "primary": "Hack Squat Machine",
+          "alt": "DB Sumo Squat"
+        }
+      ]
+    },
+    {
+      "type": "push",
+      "floor": [
+        {
+          "primary": "Incline DB Fly",
+          "alt": "DB Bench Fly"
+        },
+        {
+          "primary": "DB Lateral Raise",
+          "alt": "Cable Lateral Raise"
+        },
+        {
+          "primary": "Tricep Rope Pushdown",
+          "alt": "Cable Overhead Tricep Extension"
+        }
+      ]
+    },
+    {
+      "type": "pull",
+      "floor": [
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "DB Hammer Curl",
+          "alt": "Cable Bicep Curl"
+        }
+      ]
+    },
+    {
+      "type": "legs",
+      "floor": [
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "KB Romanian Deadlift"
+        }
+      ]
+    },
+    {
+      "type": "push",
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "Cable Front Raise",
+          "alt": "DB Front Raise"
+        },
+        {
+          "primary": "Dip Machine",
+          "alt": "Skull Crushers"
+        }
+      ]
+    },
+    {
+      "type": "pull",
+      "floor": [
+        {
+          "primary": "High Row Machine",
+          "alt": "Face Pull"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Machine Preacher Curl",
+          "alt": "Incline DB Curl"
+        }
+      ]
+    },
+    {
+      "type": "legs",
+      "floor": [
+        {
+          "primary": "Cable Kickback",
+          "alt": "DB Donkey Kick"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "Resistance Band Clamshell"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        }
+      ]
+    },
+    {
+      "type": "push",
+      "floor": [
+        {
+          "primary": "Incline DB Press",
+          "alt": "Incline Chest Press Machine"
+        },
+        {
+          "primary": "Shoulder Press Machine",
+          "alt": "DB Overhead Press"
+        },
+        {
+          "primary": "Cable Tricep Pushdown",
+          "alt": "DB Overhead Tricep Extension"
+        }
+      ]
+    },
+    {
+      "type": "pull",
+      "floor": [
+        {
+          "primary": "Seated Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Cable Face Pull",
+          "alt": "Band Pull-Apart"
+        },
+        {
+          "primary": "DB Hammer Curl",
+          "alt": "Cable Bicep Curl"
+        }
+      ]
+    },
+    {
+      "type": "legs",
+      "floor": [
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        },
+        {
+          "primary": "Hack Squat Machine",
+          "alt": "DB Sumo Squat"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "DB Romanian Deadlift"
+        }
+      ]
+    },
+    {
+      "type": "push",
+      "floor": [
+        {
+          "primary": "Incline DB Fly",
+          "alt": "DB Bench Fly"
+        },
+        {
+          "primary": "Standing DB Overhead Press",
+          "alt": "Side External Rotation on Bench"
+        },
+        {
+          "primary": "Overhead Tricep Extension",
+          "alt": "Tricep Rope Pushdown"
+        }
+      ]
+    },
+    {
+      "type": "pull",
+      "floor": [
+        {
+          "primary": "Single Arm Cable Row",
+          "alt": "KB Single Arm Row"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Incline DB Curl",
+          "alt": "Machine Preacher Curl"
+        }
+      ]
+    },
+    {
+      "type": "legs",
+      "floor": [
+        {
+          "primary": "Cable Kickback",
+          "alt": "DB Donkey Kick"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "Lateral Band Walk"
+        }
+      ]
+    },
+    {
+      "type": "push",
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "DB Lateral Raise",
+          "alt": "Cable Lateral Raise"
+        },
+        {
+          "primary": "Dip Machine",
+          "alt": "Skull Crushers"
+        }
+      ]
+    },
+    {
+      "type": "pull",
+      "floor": [
+        {
+          "primary": "High Row Machine",
+          "alt": "Face Pull"
+        },
+        {
+          "primary": "Seated Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Cable Bicep Curl",
+          "alt": "DB Hammer Curl"
+        }
+      ]
+    },
+    {
+      "type": "legs",
+      "floor": [
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "Resistance Band Clamshell"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "KB Romanian Deadlift"
+        }
+      ]
+    },
+    {
+      "type": "push",
+      "floor": [
+        {
+          "primary": "Incline DB Fly",
+          "alt": "DB Bench Fly"
+        },
+        {
+          "primary": "Standing DB Overhead Press",
+          "alt": "DB Overhead Press"
+        },
+        {
+          "primary": "Overhead Tricep Extension",
+          "alt": "Prone Incline Tricep Extension"
+        }
+      ]
+    },
+    {
+      "type": "pull",
+      "floor": [
+        {
+          "primary": "Cable Face Pull",
+          "alt": "Band Pull-Apart"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Machine Preacher Curl",
+          "alt": "Cable Bicep Curl"
+        }
+      ]
+    },
+    {
+      "type": "legs",
+      "floor": [
+        {
+          "primary": "Cable Kickback",
+          "alt": "DB Donkey Kick"
+        },
+        {
+          "primary": "Hack Squat Machine",
+          "alt": "DB Sumo Squat"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        }
+      ]
+    },
+    {
+      "type": "push",
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "Shoulder Press Machine",
+          "alt": "DB Overhead Press"
+        },
+        {
+          "primary": "Cable Tricep Pushdown",
+          "alt": "Cable Overhead Tricep Extension"
+        }
+      ]
+    },
+    {
+      "type": "pull",
+      "floor": [
+        {
+          "primary": "Seated Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Single Arm Cable Row",
+          "alt": "KB Single Arm Row"
+        },
+        {
+          "primary": "DB Hammer Curl",
+          "alt": "Incline DB Curl"
+        }
+      ]
+    },
+    {
+      "type": "legs",
+      "floor": [
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "Lateral Band Walk"
+        }
+      ]
     }
-  }
+  ],
+  "fullbody": [
+    {
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "Seated Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Shoulder Press Machine",
+          "alt": "DB Overhead Press"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "KB Swing"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Fly",
+          "alt": "DB Bench Fly"
+        },
+        {
+          "primary": "High Row Machine",
+          "alt": "Face Pull"
+        },
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Press",
+          "alt": "Incline Chest Press Machine"
+        },
+        {
+          "primary": "Single Arm Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "DB Romanian Deadlift"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Shoulder Press Machine",
+          "alt": "Standing DB Overhead Press"
+        },
+        {
+          "primary": "Seated Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "Lateral Band Walk"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Fly",
+          "alt": "DB Bench Fly"
+        },
+        {
+          "primary": "Cable Face Pull",
+          "alt": "Band Pull-Apart"
+        },
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Press",
+          "alt": "Incline Chest Press Machine"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "KB Romanian Deadlift"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "High Row Machine",
+          "alt": "Face Pull"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Shoulder Press Machine",
+          "alt": "DB Overhead Press"
+        },
+        {
+          "primary": "Seated Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "KB Swing"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Fly",
+          "alt": "DB Bench Fly"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Press",
+          "alt": "Incline Chest Press Machine"
+        },
+        {
+          "primary": "Cable Face Pull",
+          "alt": "Band Pull-Apart"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "DB Romanian Deadlift"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Shoulder Press Machine",
+          "alt": "Standing DB Overhead Press"
+        },
+        {
+          "primary": "Single Arm Cable Row",
+          "alt": "KB Single Arm Row"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "Lateral Band Walk"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Fly",
+          "alt": "DB Bench Fly"
+        },
+        {
+          "primary": "High Row Machine",
+          "alt": "Face Pull"
+        },
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Press",
+          "alt": "Incline Chest Press Machine"
+        },
+        {
+          "primary": "Cable Face Pull",
+          "alt": "Band Pull-Apart"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "KB Romanian Deadlift"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "Seated Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Shoulder Press Machine",
+          "alt": "DB Overhead Press"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "KB Swing"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Fly",
+          "alt": "DB Bench Fly"
+        },
+        {
+          "primary": "Single Arm Cable Row",
+          "alt": "KB Single Arm Row"
+        },
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Press",
+          "alt": "Incline Chest Press Machine"
+        },
+        {
+          "primary": "High Row Machine",
+          "alt": "Face Pull"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "DB Romanian Deadlift"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "Cable Face Pull",
+          "alt": "Band Pull-Apart"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Shoulder Press Machine",
+          "alt": "Standing DB Overhead Press"
+        },
+        {
+          "primary": "Seated Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "Lateral Band Walk"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Fly",
+          "alt": "DB Bench Fly"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Press",
+          "alt": "Incline Chest Press Machine"
+        },
+        {
+          "primary": "Single Arm Cable Row",
+          "alt": "KB Single Arm Row"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "KB Romanian Deadlift"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Chest Press Machine",
+          "alt": "DB Bench Press"
+        },
+        {
+          "primary": "High Row Machine",
+          "alt": "Face Pull"
+        },
+        {
+          "primary": "Leg Press",
+          "alt": "Goblet Squat"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Shoulder Press Machine",
+          "alt": "DB Overhead Press"
+        },
+        {
+          "primary": "Lat Pulldown",
+          "alt": "Assisted Pull-Up"
+        },
+        {
+          "primary": "Hip Abductor Machine",
+          "alt": "KB Swing"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Fly",
+          "alt": "DB Bench Fly"
+        },
+        {
+          "primary": "Cable Face Pull",
+          "alt": "Band Pull-Apart"
+        },
+        {
+          "primary": "Hip Thrust Machine",
+          "alt": "Glute Bridge with DB"
+        }
+      ]
+    },
+    {
+      "floor": [
+        {
+          "primary": "Incline DB Press",
+          "alt": "Incline Chest Press Machine"
+        },
+        {
+          "primary": "Seated Cable Row",
+          "alt": "DB Single Arm Row"
+        },
+        {
+          "primary": "Leg Curl Machine",
+          "alt": "DB Romanian Deadlift"
+        }
+      ]
+    }
+  ]
 }
