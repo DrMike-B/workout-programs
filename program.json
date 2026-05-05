@@ -65,29 +65,29 @@
       "Turkish Get-Up (KB)",
       "KB Swing (KB)",
       "Windmill (KB)",
-      "KB Clean \u2014 3x8 each side (KB)",
+      "KB Clean — 3x8 each side (KB)",
       "Single Leg Deadlift with KB"
     ],
     "athletic": [
-      "Ski Erg \u2014 2 minutes",
-      "Cardio Climber \u2014 2 minutes",
-      "Battle Ropes \u2014 30 sec full effort",
-      "Medicine Ball Slam \u2014 3x10",
-      "Medicine Ball Toss \u2014 throw high catch x10",
-      "Farmer Carry \u2014 one lap heavy",
-      "Jump Rope \u2014 2 minutes",
-      "Bear Crawl \u2014 20 steps",
-      "Suitcase Carry \u2014 one side one lap",
-      "Lateral Bound \u2014 10 each side",
-      "Sandbag Hold \u2014 60 sec tight brace",
-      "Superman Hold \u2014 3x10 slow"
+      "Ski Erg — 2 minutes",
+      "Cardio Climber — 2 minutes",
+      "Battle Ropes — 30 sec full effort",
+      "Medicine Ball Slam — 3x10",
+      "Medicine Ball Toss — throw high catch x10",
+      "Farmer Carry — one lap heavy",
+      "Jump Rope — 2 minutes",
+      "Bear Crawl — 20 steps",
+      "Suitcase Carry — one side one lap",
+      "Lateral Bound — 10 each side",
+      "Sandbag Hold — 60 sec tight brace",
+      "Superman Hold — 3x10 slow"
     ],
     "anchor": [
-      "Tree Pose \u2014 30 sec each side",
-      "Russian Twist \u2014 3x15",
-      "Superman Hold \u2014 3x10 slow",
-      "Inchworm Walk \u2014 10 reps",
-      "Agility Ladder Drills \u2014 3 lengths"
+      "Tree Pose — 30 sec each side",
+      "Russian Twist — 3x15",
+      "Superman Hold — 3x10 slow",
+      "Inchworm Walk — 10 reps",
+      "Agility Ladder Drills — 3 lengths"
     ]
   },
   "myRoutine": [
@@ -1016,9 +1016,9 @@
   "infoText": {
     "about": "Showing up is the workout. After 50, consistency beats intensity every time. Keep moving, stay injury-free, feel good doing it.",
     "setsAndReps": "Most movements work well for 3 sets. Somewhere between 10 and 15 reps where the last few feel like work but form never breaks. Rest as long as you need. There is no rush.",
-    "floor": "Three movements per session. Primary option first, alternative after the slash \u2014 use whichever is free. No supersets, no circuits. Do your sets, rest, move on.",
-    "burnout": "Optional. Drop your main compound to 50\u201360% of working weight and take it to failure. Aim for 20\u201330 reps. Maintains muscle without heavy loading.",
-    "mat": "The mat is yours. Over time you will develop your own stretch and core routine \u2014 that is the goal. What we suggest here augments what you already know. The hamstring stretch is a daily constant. Everything else rotates. Props are always optional.",
-    "whenToGo": "No streaks. No guilt. The app picks up exactly where you left off \u2014 tomorrow or next week, it does not matter."
+    "floor": "Three movements per session. Primary option first, alternative after the slash — use whichever is free. No supersets, no circuits. Do your sets, rest, move on.",
+    "burnout": "Optional. Drop your main compound to 50–60% of working weight and take it to failure. Aim for 20–30 reps. Maintains muscle without heavy loading.",
+    "mat": "Over time you should develop your own stretch and core routine using the suggestions here. What we suggest here augments what you already know. The hamstring stretch is a daily constant. Everything else rotates. Props are always optional.",
+    "whenToGo": "No streaks. No guilt. The app picks up exactly where you left off — tomorrow or next week, it does not matter."
   }
 }
