@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "updated": "2026-10-15",
   "matPools": {
     "push": [
@@ -1026,7 +1026,7 @@
       "name": "Handstand",
       "rules": {
         "moveOn": "Hit the target with clean form 2 sessions in a row.",
-        "regress": "Pain, form breaking down, or can't reach the bottom of the range."
+        "regress": "Pain, a giving-out feeling, form breaking down, or can't reach the bottom of the range."
       },
       "phases": [
         {
@@ -1046,6 +1046,7 @@
               "name": "Day A: Straight-Arm Stability",
               "ladders": [
                 "plank",
+                "singleArm",
                 "pikeHold",
                 "pikeShrug",
                 "dipSupport",
@@ -1073,7 +1074,7 @@
             {
               "id": "plank",
               "name": "Straight-arm plank",
-              "cue": "Push the floor away, upper back slightly rounded.",
+              "cue": "Push the floor away. On the wall: hands stay planted, walk only your feet up and down.",
               "startStep": 3,
               "steps": [
                 {
@@ -1093,8 +1094,40 @@
                   "dose": "3 x 20-30s"
                 },
                 {
-                  "name": "Wall plank",
+                  "name": "Wall plank (static hold)",
                   "dose": "3 x 20s"
+                }
+              ]
+            },
+            {
+              "id": "singleArm",
+              "name": "Single-arm stability",
+              "cue": "Shift weight slowly before lifting a hand. Grip the floor. Stop the set before the shoulder starts to give.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Plank weight shifts, hands stay down",
+                  "dose": "3 x 10"
+                },
+                {
+                  "name": "Plank, one hand slides forward and back",
+                  "dose": "3 x 6 each"
+                },
+                {
+                  "name": "Plank shoulder taps (floor), slow, hips still",
+                  "dose": "3 x 6 each"
+                },
+                {
+                  "name": "Shoulder taps, feet elevated 12\"",
+                  "dose": "3 x 6 each"
+                },
+                {
+                  "name": "Shoulder taps, feet elevated 18\"",
+                  "dose": "3 x 6 each"
+                },
+                {
+                  "name": "Shoulder taps in a wall plank",
+                  "dose": "3 x 4 each"
                 }
               ]
             },
@@ -1213,7 +1246,7 @@
             {
               "id": "ohp",
               "name": "Overhead press",
-              "cue": "Ribs down. Drop to 2 x 5 after pike push-ups.",
+              "cue": "Barbell. Ribs down. Drop to 2 x 5 after pike push-ups.",
               "startStep": 1,
               "steps": [
                 {
@@ -1233,15 +1266,15 @@
             {
               "id": "saHold",
               "name": "Single-arm overhead hold",
-              "cue": "Arm locked, biceps by ear, no leaning.",
+              "cue": "One weight, one arm at a time. Arm locked, biceps by ear, no leaning. Add 5 lb only when there's zero wobble.",
               "startStep": 1,
               "steps": [
                 {
-                  "name": "Half-kneeling, light weight",
+                  "name": "Half-kneeling hold, 5–10 lb dumbbell",
                   "dose": "3 x 15s each arm"
                 },
                 {
-                  "name": "Standing hold",
+                  "name": "Standing hold, 10–15 lb dumbbell",
                   "dose": "3 x 20s each arm"
                 }
               ]
@@ -1293,11 +1326,11 @@
             {
               "id": "extRot",
               "name": "Band external rotations",
-              "cue": "Light band, slow.",
+              "cue": "Light band, slow, elbow tucked at your side. Pain-free.",
               "startStep": 0,
               "steps": [
                 {
-                  "name": "Band external rotations, pain-free",
+                  "name": "Band external rotations, light band",
                   "dose": "2 x 15 each arm"
                 }
               ]
@@ -1311,29 +1344,357 @@
         },
         {
           "id": 2,
-          "name": "Phase 2: Wall Work",
-          "status": "coming soon",
-          "goal": "Wall walks, chest-to-wall holds, safe bail-outs.",
-          "days": [],
-          "ladders": []
+          "name": "Phase 2: Pike & Core Builder",
+          "status": "active",
+          "goal": "Pike strength, core control and shoulder endurance before going chest-to-wall.",
+          "warmup": [
+            "Wrist circles: 10 each direction",
+            "Wrist rocks on all fours: 10 fingers forward, 10 back",
+            "Cat-cow: 8",
+            "Band pull-aparts: 2 x 15",
+            "Scapular push-ups: 2 x 10"
+          ],
+          "days": [
+            {
+              "name": "Day A: Pike & Wall",
+              "ladders": [
+                "p2_wallHold",
+                "p2_bailout",
+                "p2_pikeHold",
+                "p2_pikePushup",
+                "p2_pikeShrug",
+                "p2_compression",
+                "p2_hollow"
+              ],
+              "after": "Machines (optional): lat pulldown, seated row, legs. No heavy pressing."
+            },
+            {
+              "name": "Day B: Strength & Core",
+              "ladders": [
+                "p2_pullup",
+                "p2_dips",
+                "p2_ohp",
+                "p2_saHold",
+                "p2_tuck",
+                "p2_arch",
+                "p2_extRot"
+              ],
+              "after": "Machines (optional): rows, lat pulldown, legs, light chest press."
+            }
+          ],
+          "ladders": [
+            {
+              "id": "p2_wallHold",
+              "name": "Wall holds",
+              "cue": "Hands planted first, a bit closer to the wall for each higher mark. Walk only your feet up and down.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Feet at 2 ft on the wall",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Feet at 3 ft",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Feet at 4 ft",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Wall L-hold, hips stacked over hands",
+                  "dose": "3 x 20s"
+                }
+              ]
+            },
+            {
+              "id": "p2_bailout",
+              "name": "Bail-out practice",
+              "cue": "Turn out sideways onto your feet. This is your exit for every inverted drill later.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Cartwheel step-out from a lunge",
+                  "dose": "3 x 3 each side"
+                },
+                {
+                  "name": "Cartwheel step-out from a small kick-up",
+                  "dose": "3 x 3 each side"
+                }
+              ]
+            },
+            {
+              "id": "p2_pikeHold",
+              "name": "Elevated pike hold",
+              "cue": "Push tall, ears between biceps.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Feet on 12\" box, hips high",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Feet on 18\" box",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Box pike hold, hips over hands (~24\")",
+                  "dose": "3 x 30s"
+                }
+              ]
+            },
+            {
+              "id": "p2_pikePushup",
+              "name": "Pike push-ups",
+              "cue": "Head lands slightly in front of hands, elbows back at 45°.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Full pike push-ups",
+                  "dose": "3 x 5"
+                },
+                {
+                  "name": "Full pike push-ups",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Feet elevated 6\"",
+                  "dose": "3 x 5"
+                },
+                {
+                  "name": "Feet elevated 12\"",
+                  "dose": "3 x 5"
+                },
+                {
+                  "name": "Feet elevated 18\"",
+                  "dose": "3 x 5"
+                },
+                {
+                  "name": "Box pike push-ups (~24\")",
+                  "dose": "3 x 3"
+                }
+              ]
+            },
+            {
+              "id": "p2_pikeShrug",
+              "name": "Pike shrugs",
+              "cue": "Elbows locked, full range.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Full pike shrugs",
+                  "dose": "3 x 10"
+                },
+                {
+                  "name": "Feet elevated 12\"",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Feet elevated 18\"",
+                  "dose": "3 x 10"
+                }
+              ]
+            },
+            {
+              "id": "p2_compression",
+              "name": "Pike compression",
+              "cue": "Sit tall, knees straight, lift the heel an inch or two without leaning back.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Single-leg lifts, hands by knees",
+                  "dose": "3 x 6 each"
+                },
+                {
+                  "name": "Single-leg lifts, hands by hips",
+                  "dose": "3 x 8 each"
+                },
+                {
+                  "name": "Both legs, hands by knees",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Both legs, hands by hips",
+                  "dose": "3 x 10"
+                }
+              ]
+            },
+            {
+              "id": "p2_hollow",
+              "name": "Hollow body",
+              "cue": "Lower back flat the whole time.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Full hollow hold",
+                  "dose": "3 x 30s"
+                },
+                {
+                  "name": "Full hollow hold",
+                  "dose": "3 x 45s"
+                },
+                {
+                  "name": "Hollow rocks",
+                  "dose": "3 x 10"
+                }
+              ]
+            },
+            {
+              "id": "p2_pullup",
+              "name": "Pull-ups",
+              "cue": "",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Strict pull-ups",
+                  "dose": "3 x 3"
+                },
+                {
+                  "name": "Strict pull-ups",
+                  "dose": "3 x 5"
+                }
+              ]
+            },
+            {
+              "id": "p2_dips",
+              "name": "Dips",
+              "cue": "Only as deep as feels stable.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Dip negatives, 4s lower",
+                  "dose": "3 x 3"
+                },
+                {
+                  "name": "Partial-range dips",
+                  "dose": "3 x 3"
+                },
+                {
+                  "name": "Full dips",
+                  "dose": "3 x 3"
+                }
+              ]
+            },
+            {
+              "id": "p2_ohp",
+              "name": "Overhead press",
+              "cue": "Barbell, 2s pause at lockout, ribs down.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "40 lb",
+                  "dose": "3 x 5"
+                },
+                {
+                  "name": "45 lb",
+                  "dose": "3 x 5"
+                },
+                {
+                  "name": "50 lb",
+                  "dose": "3 x 5"
+                }
+              ]
+            },
+            {
+              "id": "p2_saHold",
+              "name": "Single-arm overhead hold",
+              "cue": "One arm at a time, no leaning.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Standing hold, 15 lb dumbbell",
+                  "dose": "3 x 20s each arm"
+                },
+                {
+                  "name": "Overhead carry, 15–20 lb dumbbell",
+                  "dose": "20 steps each arm"
+                }
+              ]
+            },
+            {
+              "id": "p2_tuck",
+              "name": "Tuck support → L-sit",
+              "cue": "Parallettes or dip bars. Shoulders pushed down.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Tuck support, one foot on floor",
+                  "dose": "3 x 10s"
+                },
+                {
+                  "name": "Tuck support, both feet up",
+                  "dose": "3 x 10s"
+                },
+                {
+                  "name": "Tuck support",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "One-leg L-sit, switch legs each set",
+                  "dose": "3 x 10s"
+                }
+              ]
+            },
+            {
+              "id": "p2_arch",
+              "name": "Arch body hold",
+              "cue": "Squeeze glutes, look at the floor.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Superman hold, arms by sides",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Superman hold, arms overhead",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Superman hold, arms overhead",
+                  "dose": "3 x 30s"
+                }
+              ]
+            },
+            {
+              "id": "p2_extRot",
+              "name": "Band external rotations",
+              "cue": "Slow, elbow tucked.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Band external rotations, light band",
+                  "dose": "2 x 15 each arm"
+                }
+              ]
+            }
+          ],
+          "graduation": "Reach the last step of every ladder and hit its target.",
+          "extraChecks": [
+            "Wrist rocks: 20 reps, pain-free the next day",
+            "One full week with no shoulder pain or slipping feeling"
+          ]
         },
         {
           "id": 3,
-          "name": "Phase 3: Balance",
+          "name": "Phase 3: Wall Work",
           "status": "coming soon",
-          "goal": "Kick-ups, toe and heel pulls, short freestanding attempts.",
+          "goal": "Wall walks, chest-to-wall hold, wall shoulder taps, full L-sit.",
           "days": [],
           "ladders": []
         },
         {
           "id": 4,
-          "name": "Phase 4: Freestanding",
+          "name": "Phase 4: Balance & Freestanding",
           "status": "coming soon",
-          "goal": "Consistent kick-ups and longer holds.",
+          "goal": "Kick-ups, toe and heel pulls, freestanding holds.",
           "days": [],
           "ladders": []
         }
-      ]
+      ],
+      "labels": {
+        "graduation": "🎓 graduation target",
+        "previewing": "Previewing. You're currently on"
+      }
     }
   }
 }
