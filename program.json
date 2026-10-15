@@ -1045,8 +1045,7 @@
             {
               "name": "Day A: Straight-Arm Stability",
               "ladders": [
-                "plank",
-                "singleArm",
+                "plankCombo",
                 "pikeHold",
                 "pikeShrug",
                 "dipSupport",
@@ -1072,62 +1071,38 @@
           ],
           "ladders": [
             {
-              "id": "plank",
-              "name": "Straight-arm plank",
-              "cue": "Push the floor away. On the wall: hands stay planted, walk only your feet up and down.",
-              "startStep": 3,
-              "steps": [
-                {
-                  "name": "Floor plank, arms straight",
-                  "dose": "3 x 20-30s"
-                },
-                {
-                  "name": "6\" elevated plank",
-                  "dose": "3 x 20-30s"
-                },
-                {
-                  "name": "12\" elevated plank",
-                  "dose": "3 x 20-30s"
-                },
-                {
-                  "name": "18\" elevated plank (chair height)",
-                  "dose": "3 x 20-30s"
-                },
-                {
-                  "name": "Wall plank (static hold)",
-                  "dose": "3 x 20s"
-                }
-              ]
-            },
-            {
-              "id": "singleArm",
-              "name": "Single-arm stability",
-              "cue": "Shift weight slowly before lifting a hand. Grip the floor. Stop the set before the shoulder starts to give.",
+              "id": "plankCombo",
+              "name": "Plank progression",
               "startStep": 0,
+              "cue": "Hold first, then the single-arm work in the same set. Shift weight slowly, grip the floor, stop before the shoulder gives. On the wall, hands stay planted; walk only your feet.",
               "steps": [
                 {
-                  "name": "Plank weight shifts, hands stay down",
-                  "dose": "3 x 10"
+                  "name": "Floor plank: 30s hold, then 10 weight shifts",
+                  "dose": "3 sets"
                 },
                 {
-                  "name": "Plank, one hand slides forward and back",
-                  "dose": "3 x 6 each"
+                  "name": "Floor plank: 30s hold, then 6 hand slides each side",
+                  "dose": "3 sets"
                 },
                 {
-                  "name": "Plank shoulder taps (floor), slow, hips still",
-                  "dose": "3 x 6 each"
+                  "name": "Floor plank: 20s hold, then 6 shoulder taps each side",
+                  "dose": "3 sets"
                 },
                 {
-                  "name": "Shoulder taps, feet elevated 12\"",
-                  "dose": "3 x 6 each"
+                  "name": "12\" elevated: 20s hold, then 6 shoulder taps each side",
+                  "dose": "3 sets"
                 },
                 {
-                  "name": "Shoulder taps, feet elevated 18\"",
-                  "dose": "3 x 6 each"
+                  "name": "18\" elevated: 20s hold, then 6 shoulder taps each side",
+                  "dose": "3 sets"
                 },
                 {
-                  "name": "Shoulder taps in a wall plank",
-                  "dose": "3 x 4 each"
+                  "name": "Wall plank, feet at 2 ft mark: 20s hold, then 4 shoulder taps each side",
+                  "dose": "3 sets"
+                },
+                {
+                  "name": "Wall plank, feet at 3 ft mark: 20s hold, then 3 shoulder taps each side",
+                  "dose": "3 sets"
                 }
               ]
             },
@@ -1390,16 +1365,16 @@
               "startStep": 0,
               "steps": [
                 {
-                  "name": "Feet at 2 ft on the wall",
-                  "dose": "3 x 20s"
-                },
-                {
-                  "name": "Feet at 3 ft",
-                  "dose": "3 x 20s"
+                  "name": "Feet at 3 ft on the wall",
+                  "dose": "3 x 30s"
                 },
                 {
                   "name": "Feet at 4 ft",
                   "dose": "3 x 20s"
+                },
+                {
+                  "name": "Feet at 4 ft",
+                  "dose": "3 x 30s"
                 },
                 {
                   "name": "Wall L-hold, hips stacked over hands",
