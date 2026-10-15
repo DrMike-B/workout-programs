@@ -1334,7 +1334,7 @@
               "name": "Day A: Pike & Wall",
               "ladders": [
                 "p2_wallHold",
-                "p2_bailout",
+                "p2_donkey",
                 "p2_pikeHold",
                 "p2_pikePushup",
                 "p2_pikeShrug",
@@ -1383,18 +1383,26 @@
               ]
             },
             {
-              "id": "p2_bailout",
-              "name": "Bail-out practice",
-              "cue": "Turn out sideways onto your feet. This is your exit for every inverted drill later.",
+              "id": "p2_donkey",
+              "name": "Donkey kicks",
               "startStep": 0,
+              "cue": "Hands planted shoulder-width, arms locked, eyes between your hands. Land softly and quietly. Height comes later; control comes first.",
               "steps": [
                 {
-                  "name": "Cartwheel step-out from a lunge",
-                  "dose": "3 x 3 each side"
+                  "name": "Bear hold, knees 1\" off the floor",
+                  "dose": "3 x 20s"
                 },
                 {
-                  "name": "Cartwheel step-out from a small kick-up",
-                  "dose": "3 x 3 each side"
+                  "name": "Small donkey kicks, both feet just leave the floor",
+                  "dose": "3 x 6"
+                },
+                {
+                  "name": "Donkey kicks, hips rising toward your hands",
+                  "dose": "3 x 6"
+                },
+                {
+                  "name": "Donkey kicks, hips over hands, soft quiet landing",
+                  "dose": "3 x 6"
                 }
               ]
             },
@@ -1653,7 +1661,7 @@
           "id": 3,
           "name": "Phase 3: Wall Work",
           "status": "coming soon",
-          "goal": "Wall walks, chest-to-wall hold, wall shoulder taps, full L-sit.",
+          "goal": "Wall walks, chest-to-wall hold, wall shoulder taps, cartwheel bail-out, full L-sit.",
           "days": [],
           "ladders": []
         },
