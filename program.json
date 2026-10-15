@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "updated": "2026-05-04",
+  "version": "1.1",
+  "updated": "2026-10-15",
   "matPools": {
     "push": [
       "Thread the Needle",
@@ -70,18 +70,18 @@
       "KB planks"
     ],
     "athletic": [
-      "Ski Erg Ã¢ÂÂ 2 minutes",
-      "Cardio Climber Ã¢ÂÂ 2 minutes",
-      "Battle Ropes Ã¢ÂÂ 30 sec full effort",
-      "Medicine Ball Slam Ã¢ÂÂ 3x10",
-      "Medicine Ball Toss Ã¢ÂÂ throw high catch x10",
-      "Farmer Carry Ã¢ÂÂ one lap heavy",
-      "Jump Rope Ã¢ÂÂ 2 minutes",
-      "Bear Crawl Ã¢ÂÂ 20 steps",
-      "Suitcase Carry Ã¢ÂÂ one side one lap",
-      "Lateral Bound Ã¢ÂÂ 10 each side",
-      "Sandbag Hold Ã¢ÂÂ 60 sec tight brace",
-      "Superman Hold Ã¢ÂÂ 3x10 slow"
+      "Ski Erg — 2 minutes",
+      "Cardio Climber — 2 minutes",
+      "Battle Ropes — 30 sec full effort",
+      "Medicine Ball Slam — 3x10",
+      "Medicine Ball Toss — throw high catch x10",
+      "Farmer Carry — one lap heavy",
+      "Jump Rope — 2 minutes",
+      "Bear Crawl — 20 steps",
+      "Suitcase Carry — one side one lap",
+      "Lateral Bound — 10 each side",
+      "Sandbag Hold — 60 sec tight brace",
+      "Superman Hold — 3x10 slow"
     ],
     "anchor": [
       "Tree Pose 30 sec each side",
@@ -1016,9 +1016,324 @@
   "infoText": {
     "about": "Showing up is the goal. After 50, consistency is more important than sets or reps. Keep moving, stay injury-free, feel good doing it.",
     "setsAndReps": "I usually do 3 sets with a 1/2 weight add-on finisher. Somewhere between 10 and 15 reps where the last few feel like work but form never breaks. Rest usually 2 minutes per set.",
-    "floor": "Three movements per session. Primary option first, alternative after the slash Ã¢ÂÂ use whichever is free. No supersets, no circuits. Do your sets, rest, move on.",
-    "burnout": "Optional. Drop your main compound to 50Ã¢ÂÂ60% of working weight and take it to failure. Aim for 20Ã¢ÂÂ30 reps. Maintains muscle without heavy loading.",
+    "floor": "Three movements per session. Primary option first, alternative after the slash — use whichever is free. No supersets, no circuits. Do your sets, rest, move on.",
+    "burnout": "Optional. Drop your main compound to 50–60% of working weight and take it to failure. Aim for 20–30 reps. Maintains muscle without heavy loading.",
     "mat": "Over time you should develop your own stretch and core routine using the suggestions here. What we suggest here augments what you already know. The hamstring stretch is a daily constant. Everything else rotates. Props are always optional.",
-    "whenToGo": "No streaks. No guilt. The app picks up exactly where you left off Ã¢ÂÂ tomorrow or next week, it does not matter."
+    "whenToGo": "No streaks. No guilt. The app picks up exactly where you left off — tomorrow or next week, it does not matter."
+  },
+  "skills": {
+    "handstand": {
+      "name": "Handstand",
+      "rules": {
+        "moveOn": "Hit the target with clean form 2 sessions in a row.",
+        "regress": "Pain, form breaking down, or can't reach the bottom of the range."
+      },
+      "phases": [
+        {
+          "id": 1,
+          "name": "Phase 1: Foundation",
+          "status": "active",
+          "goal": "Straight-arm shoulder stability, overhead strength, core line and wrist tolerance before going inverted.",
+          "warmup": [
+            "Wrist circles: 10 each direction",
+            "Wrist rocks on all fours: 10 fingers forward, 10 back",
+            "Cat-cow: 8",
+            "Band pull-aparts: 2 x 15",
+            "Scapular push-ups: 2 x 10"
+          ],
+          "days": [
+            {
+              "name": "Day A: Straight-Arm Stability",
+              "ladders": [
+                "plank",
+                "pikeHold",
+                "pikeShrug",
+                "dipSupport",
+                "deadBug",
+                "hollow"
+              ],
+              "after": "Machines (optional): lat pulldown, seated row, legs. No heavy pressing."
+            },
+            {
+              "name": "Day B: Strength & Shoulder Health",
+              "ladders": [
+                "pullup",
+                "dips",
+                "pikePushup",
+                "ohp",
+                "saHold",
+                "deadBug",
+                "hollow",
+                "extRot"
+              ],
+              "after": "Machines (optional): rows, lat pulldown, legs, light chest press."
+            }
+          ],
+          "ladders": [
+            {
+              "id": "plank",
+              "name": "Straight-arm plank",
+              "cue": "Push the floor away, upper back slightly rounded.",
+              "startStep": 3,
+              "steps": [
+                {
+                  "name": "Floor plank, arms straight",
+                  "dose": "3 x 20-30s"
+                },
+                {
+                  "name": "6\" elevated plank",
+                  "dose": "3 x 20-30s"
+                },
+                {
+                  "name": "12\" elevated plank",
+                  "dose": "3 x 20-30s"
+                },
+                {
+                  "name": "18\" elevated plank (chair height)",
+                  "dose": "3 x 20-30s"
+                },
+                {
+                  "name": "Wall plank",
+                  "dose": "3 x 20s"
+                }
+              ]
+            },
+            {
+              "id": "pikeHold",
+              "name": "Pike hold",
+              "cue": "Ears between biceps, chest toward thighs.",
+              "startStep": 1,
+              "steps": [
+                {
+                  "name": "Kneeling pike reach",
+                  "dose": "3 x 20-30s"
+                },
+                {
+                  "name": "Pike hold (floor)",
+                  "dose": "3 x 30s"
+                }
+              ]
+            },
+            {
+              "id": "pikeShrug",
+              "name": "Pike shrugs",
+              "cue": "Elbows locked, full range, pause at the top.",
+              "startStep": 2,
+              "steps": [
+                {
+                  "name": "Kneeling pike shrugs",
+                  "dose": "3 x 10-12"
+                },
+                {
+                  "name": "Bent-knee pike shrugs",
+                  "dose": "3 x 8-10"
+                },
+                {
+                  "name": "Full pike shrugs",
+                  "dose": "3 x 10"
+                }
+              ]
+            },
+            {
+              "id": "pikePushup",
+              "name": "Pike push-ups",
+              "cue": "Head lands slightly in front of hands, elbows back at 45°.",
+              "startStep": 1,
+              "steps": [
+                {
+                  "name": "Kneeling pike push-ups",
+                  "dose": "3 x 5-8"
+                },
+                {
+                  "name": "Pike push-up negatives (3-4s lower)",
+                  "dose": "3 x 3-5"
+                },
+                {
+                  "name": "Partial pike push-ups",
+                  "dose": "3 x 5"
+                },
+                {
+                  "name": "Full pike push-ups",
+                  "dose": "3 x 5"
+                }
+              ]
+            },
+            {
+              "id": "dipSupport",
+              "name": "Dip support hold",
+              "cue": "Shoulders pushed down, away from ears.",
+              "startStep": 1,
+              "steps": [
+                {
+                  "name": "Support hold, feet lightly on floor",
+                  "dose": "3 x 10-20s"
+                },
+                {
+                  "name": "Dip support hold",
+                  "dose": "3 x 20s"
+                }
+              ]
+            },
+            {
+              "id": "dips",
+              "name": "Dips",
+              "cue": "Only go as deep as feels stable.",
+              "startStep": 1,
+              "steps": [
+                {
+                  "name": "Assisted dip negatives (feet helping)",
+                  "dose": "3 x 3"
+                },
+                {
+                  "name": "Dip negatives (4s lower)",
+                  "dose": "3 x 3"
+                }
+              ]
+            },
+            {
+              "id": "pullup",
+              "name": "Pull-ups",
+              "cue": "3 x 4 slow negatives also counts toward graduation.",
+              "startStep": 1,
+              "steps": [
+                {
+                  "name": "Band-assisted pull-ups",
+                  "dose": "3 x 3-5"
+                },
+                {
+                  "name": "Pull-up negatives (4-5s lower)",
+                  "dose": "3 x 4"
+                },
+                {
+                  "name": "Strict pull-ups",
+                  "dose": "3 x 3"
+                }
+              ]
+            },
+            {
+              "id": "ohp",
+              "name": "Overhead press",
+              "cue": "Ribs down. Drop to 2 x 5 after pike push-ups.",
+              "startStep": 1,
+              "steps": [
+                {
+                  "name": "30 lb",
+                  "dose": "3 x 5"
+                },
+                {
+                  "name": "35 lb",
+                  "dose": "3 x 5"
+                },
+                {
+                  "name": "40 lb, 2s lockout pause",
+                  "dose": "3 x 5"
+                }
+              ]
+            },
+            {
+              "id": "saHold",
+              "name": "Single-arm overhead hold",
+              "cue": "Arm locked, biceps by ear, no leaning.",
+              "startStep": 1,
+              "steps": [
+                {
+                  "name": "Half-kneeling, light weight",
+                  "dose": "3 x 15s each arm"
+                },
+                {
+                  "name": "Standing hold",
+                  "dose": "3 x 20s each arm"
+                }
+              ]
+            },
+            {
+              "id": "deadBug",
+              "name": "Dead bugs",
+              "cue": "Lower back flat.",
+              "startStep": 1,
+              "steps": [
+                {
+                  "name": "Arms-only or legs-only",
+                  "dose": "2 x 8 each side"
+                },
+                {
+                  "name": "Full dead bugs",
+                  "dose": "2 x 8 each side"
+                }
+              ]
+            },
+            {
+              "id": "hollow",
+              "name": "Hollow hold",
+              "cue": "Exhale, ribs down. Shorten the hold before letting the back arch.",
+              "startStep": 1,
+              "steps": [
+                {
+                  "name": "Dead bugs only",
+                  "dose": "2 x 8 each side"
+                },
+                {
+                  "name": "Tuck hollow hold",
+                  "dose": "3 x 20-30s"
+                },
+                {
+                  "name": "One-leg hollow",
+                  "dose": "3 x 20-30s"
+                },
+                {
+                  "name": "Bent-knee hollow, arms overhead",
+                  "dose": "3 x 20-30s"
+                },
+                {
+                  "name": "Full hollow hold",
+                  "dose": "3 x 30s, flat back"
+                }
+              ]
+            },
+            {
+              "id": "extRot",
+              "name": "Band external rotations",
+              "cue": "Light band, slow.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Band external rotations, pain-free",
+                  "dose": "2 x 15 each arm"
+                }
+              ]
+            }
+          ],
+          "graduation": "Reach the last step of every ladder and hit its target.",
+          "extraChecks": [
+            "Wrist rocks: 20 reps, pain-free the next day",
+            "One full week with no shoulder pain or slipping feeling"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Phase 2: Wall Work",
+          "status": "coming soon",
+          "goal": "Wall walks, chest-to-wall holds, safe bail-outs.",
+          "days": [],
+          "ladders": []
+        },
+        {
+          "id": 3,
+          "name": "Phase 3: Balance",
+          "status": "coming soon",
+          "goal": "Kick-ups, toe and heel pulls, short freestanding attempts.",
+          "days": [],
+          "ladders": []
+        },
+        {
+          "id": 4,
+          "name": "Phase 4: Freestanding",
+          "status": "coming soon",
+          "goal": "Consistent kick-ups and longer holds.",
+          "days": [],
+          "ladders": []
+        }
+      ]
+    }
   }
 }
