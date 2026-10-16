@@ -1,5 +1,5 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "updated": "2026-10-15",
   "matPools": {
     "push": [
@@ -1039,7 +1039,9 @@
             "Wrist rocks on all fours: 10 fingers forward, 10 back",
             "Cat-cow: 8",
             "Band pull-aparts: 2 x 15",
-            "Scapular push-ups: 2 x 10"
+            "Scapular push-ups: 2 x 10",
+            "Wrist push-ups (rock up onto fingers): 2 x 10",
+            "Wall lat stretch: 2 x 30s"
           ],
           "days": [
             {
@@ -1072,9 +1074,10 @@
                 "plankCombo",
                 "pikeHold",
                 "pikeShrug",
-                "hollow"
+                "hollow",
+                "headstandPrep"
               ],
-              "after": "Machines (optional): legs."
+              "after": "Finish: seated pike stretch 2 x 30s. Machines (optional): legs."
             }
           ],
           "ladders": [
@@ -1397,6 +1400,30 @@
                   "dose": "3 x 8"
                 }
               ]
+            },
+            {
+              "id": "headstandPrep",
+              "name": "Forearm headstand prep",
+              "cue": "Elbows shoulder-width, press forearms into the floor and push the chest toward your legs.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Forearm plank",
+                  "dose": "3 x 30s"
+                },
+                {
+                  "name": "Dolphin hold (forearm down-dog, hips high)",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Dolphin hold, feet walked in a little",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Dolphin hold, feet walked in, shoulders over elbows",
+                  "dose": "3 x 30s"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
@@ -1415,7 +1442,9 @@
             "Wrist rocks on all fours: 10 fingers forward, 10 back",
             "Cat-cow: 8",
             "Band pull-aparts: 2 x 15",
-            "Scapular push-ups: 2 x 10"
+            "Scapular push-ups: 2 x 10",
+            "Wrist push-ups (rock up onto fingers): 2 x 10",
+            "Wall lat stretch: 2 x 30s"
           ],
           "days": [
             {
@@ -1448,9 +1477,10 @@
                 "p2_donkey",
                 "p2_pikeHold",
                 "p2_pikeShrug",
-                "p2_compression"
+                "p2_compression",
+                "p2_headstandPrep"
               ],
-              "after": "Machines (optional): legs."
+              "after": "Finish: seated pike stretch 2 x 30s. Machines (optional): legs."
             }
           ],
           "ladders": [
@@ -1785,6 +1815,30 @@
                   "dose": "2 x 8 each letter"
                 }
               ]
+            },
+            {
+              "id": "p2_headstandPrep",
+              "name": "Forearm headstand prep",
+              "cue": "Forearms carry the weight, never your head and neck. Any neck pain: stop. Back of the head near the wall for the tuck.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Dolphin push-ups (rock forward and back)",
+                  "dose": "3 x 6"
+                },
+                {
+                  "name": "Headstand setup: hands clasped, crown lightly on floor, knees down",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Headstand setup, walk feet in until hips over shoulders",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Tucked lift at the wall, feet just off the floor",
+                  "dose": "3 x 5s"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
@@ -1797,7 +1851,7 @@
           "id": 3,
           "name": "Phase 3: Wall Work",
           "status": "coming soon",
-          "goal": "Wall walks, chest-to-wall hold, wall shoulder taps, cartwheel bail-out, full L-sit.",
+          "goal": "Forearm headstand (wall, then freestanding), wall walks, chest-to-wall hold, wall shoulder taps, cartwheel bail-out, full L-sit.",
           "days": [],
           "ladders": []
         },
