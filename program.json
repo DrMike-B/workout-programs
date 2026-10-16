@@ -1043,30 +1043,38 @@
           ],
           "days": [
             {
-              "name": "Day A: Straight-Arm Stability",
+              "name": "Day A: Push",
+              "ladders": [
+                "pikePushup",
+                "dipSupport",
+                "dips",
+                "ohp",
+                "deadBug"
+              ],
+              "after": "Machines (optional): legs only. No extra pressing."
+            },
+            {
+              "name": "Day B: Pull",
+              "ladders": [
+                "supHang",
+                "row",
+                "vpull",
+                "ytw",
+                "saHold",
+                "extRot",
+                "sidePlank"
+              ],
+              "after": "Machines (optional): seated row, legs."
+            },
+            {
+              "name": "Day C: Skill & Core",
               "ladders": [
                 "plankCombo",
                 "pikeHold",
                 "pikeShrug",
-                "dipSupport",
-                "deadBug",
                 "hollow"
               ],
-              "after": "Machines (optional): lat pulldown, seated row, legs. No heavy pressing."
-            },
-            {
-              "name": "Day B: Strength & Shoulder Health",
-              "ladders": [
-                "pullup",
-                "dips",
-                "pikePushup",
-                "ohp",
-                "saHold",
-                "deadBug",
-                "hollow",
-                "extRot"
-              ],
-              "after": "Machines (optional): rows, lat pulldown, legs, light chest press."
+              "after": "Machines (optional): legs."
             }
           ],
           "ladders": [
@@ -1199,26 +1207,6 @@
               ]
             },
             {
-              "id": "pullup",
-              "name": "Pull-ups",
-              "cue": "3 x 4 slow negatives also counts toward graduation.",
-              "startStep": 1,
-              "steps": [
-                {
-                  "name": "Band-assisted pull-ups",
-                  "dose": "3 x 3-5"
-                },
-                {
-                  "name": "Pull-up negatives (4-5s lower)",
-                  "dose": "3 x 4"
-                },
-                {
-                  "name": "Strict pull-ups",
-                  "dose": "3 x 3"
-                }
-              ]
-            },
-            {
               "id": "ohp",
               "name": "Overhead press",
               "cue": "Barbell. Ribs down. Drop to 2 x 5 after pike push-ups.",
@@ -1309,6 +1297,106 @@
                   "dose": "2 x 15 each arm"
                 }
               ]
+            },
+            {
+              "id": "row",
+              "name": "Inverted rows",
+              "cue": "Body straight, pull chest to the bar, squeeze shoulder blades together.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Rows, bar at chest height",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Rows, bar at waist height",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Rows, bar at hip height",
+                  "dose": "3 x 8"
+                }
+              ]
+            },
+            {
+              "id": "vpull",
+              "name": "Vertical pull",
+              "cue": "Stay on the pulldown as long as hanging feels unstable. Pull shoulders down first, then pull with the arms.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Lat pulldown, moderate weight",
+                  "dose": "3 x 10"
+                },
+                {
+                  "name": "Lat pulldown, heavier",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Pull-up negatives, 4-5s lower",
+                  "dose": "3 x 3"
+                }
+              ]
+            },
+            {
+              "id": "ytw",
+              "name": "Y-T-W raises",
+              "cue": "Slow, thumbs up, squeeze the shoulder blades. Shoulder stability without hanging.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Face down on incline bench, no weight",
+                  "dose": "2 x 8 each letter"
+                },
+                {
+                  "name": "2.5 lb dumbbells",
+                  "dose": "2 x 8 each letter"
+                },
+                {
+                  "name": "5 lb dumbbells",
+                  "dose": "2 x 8 each letter"
+                }
+              ]
+            },
+            {
+              "id": "sidePlank",
+              "name": "Side plank (forearm)",
+              "cue": "Elbow under shoulder, hips high, body in one line.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Knees down",
+                  "dose": "3 x 20s each side"
+                },
+                {
+                  "name": "Full side plank",
+                  "dose": "3 x 20s each side"
+                },
+                {
+                  "name": "Full side plank",
+                  "dose": "3 x 30s each side"
+                }
+              ]
+            },
+            {
+              "id": "supHang",
+              "name": "Supported hang",
+              "startStep": 0,
+              "cue": "Bar about head height, feet stay on the floor, lean back into a long banana stretch. Take as much weight on your feet as you need. Shoulders stay active, not dangling.",
+              "steps": [
+                {
+                  "name": "Supported hang, most weight on feet",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Supported hang, less weight on feet",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Supported scap pulls, feet on floor",
+                  "dose": "3 x 8"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
@@ -1331,30 +1419,38 @@
           ],
           "days": [
             {
-              "name": "Day A: Pike & Wall",
+              "name": "Day A: Push",
+              "ladders": [
+                "p2_pikePushup",
+                "p2_dips",
+                "p2_ohp",
+                "p2_tuck",
+                "p2_hollow"
+              ],
+              "after": "Machines (optional): legs only. No extra pressing."
+            },
+            {
+              "name": "Day B: Pull",
+              "ladders": [
+                "p2_row",
+                "p2_vpull",
+                "p2_ytw",
+                "p2_saHold",
+                "p2_extRot",
+                "p2_arch"
+              ],
+              "after": "Machines (optional): seated row, legs."
+            },
+            {
+              "name": "Day C: Skill & Core",
               "ladders": [
                 "p2_wallHold",
                 "p2_donkey",
                 "p2_pikeHold",
-                "p2_pikePushup",
                 "p2_pikeShrug",
-                "p2_compression",
-                "p2_hollow"
+                "p2_compression"
               ],
-              "after": "Machines (optional): lat pulldown, seated row, legs. No heavy pressing."
-            },
-            {
-              "name": "Day B: Strength & Core",
-              "ladders": [
-                "p2_pullup",
-                "p2_dips",
-                "p2_ohp",
-                "p2_saHold",
-                "p2_tuck",
-                "p2_arch",
-                "p2_extRot"
-              ],
-              "after": "Machines (optional): rows, lat pulldown, legs, light chest press."
+              "after": "Machines (optional): legs."
             }
           ],
           "ladders": [
@@ -1523,22 +1619,6 @@
               ]
             },
             {
-              "id": "p2_pullup",
-              "name": "Pull-ups",
-              "cue": "",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Strict pull-ups",
-                  "dose": "3 x 3"
-                },
-                {
-                  "name": "Strict pull-ups",
-                  "dose": "3 x 5"
-                }
-              ]
-            },
-            {
               "id": "p2_dips",
               "name": "Dips",
               "cue": "Only as deep as feels stable.",
@@ -1647,6 +1727,62 @@
                 {
                   "name": "Band external rotations, light band",
                   "dose": "2 x 15 each arm"
+                }
+              ]
+            },
+            {
+              "id": "p2_row",
+              "name": "Inverted rows",
+              "cue": "Body straight, chest to the bar.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Rows, bar at hip height",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Rows, bar at hip height",
+                  "dose": "3 x 12"
+                },
+                {
+                  "name": "Rows, feet elevated on a box",
+                  "dose": "3 x 8"
+                }
+              ]
+            },
+            {
+              "id": "p2_vpull",
+              "name": "Vertical pull",
+              "cue": "If hanging still feels unstable, regress to the lat pulldown and stay there.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Pull-up negatives, 4-5s lower",
+                  "dose": "3 x 4"
+                },
+                {
+                  "name": "Strict pull-ups",
+                  "dose": "3 x 3"
+                },
+                {
+                  "name": "Strict pull-ups",
+                  "dose": "3 x 5"
+                }
+              ]
+            },
+            {
+              "id": "p2_ytw",
+              "name": "Y-T-W raises",
+              "cue": "Slow and controlled.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "5 lb dumbbells",
+                  "dose": "2 x 10 each letter"
+                },
+                {
+                  "name": "8 lb dumbbells",
+                  "dose": "2 x 8 each letter"
                 }
               ]
             }
