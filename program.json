@@ -1,5 +1,5 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "updated": "2026-10-17",
   "matPools": {
     "push": [
@@ -1124,7 +1124,7 @@
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, wall, 12\" and 18\" box, exercise ball",
+                  "equipment": "mat, wall, aerobic step with risers, flat bench, exercise ball",
                   "ladders": [
                     "plankCombo",
                     "pikeHold",
@@ -1157,11 +1157,11 @@
                   "dose": "3 sets"
                 },
                 {
-                  "name": "12\" elevated: 20s hold, then 6 shoulder taps each side",
+                  "name": "Feet on step with risers (~12\"): 20s hold, then 6 shoulder taps each side",
                   "dose": "3 sets"
                 },
                 {
-                  "name": "18\" elevated: 20s hold, then 6 shoulder taps each side",
+                  "name": "Feet on flat bench (~18\"): 20s hold, then 6 shoulder taps each side",
                   "dose": "3 sets"
                 },
                 {
@@ -1241,7 +1241,7 @@
             {
               "id": "dipSupport",
               "name": "Machines · Dip support hold",
-              "cue": "Shoulders pushed down, away from ears. No jumping: step up onto the station's steps or a box to get into position.",
+              "cue": "Shoulders pushed down, away from ears. No jumping: step up onto the station's steps or an aerobic step to get into position.",
               "startStep": 1,
               "steps": [
                 {
@@ -1397,7 +1397,7 @@
             {
               "id": "vpull",
               "name": "Machines · Pulldown → assisted pull-ups",
-              "cue": "No jumping. Step up onto the platform or a box to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly.",
+              "cue": "No jumping. Step up onto the platform or an aerobic step to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly.",
               "startStep": 0,
               "steps": [
                 {
@@ -1584,7 +1584,7 @@
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, boxes up to ~24\"",
+                  "equipment": "mat, aerobic step with risers, flat bench",
                   "ladders": [
                     "p2_pikePushup",
                     "p2_hollow"
@@ -1647,7 +1647,7 @@
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, wall, exercise ball, 12\"-24\" box",
+                  "equipment": "mat, wall, exercise ball, aerobic step with risers, flat bench",
                   "ladders": [
                     "p2_wallHold",
                     "p2_donkey",
@@ -1730,15 +1730,15 @@
               "startStep": 0,
               "steps": [
                 {
-                  "name": "Feet on 12\" box, hips high",
+                  "name": "Feet on step with risers (~12\"), hips high",
                   "dose": "3 x 20s"
                 },
                 {
-                  "name": "Feet on 18\" box",
+                  "name": "Feet on flat bench (~18\")",
                   "dose": "3 x 20s"
                 },
                 {
-                  "name": "Box pike hold, hips over hands (~24\")",
+                  "name": "Bench pike hold, hands walked in until hips over hands",
                   "dose": "3 x 30s"
                 }
               ],
@@ -1759,19 +1759,19 @@
                   "dose": "3 x 8"
                 },
                 {
-                  "name": "Feet elevated 6\"",
+                  "name": "Feet on low step (~6\")",
                   "dose": "3 x 5"
                 },
                 {
-                  "name": "Feet elevated 12\"",
+                  "name": "Feet on step with risers (~12\")",
                   "dose": "3 x 5"
                 },
                 {
-                  "name": "Feet elevated 18\"",
+                  "name": "Feet on flat bench (~18\")",
                   "dose": "3 x 5"
                 },
                 {
-                  "name": "Box pike push-ups (~24\")",
+                  "name": "Pike push-ups, feet on bench, hands walked in until hips over hands",
                   "dose": "3 x 3"
                 }
               ],
@@ -1788,11 +1788,11 @@
                   "dose": "3 x 10"
                 },
                 {
-                  "name": "Feet elevated 12\"",
+                  "name": "Feet on step with risers (~12\")",
                   "dose": "3 x 8"
                 },
                 {
-                  "name": "Feet elevated 18\"",
+                  "name": "Feet on flat bench (~18\")",
                   "dose": "3 x 10"
                 }
               ],
@@ -1847,7 +1847,7 @@
             {
               "id": "p2_dips",
               "name": "Machines · Dips",
-              "cue": "Only as deep as feels stable. No jumping: step up onto the station's steps or a box to get into position.",
+              "cue": "Only as deep as feels stable. No jumping: step up onto the station's steps or an aerobic step to get into position.",
               "startStep": 0,
               "steps": [
                 {
@@ -1906,7 +1906,7 @@
             {
               "id": "p2_tuck",
               "name": "Machines · Tuck support → L-sit",
-              "cue": "Parallettes or dip bars. Shoulders pushed down. No jumping: step up onto the station's steps or a box to get into position.",
+              "cue": "Parallettes or dip bars. Shoulders pushed down. No jumping: step up onto the station's steps or an aerobic step to get into position.",
               "startStep": 0,
               "steps": [
                 {
@@ -1977,7 +1977,7 @@
                   "dose": "3 x 12"
                 },
                 {
-                  "name": "Rows, feet elevated on a box",
+                  "name": "Rows, feet elevated on a step",
                   "dose": "3 x 8"
                 }
               ],
@@ -1986,7 +1986,7 @@
             {
               "id": "p2_vpull",
               "name": "Machines · Assisted pull-ups",
-              "cue": "No jumping. Step up onto the platform or a box to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly. Slow 3s lowering on each rep.",
+              "cue": "No jumping. Step up onto the platform or an aerobic step to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly. Slow 3s lowering on each rep.",
               "startStep": 0,
               "steps": [
                 {
