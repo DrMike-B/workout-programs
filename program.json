@@ -1,6 +1,6 @@
 {
-  "version": "1.3",
-  "updated": "2026-10-15",
+  "version": "1.4",
+  "updated": "2026-10-17",
   "matPools": {
     "push": [
       "Thread the Needle",
@@ -1051,7 +1051,8 @@
                 "dipSupport",
                 "dips",
                 "ohp",
-                "deadBug"
+                "deadBug",
+                "legLowers"
               ],
               "after": "Machines (optional): legs only. No extra pressing."
             },
@@ -1074,6 +1075,7 @@
                 "plankCombo",
                 "pikeHold",
                 "pikeShrug",
+                "ballRollout",
                 "hollow",
                 "headstandPrep"
               ],
@@ -1424,6 +1426,50 @@
                   "dose": "3 x 30s"
                 }
               ]
+            },
+            {
+              "id": "ballRollout",
+              "name": "Ball rollout",
+              "cue": "Ribs down, glutes squeezed, back flat. Only roll as far as you can without your lower back sagging.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Kneeling, forearms on ball, short roll out",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Kneeling, roll out further",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Kneeling, roll out until arms are overhead",
+                  "dose": "3 x 8"
+                }
+              ]
+            },
+            {
+              "id": "legLowers",
+              "name": "Slow leg lowers",
+              "cue": "Lower back pressed into the floor. Only lower as far as you can without it lifting. This trains the controlled lowering for donkey kicks.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Reverse crunch, 3s lowering",
+                  "dose": "3 x 6"
+                },
+                {
+                  "name": "Bent-knee leg lowers, tap heels",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Single straight-leg lowers",
+                  "dose": "3 x 6 each"
+                },
+                {
+                  "name": "Both straight legs, 4s lower",
+                  "dose": "3 x 6"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
@@ -1510,25 +1556,37 @@
             },
             {
               "id": "p2_donkey",
-              "name": "Donkey kicks",
+              "name": "Ball pike → donkey kicks",
               "startStep": 0,
-              "cue": "Hands planted shoulder-width, arms locked, eyes between your hands. Land softly and quietly. Height comes later; control comes first.",
+              "cue": "Every rep: 3-second lowering. Arms locked, shoulders stay over your hands. If you can't control the lowering, go back a step.",
               "steps": [
                 {
-                  "name": "Bear hold, knees 1\" off the floor",
+                  "name": "Ball plank, shins on ball",
                   "dose": "3 x 20s"
                 },
                 {
-                  "name": "Small donkey kicks, both feet just leave the floor",
+                  "name": "Ball tuck, roll knees to chest",
+                  "dose": "3 x 8"
+                },
+                {
+                  "name": "Ball pike, hips halfway up, 3s return",
                   "dose": "3 x 6"
                 },
                 {
-                  "name": "Donkey kicks, hips rising toward your hands",
+                  "name": "Ball pike, hips over hands, 3s return",
                   "dose": "3 x 6"
                 },
                 {
-                  "name": "Donkey kicks, hips over hands, soft quiet landing",
+                  "name": "Rock and hold: feet light 2s, lower toes slowly",
                   "dose": "3 x 6"
+                },
+                {
+                  "name": "Small donkey kick, 3s lower, quiet landing",
+                  "dose": "3 x 5"
+                },
+                {
+                  "name": "Donkey kick, hips over hands, 3s lower",
+                  "dose": "3 x 5"
                 }
               ]
             },
