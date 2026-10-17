@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
+  "version": "1.7",
   "updated": "2026-10-17",
   "matPools": {
     "push": [
@@ -1124,7 +1124,7 @@
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, wall, aerobic step with risers, flat bench, exercise ball",
+                  "equipment": "mat, wall, exercise ball",
                   "ladders": [
                     "plankCombo",
                     "pikeHold",
@@ -1142,7 +1142,7 @@
               "id": "plankCombo",
               "name": "Mat · Plank progression",
               "startStep": 0,
-              "cue": "Hold first, then the single-arm work in the same set. Shift weight slowly, grip the floor, stop before the shoulder gives. On the wall, hands stay planted; walk only your feet.",
+              "cue": "Hold first, then the single-arm work in the same set. Back your feet up to the wall and place your toes at the mark; hands stay planted. Shift weight slowly, grip the floor, stop before the shoulder gives. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft.",
               "steps": [
                 {
                   "name": "Floor plank: 30s hold, then 10 weight shifts",
@@ -1157,19 +1157,19 @@
                   "dose": "3 sets"
                 },
                 {
-                  "name": "Feet on step with risers (~12\"): 20s hold, then 6 shoulder taps each side",
+                  "name": "Feet on wall at 1 ft: 20s hold, then 6 shoulder taps each side",
                   "dose": "3 sets"
                 },
                 {
-                  "name": "Feet on flat bench (~18\"): 20s hold, then 6 shoulder taps each side",
+                  "name": "Feet on wall at 1.5 ft: 20s hold, then 6 shoulder taps each side",
                   "dose": "3 sets"
                 },
                 {
-                  "name": "Wall plank, feet at 2 ft mark: 20s hold, then 4 shoulder taps each side",
+                  "name": "Feet on wall at 2 ft: 20s hold, then 4 shoulder taps each side",
                   "dose": "3 sets"
                 },
                 {
-                  "name": "Wall plank, feet at 3 ft mark: 20s hold, then 3 shoulder taps each side",
+                  "name": "Feet on wall at 3 ft: 20s hold, then 3 shoulder taps each side",
                   "dose": "3 sets"
                 }
               ],
@@ -1241,7 +1241,7 @@
             {
               "id": "dipSupport",
               "name": "Machines · Dip support hold",
-              "cue": "Shoulders pushed down, away from ears. No jumping: step up onto the station's steps or an aerobic step to get into position.",
+              "cue": "Shoulders pushed down, away from ears. No jumping: use the station's built-in steps to get into position.",
               "startStep": 1,
               "steps": [
                 {
@@ -1397,7 +1397,7 @@
             {
               "id": "vpull",
               "name": "Machines · Pulldown → assisted pull-ups",
-              "cue": "No jumping. Step up onto the platform or an aerobic step to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly.",
+              "cue": "No jumping. Step up onto the machine's platform to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly.",
               "startStep": 0,
               "steps": [
                 {
@@ -1584,7 +1584,7 @@
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, aerobic step with risers, flat bench",
+                  "equipment": "mat, wall",
                   "ladders": [
                     "p2_pikePushup",
                     "p2_hollow"
@@ -1647,7 +1647,7 @@
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, wall, exercise ball, aerobic step with risers, flat bench",
+                  "equipment": "mat, wall, exercise ball",
                   "ladders": [
                     "p2_wallHold",
                     "p2_donkey",
@@ -1726,19 +1726,19 @@
             {
               "id": "p2_pikeHold",
               "name": "Mat · Elevated pike hold",
-              "cue": "Push tall, ears between biceps.",
+              "cue": "Push tall, ears between biceps. Walk your hands in toward the wall until your hips are high. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft.",
               "startStep": 0,
               "steps": [
                 {
-                  "name": "Feet on step with risers (~12\"), hips high",
+                  "name": "Pike hold, feet walked in close to hands",
                   "dose": "3 x 20s"
                 },
                 {
-                  "name": "Feet on flat bench (~18\")",
+                  "name": "Pike hold, feet on wall at 1 ft",
                   "dose": "3 x 20s"
                 },
                 {
-                  "name": "Bench pike hold, hands walked in until hips over hands",
+                  "name": "Pike hold, feet on wall at 2 ft, hips high",
                   "dose": "3 x 30s"
                 }
               ],
@@ -1747,7 +1747,7 @@
             {
               "id": "p2_pikePushup",
               "name": "Mat · Pike push-ups",
-              "cue": "Head lands slightly in front of hands, elbows back at 45°.",
+              "cue": "Head lands slightly in front of hands, elbows back at 45°. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft.",
               "startStep": 0,
               "steps": [
                 {
@@ -1759,19 +1759,19 @@
                   "dose": "3 x 8"
                 },
                 {
-                  "name": "Feet on low step (~6\")",
+                  "name": "Pike push-ups, feet walked in close",
                   "dose": "3 x 5"
                 },
                 {
-                  "name": "Feet on step with risers (~12\")",
+                  "name": "Pike push-ups, feet on wall at 1 ft",
                   "dose": "3 x 5"
                 },
                 {
-                  "name": "Feet on flat bench (~18\")",
+                  "name": "Pike push-ups, feet on wall at 2 ft",
                   "dose": "3 x 5"
                 },
                 {
-                  "name": "Pike push-ups, feet on bench, hands walked in until hips over hands",
+                  "name": "Wall L-pike push-ups, hips over hands",
                   "dose": "3 x 3"
                 }
               ],
@@ -1788,11 +1788,11 @@
                   "dose": "3 x 10"
                 },
                 {
-                  "name": "Feet on step with risers (~12\")",
+                  "name": "Pike shrugs, feet walked in close",
                   "dose": "3 x 8"
                 },
                 {
-                  "name": "Feet on flat bench (~18\")",
+                  "name": "Pike shrugs, feet on wall at 2 ft",
                   "dose": "3 x 10"
                 }
               ],
@@ -1847,7 +1847,7 @@
             {
               "id": "p2_dips",
               "name": "Machines · Dips",
-              "cue": "Only as deep as feels stable. No jumping: step up onto the station's steps or an aerobic step to get into position.",
+              "cue": "Only as deep as feels stable. No jumping: use the station's built-in steps to get into position.",
               "startStep": 0,
               "steps": [
                 {
@@ -1906,7 +1906,7 @@
             {
               "id": "p2_tuck",
               "name": "Machines · Tuck support → L-sit",
-              "cue": "Parallettes or dip bars. Shoulders pushed down. No jumping: step up onto the station's steps or an aerobic step to get into position.",
+              "cue": "Parallettes or dip bars. Shoulders pushed down. No jumping: use the station's built-in steps to get into position.",
               "startStep": 0,
               "steps": [
                 {
@@ -1977,7 +1977,7 @@
                   "dose": "3 x 12"
                 },
                 {
-                  "name": "Rows, feet elevated on a step",
+                  "name": "Rows, bar lowered, body nearly horizontal",
                   "dose": "3 x 8"
                 }
               ],
@@ -1986,7 +1986,7 @@
             {
               "id": "p2_vpull",
               "name": "Machines · Assisted pull-ups",
-              "cue": "No jumping. Step up onto the platform or an aerobic step to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly. Slow 3s lowering on each rep.",
+              "cue": "No jumping. Step up onto the machine's platform to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly. Slow 3s lowering on each rep.",
               "startStep": 0,
               "steps": [
                 {
