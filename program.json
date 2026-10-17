@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "updated": "2026-10-17",
   "matPools": {
     "push": [
@@ -1054,7 +1054,39 @@
                 "deadBug",
                 "legLowers"
               ],
-              "after": "Machines (optional): legs only. No extra pressing."
+              "after": "Machines (optional): legs only. No extra pressing.",
+              "sections": [
+                {
+                  "name": "Mat",
+                  "equipment": "mat, wall, box or ball, band",
+                  "ladders": [
+                    "pikePushup"
+                  ]
+                },
+                {
+                  "name": "Bars",
+                  "equipment": "dip bars or parallettes, Smith or rack bar",
+                  "ladders": [
+                    "dipSupport",
+                    "dips"
+                  ]
+                },
+                {
+                  "name": "Machines & weights",
+                  "equipment": "lat pulldown, assisted pull-up, barbell, dumbbells, bench",
+                  "ladders": [
+                    "ohp"
+                  ]
+                },
+                {
+                  "name": "Mat · core",
+                  "equipment": "mat, exercise ball",
+                  "ladders": [
+                    "deadBug",
+                    "legLowers"
+                  ]
+                }
+              ]
             },
             {
               "name": "Day B: Pull",
@@ -1067,7 +1099,34 @@
                 "extRot",
                 "sidePlank"
               ],
-              "after": "Machines (optional): seated row, legs."
+              "after": "Machines (optional): seated row, legs.",
+              "sections": [
+                {
+                  "name": "Bars",
+                  "equipment": "dip bars or parallettes, Smith or rack bar",
+                  "ladders": [
+                    "supHang",
+                    "row"
+                  ]
+                },
+                {
+                  "name": "Machines & weights",
+                  "equipment": "lat pulldown, assisted pull-up, barbell, dumbbells, bench",
+                  "ladders": [
+                    "vpull",
+                    "ytw",
+                    "saHold"
+                  ]
+                },
+                {
+                  "name": "Mat",
+                  "equipment": "mat, band",
+                  "ladders": [
+                    "extRot",
+                    "sidePlank"
+                  ]
+                }
+              ]
             },
             {
               "name": "Day C: Skill & Core",
@@ -1075,11 +1134,31 @@
                 "plankCombo",
                 "pikeHold",
                 "pikeShrug",
+                "headstandPrep",
                 "ballRollout",
-                "hollow",
-                "headstandPrep"
+                "hollow"
               ],
-              "after": "Finish: seated pike stretch 2 x 30s. Machines (optional): legs."
+              "after": "Finish: seated pike stretch 2 x 30s. Machines (optional): legs.",
+              "sections": [
+                {
+                  "name": "Mat & wall",
+                  "equipment": "mat, wall, 12\" and 18\" box",
+                  "ladders": [
+                    "plankCombo",
+                    "pikeHold",
+                    "pikeShrug",
+                    "headstandPrep"
+                  ]
+                },
+                {
+                  "name": "Mat · core",
+                  "equipment": "mat, exercise ball",
+                  "ladders": [
+                    "ballRollout",
+                    "hollow"
+                  ]
+                }
+              ]
             }
           ],
           "ladders": [
@@ -1430,7 +1509,7 @@
             {
               "id": "ballRollout",
               "name": "Ball rollout",
-              "cue": "Ribs down, glutes squeezed, back flat. Only roll as far as you can without your lower back sagging.",
+              "cue": "Ribs down, glutes squeezed, back flat. Only roll as far as you can without your lower back sagging. Ab wheel instead? It's much harder: only after full ball rollouts, kneeling, rolling toward a wall to limit range.",
               "startStep": 0,
               "steps": [
                 {
@@ -1498,11 +1577,42 @@
               "ladders": [
                 "p2_pikePushup",
                 "p2_dips",
-                "p2_ohp",
                 "p2_tuck",
+                "p2_ohp",
                 "p2_hollow"
               ],
-              "after": "Machines (optional): legs only. No extra pressing."
+              "after": "Machines (optional): legs only. No extra pressing.",
+              "sections": [
+                {
+                  "name": "Mat & box",
+                  "equipment": "mat, boxes up to ~24\"",
+                  "ladders": [
+                    "p2_pikePushup"
+                  ]
+                },
+                {
+                  "name": "Bars",
+                  "equipment": "dip bars or parallettes, Smith or rack bar",
+                  "ladders": [
+                    "p2_dips",
+                    "p2_tuck"
+                  ]
+                },
+                {
+                  "name": "Machines & weights",
+                  "equipment": "lat pulldown, assisted pull-up, barbell, dumbbells, bench",
+                  "ladders": [
+                    "p2_ohp"
+                  ]
+                },
+                {
+                  "name": "Mat · core",
+                  "equipment": "mat, exercise ball",
+                  "ladders": [
+                    "p2_hollow"
+                  ]
+                }
+              ]
             },
             {
               "name": "Day B: Pull",
@@ -1514,7 +1624,33 @@
                 "p2_extRot",
                 "p2_arch"
               ],
-              "after": "Machines (optional): seated row, legs."
+              "after": "Machines (optional): seated row, legs.",
+              "sections": [
+                {
+                  "name": "Bars",
+                  "equipment": "dip bars or parallettes, Smith or rack bar",
+                  "ladders": [
+                    "p2_row"
+                  ]
+                },
+                {
+                  "name": "Machines & weights",
+                  "equipment": "lat pulldown, assisted pull-up, barbell, dumbbells, bench",
+                  "ladders": [
+                    "p2_vpull",
+                    "p2_ytw",
+                    "p2_saHold"
+                  ]
+                },
+                {
+                  "name": "Mat",
+                  "equipment": "mat, band",
+                  "ladders": [
+                    "p2_extRot",
+                    "p2_arch"
+                  ]
+                }
+              ]
             },
             {
               "name": "Day C: Skill & Core",
@@ -1523,10 +1659,36 @@
                 "p2_donkey",
                 "p2_pikeHold",
                 "p2_pikeShrug",
-                "p2_compression",
-                "p2_headstandPrep"
+                "p2_headstandPrep",
+                "p2_compression"
               ],
-              "after": "Finish: seated pike stretch 2 x 30s. Machines (optional): legs."
+              "after": "Finish: seated pike stretch 2 x 30s. Machines (optional): legs.",
+              "sections": [
+                {
+                  "name": "Wall & ball",
+                  "equipment": "wall, exercise ball, mat",
+                  "ladders": [
+                    "p2_wallHold",
+                    "p2_donkey"
+                  ]
+                },
+                {
+                  "name": "Mat & box",
+                  "equipment": "mat, 12\"-24\" box",
+                  "ladders": [
+                    "p2_pikeHold",
+                    "p2_pikeShrug",
+                    "p2_headstandPrep"
+                  ]
+                },
+                {
+                  "name": "Mat · core",
+                  "equipment": "mat, exercise ball",
+                  "ladders": [
+                    "p2_compression"
+                  ]
+                }
+              ]
             }
           ],
           "ladders": [
