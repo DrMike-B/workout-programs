@@ -1045,7 +1045,7 @@
           ],
           "days": [
             {
-              "name": "Day A: Push",
+              "name": "Day A: Push · Mat → Bars → Machines → Core",
               "ladders": [
                 "pikePushup",
                 "dipSupport",
@@ -1089,7 +1089,7 @@
               ]
             },
             {
-              "name": "Day B: Pull",
+              "name": "Day B: Pull · Bars → Machines → Mat",
               "ladders": [
                 "supHang",
                 "row",
@@ -1129,7 +1129,7 @@
               ]
             },
             {
-              "name": "Day C: Skill & Core",
+              "name": "Day C: Skill & Core · Mat & wall → Core",
               "ladders": [
                 "plankCombo",
                 "pikeHold",
@@ -1164,7 +1164,7 @@
           "ladders": [
             {
               "id": "plankCombo",
-              "name": "Plank progression",
+              "name": "Mat & wall · Plank progression",
               "startStep": 0,
               "cue": "Hold first, then the single-arm work in the same set. Shift weight slowly, grip the floor, stop before the shoulder gives. On the wall, hands stay planted; walk only your feet.",
               "steps": [
@@ -1196,11 +1196,12 @@
                   "name": "Wall plank, feet at 3 ft mark: 20s hold, then 3 shoulder taps each side",
                   "dose": "3 sets"
                 }
-              ]
+              ],
+              "baseName": "Plank progression"
             },
             {
               "id": "pikeHold",
-              "name": "Pike hold",
+              "name": "Mat & wall · Pike hold",
               "cue": "Ears between biceps, chest toward thighs.",
               "startStep": 1,
               "steps": [
@@ -1212,11 +1213,12 @@
                   "name": "Pike hold (floor)",
                   "dose": "3 x 30s"
                 }
-              ]
+              ],
+              "baseName": "Pike hold"
             },
             {
               "id": "pikeShrug",
-              "name": "Pike shrugs",
+              "name": "Mat & wall · Pike shrugs",
               "cue": "Elbows locked, full range, pause at the top.",
               "startStep": 2,
               "steps": [
@@ -1232,11 +1234,12 @@
                   "name": "Full pike shrugs",
                   "dose": "3 x 10"
                 }
-              ]
+              ],
+              "baseName": "Pike shrugs"
             },
             {
               "id": "pikePushup",
-              "name": "Pike push-ups",
+              "name": "Mat · Pike push-ups",
               "cue": "Head lands slightly in front of hands, elbows back at 45°.",
               "startStep": 1,
               "steps": [
@@ -1256,11 +1259,12 @@
                   "name": "Full pike push-ups",
                   "dose": "3 x 5"
                 }
-              ]
+              ],
+              "baseName": "Pike push-ups"
             },
             {
               "id": "dipSupport",
-              "name": "Dip support hold",
+              "name": "Bars · Dip support hold",
               "cue": "Shoulders pushed down, away from ears.",
               "startStep": 1,
               "steps": [
@@ -1272,11 +1276,12 @@
                   "name": "Dip support hold",
                   "dose": "3 x 20s"
                 }
-              ]
+              ],
+              "baseName": "Dip support hold"
             },
             {
               "id": "dips",
-              "name": "Dips",
+              "name": "Bars · Dips",
               "cue": "Only go as deep as feels stable.",
               "startStep": 1,
               "steps": [
@@ -1288,11 +1293,12 @@
                   "name": "Dip negatives (4s lower)",
                   "dose": "3 x 3"
                 }
-              ]
+              ],
+              "baseName": "Dips"
             },
             {
               "id": "ohp",
-              "name": "Overhead press",
+              "name": "Machines · Overhead press",
               "cue": "Barbell. Ribs down. Drop to 2 x 5 after pike push-ups.",
               "startStep": 1,
               "steps": [
@@ -1308,11 +1314,12 @@
                   "name": "40 lb, 2s lockout pause",
                   "dose": "3 x 5"
                 }
-              ]
+              ],
+              "baseName": "Overhead press"
             },
             {
               "id": "saHold",
-              "name": "Single-arm overhead hold",
+              "name": "Machines · Single-arm overhead hold",
               "cue": "One weight, one arm at a time. Arm locked, biceps by ear, no leaning. Add 5 lb only when there's zero wobble.",
               "startStep": 1,
               "steps": [
@@ -1324,11 +1331,12 @@
                   "name": "Standing hold, 10–15 lb dumbbell",
                   "dose": "3 x 20s each arm"
                 }
-              ]
+              ],
+              "baseName": "Single-arm overhead hold"
             },
             {
               "id": "deadBug",
-              "name": "Dead bugs",
+              "name": "Core · Dead bugs",
               "cue": "Lower back flat.",
               "startStep": 1,
               "steps": [
@@ -1340,11 +1348,12 @@
                   "name": "Full dead bugs",
                   "dose": "2 x 8 each side"
                 }
-              ]
+              ],
+              "baseName": "Dead bugs"
             },
             {
               "id": "hollow",
-              "name": "Hollow hold",
+              "name": "Core · Hollow hold",
               "cue": "Exhale, ribs down. Shorten the hold before letting the back arch.",
               "startStep": 1,
               "steps": [
@@ -1368,11 +1377,12 @@
                   "name": "Full hollow hold",
                   "dose": "3 x 30s, flat back"
                 }
-              ]
+              ],
+              "baseName": "Hollow hold"
             },
             {
               "id": "extRot",
-              "name": "Band external rotations",
+              "name": "Mat · Band external rotations",
               "cue": "Light band, slow, elbow tucked at your side. Pain-free.",
               "startStep": 0,
               "steps": [
@@ -1380,11 +1390,12 @@
                   "name": "Band external rotations, light band",
                   "dose": "2 x 15 each arm"
                 }
-              ]
+              ],
+              "baseName": "Band external rotations"
             },
             {
               "id": "row",
-              "name": "Inverted rows",
+              "name": "Bars · Inverted rows",
               "cue": "Body straight, pull chest to the bar, squeeze shoulder blades together.",
               "startStep": 0,
               "steps": [
@@ -1400,11 +1411,12 @@
                   "name": "Rows, bar at hip height",
                   "dose": "3 x 8"
                 }
-              ]
+              ],
+              "baseName": "Inverted rows"
             },
             {
               "id": "vpull",
-              "name": "Pulldown → assisted pull-ups",
+              "name": "Machines · Pulldown → assisted pull-ups",
               "cue": "No jumping. Step up onto the platform or a box to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly.",
               "startStep": 0,
               "steps": [
@@ -1420,11 +1432,12 @@
                   "name": "Assisted pull-up machine, heavy assist",
                   "dose": "3 x 6"
                 }
-              ]
+              ],
+              "baseName": "Pulldown → assisted pull-ups"
             },
             {
               "id": "ytw",
-              "name": "Y-T-W raises",
+              "name": "Machines · Y-T-W raises",
               "cue": "Slow, thumbs up, squeeze the shoulder blades. Shoulder stability without hanging.",
               "startStep": 0,
               "steps": [
@@ -1440,11 +1453,12 @@
                   "name": "5 lb dumbbells",
                   "dose": "2 x 8 each letter"
                 }
-              ]
+              ],
+              "baseName": "Y-T-W raises"
             },
             {
               "id": "sidePlank",
-              "name": "Side plank (forearm)",
+              "name": "Mat · Side plank (forearm)",
               "cue": "Elbow under shoulder, hips high, body in one line.",
               "startStep": 0,
               "steps": [
@@ -1460,11 +1474,12 @@
                   "name": "Full side plank",
                   "dose": "3 x 30s each side"
                 }
-              ]
+              ],
+              "baseName": "Side plank (forearm)"
             },
             {
               "id": "supHang",
-              "name": "Supported hang",
+              "name": "Bars · Supported hang",
               "startStep": 0,
               "cue": "Bar about head height, feet stay on the floor, lean back into a long banana stretch. Take as much weight on your feet as you need. Shoulders stay active, not dangling.",
               "steps": [
@@ -1480,11 +1495,12 @@
                   "name": "Supported scap pulls, feet on floor",
                   "dose": "3 x 8"
                 }
-              ]
+              ],
+              "baseName": "Supported hang"
             },
             {
               "id": "headstandPrep",
-              "name": "Forearm headstand prep",
+              "name": "Mat & wall · Forearm headstand prep",
               "cue": "Elbows shoulder-width, press forearms into the floor and push the chest toward your legs.",
               "startStep": 0,
               "steps": [
@@ -1504,11 +1520,12 @@
                   "name": "Dolphin hold, feet walked in, shoulders over elbows",
                   "dose": "3 x 30s"
                 }
-              ]
+              ],
+              "baseName": "Forearm headstand prep"
             },
             {
               "id": "ballRollout",
-              "name": "Ball rollout",
+              "name": "Core · Ball rollout",
               "cue": "Ribs down, glutes squeezed, back flat. Only roll as far as you can without your lower back sagging. Ab wheel instead? It's much harder: only after full ball rollouts, kneeling, rolling toward a wall to limit range.",
               "startStep": 0,
               "steps": [
@@ -1524,11 +1541,12 @@
                   "name": "Kneeling, roll out until arms are overhead",
                   "dose": "3 x 8"
                 }
-              ]
+              ],
+              "baseName": "Ball rollout"
             },
             {
               "id": "legLowers",
-              "name": "Slow leg lowers",
+              "name": "Core · Slow leg lowers",
               "cue": "Lower back pressed into the floor. Only lower as far as you can without it lifting. This trains the controlled lowering for donkey kicks.",
               "startStep": 0,
               "steps": [
@@ -1548,7 +1566,8 @@
                   "name": "Both straight legs, 4s lower",
                   "dose": "3 x 6"
                 }
-              ]
+              ],
+              "baseName": "Slow leg lowers"
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
@@ -1573,7 +1592,7 @@
           ],
           "days": [
             {
-              "name": "Day A: Push",
+              "name": "Day A: Push · Mat & box → Bars → Machines → Core",
               "ladders": [
                 "p2_pikePushup",
                 "p2_dips",
@@ -1615,7 +1634,7 @@
               ]
             },
             {
-              "name": "Day B: Pull",
+              "name": "Day B: Pull · Bars → Machines → Mat",
               "ladders": [
                 "p2_row",
                 "p2_vpull",
@@ -1653,7 +1672,7 @@
               ]
             },
             {
-              "name": "Day C: Skill & Core",
+              "name": "Day C: Skill & Core · Wall & ball → Mat & box → Core",
               "ladders": [
                 "p2_wallHold",
                 "p2_donkey",
@@ -1694,7 +1713,7 @@
           "ladders": [
             {
               "id": "p2_wallHold",
-              "name": "Wall holds",
+              "name": "Wall & ball · Wall holds",
               "cue": "Hands planted first, a bit closer to the wall for each higher mark. Walk only your feet up and down.",
               "startStep": 0,
               "steps": [
@@ -1714,11 +1733,12 @@
                   "name": "Wall L-hold, hips stacked over hands",
                   "dose": "3 x 20s"
                 }
-              ]
+              ],
+              "baseName": "Wall holds"
             },
             {
               "id": "p2_donkey",
-              "name": "Ball pike → donkey kicks",
+              "name": "Wall & ball · Ball pike → donkey kicks",
               "startStep": 0,
               "cue": "Every rep: 3-second lowering. Arms locked, shoulders stay over your hands. If you can't control the lowering, go back a step.",
               "steps": [
@@ -1750,11 +1770,12 @@
                   "name": "Donkey kick, hips over hands, 3s lower",
                   "dose": "3 x 5"
                 }
-              ]
+              ],
+              "baseName": "Ball pike → donkey kicks"
             },
             {
               "id": "p2_pikeHold",
-              "name": "Elevated pike hold",
+              "name": "Mat & box · Elevated pike hold",
               "cue": "Push tall, ears between biceps.",
               "startStep": 0,
               "steps": [
@@ -1770,11 +1791,12 @@
                   "name": "Box pike hold, hips over hands (~24\")",
                   "dose": "3 x 30s"
                 }
-              ]
+              ],
+              "baseName": "Elevated pike hold"
             },
             {
               "id": "p2_pikePushup",
-              "name": "Pike push-ups",
+              "name": "Mat & box · Pike push-ups",
               "cue": "Head lands slightly in front of hands, elbows back at 45°.",
               "startStep": 0,
               "steps": [
@@ -1802,11 +1824,12 @@
                   "name": "Box pike push-ups (~24\")",
                   "dose": "3 x 3"
                 }
-              ]
+              ],
+              "baseName": "Pike push-ups"
             },
             {
               "id": "p2_pikeShrug",
-              "name": "Pike shrugs",
+              "name": "Mat & box · Pike shrugs",
               "cue": "Elbows locked, full range.",
               "startStep": 0,
               "steps": [
@@ -1822,11 +1845,12 @@
                   "name": "Feet elevated 18\"",
                   "dose": "3 x 10"
                 }
-              ]
+              ],
+              "baseName": "Pike shrugs"
             },
             {
               "id": "p2_compression",
-              "name": "Pike compression",
+              "name": "Core · Pike compression",
               "cue": "Sit tall, knees straight, lift the heel an inch or two without leaning back.",
               "startStep": 0,
               "steps": [
@@ -1846,11 +1870,12 @@
                   "name": "Both legs, hands by hips",
                   "dose": "3 x 10"
                 }
-              ]
+              ],
+              "baseName": "Pike compression"
             },
             {
               "id": "p2_hollow",
-              "name": "Hollow body",
+              "name": "Core · Hollow body",
               "cue": "Lower back flat the whole time.",
               "startStep": 0,
               "steps": [
@@ -1866,11 +1891,12 @@
                   "name": "Hollow rocks",
                   "dose": "3 x 10"
                 }
-              ]
+              ],
+              "baseName": "Hollow body"
             },
             {
               "id": "p2_dips",
-              "name": "Dips",
+              "name": "Bars · Dips",
               "cue": "Only as deep as feels stable.",
               "startStep": 0,
               "steps": [
@@ -1886,11 +1912,12 @@
                   "name": "Full dips",
                   "dose": "3 x 3"
                 }
-              ]
+              ],
+              "baseName": "Dips"
             },
             {
               "id": "p2_ohp",
-              "name": "Overhead press",
+              "name": "Machines · Overhead press",
               "cue": "Barbell, 2s pause at lockout, ribs down.",
               "startStep": 0,
               "steps": [
@@ -1906,11 +1933,12 @@
                   "name": "50 lb",
                   "dose": "3 x 5"
                 }
-              ]
+              ],
+              "baseName": "Overhead press"
             },
             {
               "id": "p2_saHold",
-              "name": "Single-arm overhead hold",
+              "name": "Machines · Single-arm overhead hold",
               "cue": "One arm at a time, no leaning.",
               "startStep": 0,
               "steps": [
@@ -1922,11 +1950,12 @@
                   "name": "Overhead carry, 15–20 lb dumbbell",
                   "dose": "20 steps each arm"
                 }
-              ]
+              ],
+              "baseName": "Single-arm overhead hold"
             },
             {
               "id": "p2_tuck",
-              "name": "Tuck support → L-sit",
+              "name": "Bars · Tuck support → L-sit",
               "cue": "Parallettes or dip bars. Shoulders pushed down.",
               "startStep": 0,
               "steps": [
@@ -1946,11 +1975,12 @@
                   "name": "One-leg L-sit, switch legs each set",
                   "dose": "3 x 10s"
                 }
-              ]
+              ],
+              "baseName": "Tuck support → L-sit"
             },
             {
               "id": "p2_arch",
-              "name": "Arch body hold",
+              "name": "Mat · Arch body hold",
               "cue": "Squeeze glutes, look at the floor.",
               "startStep": 0,
               "steps": [
@@ -1966,11 +1996,12 @@
                   "name": "Superman hold, arms overhead",
                   "dose": "3 x 30s"
                 }
-              ]
+              ],
+              "baseName": "Arch body hold"
             },
             {
               "id": "p2_extRot",
-              "name": "Band external rotations",
+              "name": "Mat · Band external rotations",
               "cue": "Slow, elbow tucked.",
               "startStep": 0,
               "steps": [
@@ -1978,11 +2009,12 @@
                   "name": "Band external rotations, light band",
                   "dose": "2 x 15 each arm"
                 }
-              ]
+              ],
+              "baseName": "Band external rotations"
             },
             {
               "id": "p2_row",
-              "name": "Inverted rows",
+              "name": "Bars · Inverted rows",
               "cue": "Body straight, chest to the bar.",
               "startStep": 0,
               "steps": [
@@ -1998,11 +2030,12 @@
                   "name": "Rows, feet elevated on a box",
                   "dose": "3 x 8"
                 }
-              ]
+              ],
+              "baseName": "Inverted rows"
             },
             {
               "id": "p2_vpull",
-              "name": "Assisted pull-ups",
+              "name": "Machines · Assisted pull-ups",
               "cue": "No jumping. Step up onto the platform or a box to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly. Slow 3s lowering on each rep.",
               "startStep": 0,
               "steps": [
@@ -2018,11 +2051,12 @@
                   "name": "Assisted pull-up machine, light assist",
                   "dose": "3 x 5"
                 }
-              ]
+              ],
+              "baseName": "Assisted pull-ups"
             },
             {
               "id": "p2_ytw",
-              "name": "Y-T-W raises",
+              "name": "Machines · Y-T-W raises",
               "cue": "Slow and controlled.",
               "startStep": 0,
               "steps": [
@@ -2034,11 +2068,12 @@
                   "name": "8 lb dumbbells",
                   "dose": "2 x 8 each letter"
                 }
-              ]
+              ],
+              "baseName": "Y-T-W raises"
             },
             {
               "id": "p2_headstandPrep",
-              "name": "Forearm headstand prep",
+              "name": "Mat & box · Forearm headstand prep",
               "cue": "Forearms carry the weight, never your head and neck. Any neck pain: stop. Back of the head near the wall for the tuck.",
               "startStep": 0,
               "steps": [
@@ -2058,7 +2093,8 @@
                   "name": "Tucked lift at the wall, feet just off the floor",
                   "dose": "3 x 5s"
                 }
-              ]
+              ],
+              "baseName": "Forearm headstand prep"
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
