@@ -1,5 +1,5 @@
 {
-  "version": "1.7",
+  "version": "1.8",
   "updated": "2026-10-17",
   "matPools": {
     "push": [
@@ -1118,9 +1118,10 @@
                 "pikeShrug",
                 "headstandPrep",
                 "ballRollout",
-                "hollow"
+                "hollow",
+                "hams"
               ],
-              "after": "Finish: seated pike stretch 2 x 30s. Machines (optional): legs.",
+              "after": "Machines (optional): legs.",
               "sections": [
                 {
                   "name": "Mat",
@@ -1131,7 +1132,8 @@
                     "pikeShrug",
                     "headstandPrep",
                     "ballRollout",
-                    "hollow"
+                    "hollow",
+                    "hams"
                   ]
                 }
               ]
@@ -1186,7 +1188,7 @@
             {
               "id": "pikeHold",
               "name": "Mat · Pike hold",
-              "cue": "Ears between biceps, chest toward thighs.",
+              "cue": "Ears between biceps, chest toward thighs. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
               "startStep": 1,
               "steps": [
                 {
@@ -1203,7 +1205,7 @@
             {
               "id": "pikeShrug",
               "name": "Mat · Pike shrugs",
-              "cue": "Elbows locked, full range, pause at the top.",
+              "cue": "Elbows locked, full range, pause at the top. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
               "startStep": 2,
               "steps": [
                 {
@@ -1224,7 +1226,7 @@
             {
               "id": "pikePushup",
               "name": "Mat · Pike push-ups",
-              "cue": "Head lands slightly in front of hands, elbows back at 45°.",
+              "cue": "Head lands slightly in front of hands, elbows back at 45°. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
               "startStep": 1,
               "steps": [
                 {
@@ -1489,7 +1491,7 @@
             {
               "id": "headstandPrep",
               "name": "Mat · Forearm headstand prep",
-              "cue": "Elbows shoulder-width, press forearms into the floor and push the chest toward your legs.",
+              "cue": "Elbows shoulder-width, press forearms into the floor and push the chest toward your legs. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
               "startStep": 0,
               "steps": [
                 {
@@ -1556,6 +1558,31 @@
                 }
               ],
               "baseName": "Slow leg lowers"
+            },
+            {
+              "id": "hams",
+              "baseName": "Hamstrings & pike stretch",
+              "name": "Mat · Hamstrings & pike stretch",
+              "cue": "Gentle, never bounce. Lead with the chest and keep the back long. Progress comes over months, not sessions.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Lying hamstring stretch with band, other leg flat",
+                  "dose": "2 x 30s each leg"
+                },
+                {
+                  "name": "Band stretch + contract-relax: press leg into band 5s, relax, ease deeper",
+                  "dose": "3 rounds each leg"
+                },
+                {
+                  "name": "Standing pike fold, knees soft, flat back, hands to shins",
+                  "dose": "2 x 30s"
+                },
+                {
+                  "name": "Seated pike fold, flat back, contract-relax",
+                  "dose": "3 rounds"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
@@ -1649,9 +1676,10 @@
                 "p2_pikeHold",
                 "p2_pikeShrug",
                 "p2_headstandPrep",
-                "p2_compression"
+                "p2_compression",
+                "p2_hams"
               ],
-              "after": "Finish: seated pike stretch 2 x 30s. Machines (optional): legs.",
+              "after": "Machines (optional): legs.",
               "sections": [
                 {
                   "name": "Mat",
@@ -1662,7 +1690,8 @@
                     "p2_pikeHold",
                     "p2_pikeShrug",
                     "p2_headstandPrep",
-                    "p2_compression"
+                    "p2_compression",
+                    "p2_hams"
                   ]
                 }
               ]
@@ -1672,7 +1701,7 @@
             {
               "id": "p2_wallHold",
               "name": "Mat · Wall holds",
-              "cue": "Hands planted first, a bit closer to the wall for each higher mark. Walk only your feet up and down.",
+              "cue": "Hands planted first, a bit closer to the wall for each higher mark. Walk only your feet up and down. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
               "startStep": 0,
               "steps": [
                 {
@@ -1734,7 +1763,7 @@
             {
               "id": "p2_pikeHold",
               "name": "Mat · Elevated pike hold",
-              "cue": "Push tall, ears between biceps. Walk your hands in toward the wall until your hips are high. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft.",
+              "cue": "Push tall, ears between biceps. Walk your hands in toward the wall until your hips are high. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
               "startStep": 0,
               "steps": [
                 {
@@ -1755,7 +1784,7 @@
             {
               "id": "p2_pikePushup",
               "name": "Mat · Pike push-ups",
-              "cue": "Head lands slightly in front of hands, elbows back at 45°. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft.",
+              "cue": "Head lands slightly in front of hands, elbows back at 45°. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
               "startStep": 0,
               "steps": [
                 {
@@ -1788,7 +1817,7 @@
             {
               "id": "p2_pikeShrug",
               "name": "Mat · Pike shrugs",
-              "cue": "Elbows locked, full range.",
+              "cue": "Elbows locked, full range. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
               "startStep": 0,
               "steps": [
                 {
@@ -1809,7 +1838,7 @@
             {
               "id": "p2_compression",
               "name": "Mat · Pike compression",
-              "cue": "Sit tall, knees straight, lift the heel an inch or two without leaning back.",
+              "cue": "Sit tall, knees straight, lift the heel an inch or two without leaning back. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
               "startStep": 0,
               "steps": [
                 {
@@ -2032,7 +2061,7 @@
             {
               "id": "p2_headstandPrep",
               "name": "Mat · Forearm headstand prep",
-              "cue": "Forearms carry the weight, never your head and neck. Any neck pain: stop. Back of the head near the wall for the tuck.",
+              "cue": "Forearms carry the weight, never your head and neck. Any neck pain: stop. Back of the head near the wall for the tuck. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
               "startStep": 0,
               "steps": [
                 {
@@ -2053,6 +2082,27 @@
                 }
               ],
               "baseName": "Forearm headstand prep"
+            },
+            {
+              "id": "p2_hams",
+              "baseName": "Hamstrings & pike stretch",
+              "name": "Mat · Hamstrings & pike stretch",
+              "cue": "Gentle, never bounce. Back stays long. Hands down on the floor, or on your shins if they don't reach.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Seated pike fold, contract-relax",
+                  "dose": "3 rounds"
+                },
+                {
+                  "name": "Elephant walks: standing pike, hands down, straighten one leg at a time",
+                  "dose": "2 x 10 each leg"
+                },
+                {
+                  "name": "Seated pike fold, legs straight, chest toward thighs",
+                  "dose": "2 x 60s"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
