@@ -1142,7 +1142,7 @@
               "id": "plankCombo",
               "name": "Mat · Plank progression",
               "startStep": 0,
-              "cue": "Hold first, then the single-arm work in the same set. On the wall: back your feet up and place your toes at the mark, press toes into the wall, hands stay planted. Shift weight slowly, grip the floor, stop before the shoulder gives. Wall marks at 1, 2 and 3 ft (tape or wall features).",
+              "cue": "Hold first, then the single-arm work in the same set. On the wall: back your feet up and place your toes at the mark, press toes into the wall, hands stay planted. Shift weight slowly, grip the floor, stop before the shoulder gives. Wall marks at 1, 2 and 3 ft (tape or wall features). Roller step: press it with a foot first to check it's wedged before putting weight on it.",
               "steps": [
                 {
                   "name": "Floor plank: 30s hold, then 10 weight shifts",
@@ -1158,6 +1158,10 @@
                 },
                 {
                   "name": "Feet on the low bar (~4\"): 20s hold, then 6 shoulder taps each side",
+                  "dose": "3 sets"
+                },
+                {
+                  "name": "Feet on foam roller on the low bar, wedged against the wall (~10\"): 20s hold, then 6 shoulder taps each side",
                   "dose": "3 sets"
                 },
                 {
