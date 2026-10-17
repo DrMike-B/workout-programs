@@ -1067,14 +1067,14 @@
                   "name": "Bars",
                   "equipment": "dip bars or parallettes, Smith or rack bar",
                   "ladders": [
-                    "dipSupport",
-                    "dips"
+                    "dipSupport"
                   ]
                 },
                 {
                   "name": "Machines & weights",
-                  "equipment": "lat pulldown, assisted pull-up, barbell, dumbbells, bench",
+                  "equipment": "assisted dip machine, barbell",
                   "ladders": [
+                    "dips",
                     "ohp"
                   ]
                 },
@@ -1265,7 +1265,7 @@
             {
               "id": "dipSupport",
               "name": "Bars · Dip support hold",
-              "cue": "Shoulders pushed down, away from ears.",
+              "cue": "Shoulders pushed down, away from ears. No jumping: step up onto the station's steps or a box to get into position.",
               "startStep": 1,
               "steps": [
                 {
@@ -1281,20 +1281,24 @@
             },
             {
               "id": "dips",
-              "name": "Bars · Dips",
-              "cue": "Only go as deep as feels stable.",
+              "name": "Machines · Assisted dips",
+              "cue": "Kneel or stand on the pad. Shoulders pushed down away from your ears, only go as deep as feels stable. Less weight on the stack = harder.",
               "startStep": 1,
               "steps": [
                 {
-                  "name": "Assisted dip negatives (feet helping)",
-                  "dose": "3 x 3"
+                  "name": "Assisted dip machine, heavy assist",
+                  "dose": "3 x 8"
                 },
                 {
-                  "name": "Dip negatives (4s lower)",
-                  "dose": "3 x 3"
+                  "name": "Assisted dip machine, moderate assist",
+                  "dose": "3 x 6"
+                },
+                {
+                  "name": "Assisted dip machine, moderate assist, 3s lowering",
+                  "dose": "3 x 6"
                 }
               ],
-              "baseName": "Dips"
+              "baseName": "Assisted dips"
             },
             {
               "id": "ohp",
@@ -1897,19 +1901,19 @@
             {
               "id": "p2_dips",
               "name": "Bars · Dips",
-              "cue": "Only as deep as feels stable.",
+              "cue": "Only as deep as feels stable. No jumping: step up onto the station's steps or a box to get into position.",
               "startStep": 0,
               "steps": [
                 {
-                  "name": "Dip negatives, 4s lower",
+                  "name": "Assisted dip machine, light assist, 3s lowering",
+                  "dose": "3 x 6"
+                },
+                {
+                  "name": "Partial-range dips on bars",
                   "dose": "3 x 3"
                 },
                 {
-                  "name": "Partial-range dips",
-                  "dose": "3 x 3"
-                },
-                {
-                  "name": "Full dips",
+                  "name": "Full dips on bars",
                   "dose": "3 x 3"
                 }
               ],
@@ -1956,7 +1960,7 @@
             {
               "id": "p2_tuck",
               "name": "Bars · Tuck support → L-sit",
-              "cue": "Parallettes or dip bars. Shoulders pushed down.",
+              "cue": "Parallettes or dip bars. Shoulders pushed down. No jumping: step up onto the station's steps or a box to get into position.",
               "startStep": 0,
               "steps": [
                 {
