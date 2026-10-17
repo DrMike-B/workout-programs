@@ -1323,8 +1323,8 @@
             },
             {
               "id": "vpull",
-              "name": "Vertical pull",
-              "cue": "Stay on the pulldown as long as hanging feels unstable. Pull shoulders down first, then pull with the arms.",
+              "name": "Pulldown → assisted pull-ups",
+              "cue": "No jumping. Step up onto the platform or a box to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly.",
               "startStep": 0,
               "steps": [
                 {
@@ -1336,8 +1336,8 @@
                   "dose": "3 x 8"
                 },
                 {
-                  "name": "Pull-up negatives, 4-5s lower",
-                  "dose": "3 x 3"
+                  "name": "Assisted pull-up machine, heavy assist",
+                  "dose": "3 x 6"
                 }
               ]
             },
@@ -1782,20 +1782,20 @@
             },
             {
               "id": "p2_vpull",
-              "name": "Vertical pull",
-              "cue": "If hanging still feels unstable, regress to the lat pulldown and stay there.",
+              "name": "Assisted pull-ups",
+              "cue": "No jumping. Step up onto the platform or a box to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly. Slow 3s lowering on each rep.",
               "startStep": 0,
               "steps": [
                 {
-                  "name": "Pull-up negatives, 4-5s lower",
-                  "dose": "3 x 4"
+                  "name": "Assisted pull-up machine, heavy assist",
+                  "dose": "3 x 8"
                 },
                 {
-                  "name": "Strict pull-ups",
-                  "dose": "3 x 3"
+                  "name": "Assisted pull-up machine, moderate assist",
+                  "dose": "3 x 6"
                 },
                 {
-                  "name": "Strict pull-ups",
+                  "name": "Assisted pull-up machine, light assist",
                   "dose": "3 x 5"
                 }
               ]
@@ -1851,7 +1851,7 @@
           "id": 3,
           "name": "Phase 3: Wall Work",
           "status": "coming soon",
-          "goal": "Forearm headstand (wall, then freestanding), wall walks, chest-to-wall hold, wall shoulder taps, cartwheel bail-out, full L-sit.",
+          "goal": "Forearm headstand (wall, then freestanding), wall walks, chest-to-wall hold, wall shoulder taps, cartwheel bail-out, full L-sit, strict pull-ups.",
           "days": [],
           "ladders": []
         },
