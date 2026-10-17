@@ -1045,51 +1045,39 @@
           ],
           "days": [
             {
-              "name": "Day A: Push · Mat → Bars → Machines → Core",
+              "name": "Day A: Push · Mat → Machines",
               "ladders": [
                 "pikePushup",
+                "deadBug",
+                "legLowers",
                 "dipSupport",
                 "dips",
-                "ohp",
-                "deadBug",
-                "legLowers"
+                "ohp"
               ],
               "after": "Machines (optional): legs only. No extra pressing.",
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, wall, box or ball, band",
-                  "ladders": [
-                    "pikePushup"
-                  ]
-                },
-                {
-                  "name": "Bars",
-                  "equipment": "dip bars or parallettes, Smith or rack bar",
-                  "ladders": [
-                    "dipSupport"
-                  ]
-                },
-                {
-                  "name": "Machines & weights",
-                  "equipment": "assisted dip machine, barbell",
-                  "ladders": [
-                    "dips",
-                    "ohp"
-                  ]
-                },
-                {
-                  "name": "Mat · core",
                   "equipment": "mat, exercise ball",
                   "ladders": [
+                    "pikePushup",
                     "deadBug",
                     "legLowers"
+                  ]
+                },
+                {
+                  "name": "Machines",
+                  "equipment": "dip station, assisted dip machine, barbell",
+                  "ladders": [
+                    "dipSupport",
+                    "dips",
+                    "ohp"
                   ]
                 }
               ]
             },
             {
-              "name": "Day B: Pull · Bars → Machines → Mat",
+              "name": "Day B: Pull · Machines → Mat",
               "ladders": [
                 "supHang",
                 "row",
@@ -1102,17 +1090,11 @@
               "after": "Machines (optional): seated row, legs.",
               "sections": [
                 {
-                  "name": "Bars",
-                  "equipment": "dip bars or parallettes, Smith or rack bar",
+                  "name": "Machines",
+                  "equipment": "Smith or rack bar, lat pulldown, assisted pull-up, bench, dumbbells",
                   "ladders": [
                     "supHang",
-                    "row"
-                  ]
-                },
-                {
-                  "name": "Machines & weights",
-                  "equipment": "lat pulldown, assisted pull-up, barbell, dumbbells, bench",
-                  "ladders": [
+                    "row",
                     "vpull",
                     "ytw",
                     "saHold"
@@ -1129,7 +1111,7 @@
               ]
             },
             {
-              "name": "Day C: Skill & Core · Mat & wall → Core",
+              "name": "Day C: Skill & Core · Mat",
               "ladders": [
                 "plankCombo",
                 "pikeHold",
@@ -1141,19 +1123,13 @@
               "after": "Finish: seated pike stretch 2 x 30s. Machines (optional): legs.",
               "sections": [
                 {
-                  "name": "Mat & wall",
-                  "equipment": "mat, wall, 12\" and 18\" box",
+                  "name": "Mat",
+                  "equipment": "mat, wall, 12\" and 18\" box, exercise ball",
                   "ladders": [
                     "plankCombo",
                     "pikeHold",
                     "pikeShrug",
-                    "headstandPrep"
-                  ]
-                },
-                {
-                  "name": "Mat · core",
-                  "equipment": "mat, exercise ball",
-                  "ladders": [
+                    "headstandPrep",
                     "ballRollout",
                     "hollow"
                   ]
@@ -1164,7 +1140,7 @@
           "ladders": [
             {
               "id": "plankCombo",
-              "name": "Mat & wall · Plank progression",
+              "name": "Mat · Plank progression",
               "startStep": 0,
               "cue": "Hold first, then the single-arm work in the same set. Shift weight slowly, grip the floor, stop before the shoulder gives. On the wall, hands stay planted; walk only your feet.",
               "steps": [
@@ -1201,7 +1177,7 @@
             },
             {
               "id": "pikeHold",
-              "name": "Mat & wall · Pike hold",
+              "name": "Mat · Pike hold",
               "cue": "Ears between biceps, chest toward thighs.",
               "startStep": 1,
               "steps": [
@@ -1218,7 +1194,7 @@
             },
             {
               "id": "pikeShrug",
-              "name": "Mat & wall · Pike shrugs",
+              "name": "Mat · Pike shrugs",
               "cue": "Elbows locked, full range, pause at the top.",
               "startStep": 2,
               "steps": [
@@ -1264,7 +1240,7 @@
             },
             {
               "id": "dipSupport",
-              "name": "Bars · Dip support hold",
+              "name": "Machines · Dip support hold",
               "cue": "Shoulders pushed down, away from ears. No jumping: step up onto the station's steps or a box to get into position.",
               "startStep": 1,
               "steps": [
@@ -1340,7 +1316,7 @@
             },
             {
               "id": "deadBug",
-              "name": "Core · Dead bugs",
+              "name": "Mat · Dead bugs",
               "cue": "Lower back flat.",
               "startStep": 1,
               "steps": [
@@ -1357,7 +1333,7 @@
             },
             {
               "id": "hollow",
-              "name": "Core · Hollow hold",
+              "name": "Mat · Hollow hold",
               "cue": "Exhale, ribs down. Shorten the hold before letting the back arch.",
               "startStep": 1,
               "steps": [
@@ -1399,7 +1375,7 @@
             },
             {
               "id": "row",
-              "name": "Bars · Inverted rows",
+              "name": "Machines · Inverted rows",
               "cue": "Body straight, pull chest to the bar, squeeze shoulder blades together.",
               "startStep": 0,
               "steps": [
@@ -1483,7 +1459,7 @@
             },
             {
               "id": "supHang",
-              "name": "Bars · Supported hang",
+              "name": "Machines · Supported hang",
               "startStep": 0,
               "cue": "Bar about head height, feet stay on the floor, lean back into a long banana stretch. Take as much weight on your feet as you need. Shoulders stay active, not dangling.",
               "steps": [
@@ -1504,7 +1480,7 @@
             },
             {
               "id": "headstandPrep",
-              "name": "Mat & wall · Forearm headstand prep",
+              "name": "Mat · Forearm headstand prep",
               "cue": "Elbows shoulder-width, press forearms into the floor and push the chest toward your legs.",
               "startStep": 0,
               "steps": [
@@ -1529,7 +1505,7 @@
             },
             {
               "id": "ballRollout",
-              "name": "Core · Ball rollout",
+              "name": "Mat · Ball rollout",
               "cue": "Ribs down, glutes squeezed, back flat. Only roll as far as you can without your lower back sagging. Ab wheel instead? It's much harder: only after full ball rollouts, kneeling, rolling toward a wall to limit range.",
               "startStep": 0,
               "steps": [
@@ -1550,7 +1526,7 @@
             },
             {
               "id": "legLowers",
-              "name": "Core · Slow leg lowers",
+              "name": "Mat · Slow leg lowers",
               "cue": "Lower back pressed into the floor. Only lower as far as you can without it lifting. This trains the controlled lowering for donkey kicks.",
               "startStep": 0,
               "steps": [
@@ -1596,49 +1572,37 @@
           ],
           "days": [
             {
-              "name": "Day A: Push · Mat & box → Bars → Machines → Core",
+              "name": "Day A: Push · Mat → Machines",
               "ladders": [
                 "p2_pikePushup",
+                "p2_hollow",
                 "p2_dips",
                 "p2_tuck",
-                "p2_ohp",
-                "p2_hollow"
+                "p2_ohp"
               ],
               "after": "Machines (optional): legs only. No extra pressing.",
               "sections": [
                 {
-                  "name": "Mat & box",
+                  "name": "Mat",
                   "equipment": "mat, boxes up to ~24\"",
                   "ladders": [
-                    "p2_pikePushup"
+                    "p2_pikePushup",
+                    "p2_hollow"
                   ]
                 },
                 {
-                  "name": "Bars",
-                  "equipment": "dip bars or parallettes, Smith or rack bar",
+                  "name": "Machines",
+                  "equipment": "dip station, assisted dip machine, barbell",
                   "ladders": [
                     "p2_dips",
-                    "p2_tuck"
-                  ]
-                },
-                {
-                  "name": "Machines & weights",
-                  "equipment": "lat pulldown, assisted pull-up, barbell, dumbbells, bench",
-                  "ladders": [
+                    "p2_tuck",
                     "p2_ohp"
-                  ]
-                },
-                {
-                  "name": "Mat · core",
-                  "equipment": "mat, exercise ball",
-                  "ladders": [
-                    "p2_hollow"
                   ]
                 }
               ]
             },
             {
-              "name": "Day B: Pull · Bars → Machines → Mat",
+              "name": "Day B: Pull · Machines → Mat",
               "ladders": [
                 "p2_row",
                 "p2_vpull",
@@ -1650,16 +1614,10 @@
               "after": "Machines (optional): seated row, legs.",
               "sections": [
                 {
-                  "name": "Bars",
-                  "equipment": "dip bars or parallettes, Smith or rack bar",
+                  "name": "Machines",
+                  "equipment": "Smith or rack bar, assisted pull-up, bench, dumbbells",
                   "ladders": [
-                    "p2_row"
-                  ]
-                },
-                {
-                  "name": "Machines & weights",
-                  "equipment": "lat pulldown, assisted pull-up, barbell, dumbbells, bench",
-                  "ladders": [
+                    "p2_row",
                     "p2_vpull",
                     "p2_ytw",
                     "p2_saHold"
@@ -1676,7 +1634,7 @@
               ]
             },
             {
-              "name": "Day C: Skill & Core · Wall & ball → Mat & box → Core",
+              "name": "Day C: Skill & Core · Mat",
               "ladders": [
                 "p2_wallHold",
                 "p2_donkey",
@@ -1688,26 +1646,14 @@
               "after": "Finish: seated pike stretch 2 x 30s. Machines (optional): legs.",
               "sections": [
                 {
-                  "name": "Wall & ball",
-                  "equipment": "wall, exercise ball, mat",
+                  "name": "Mat",
+                  "equipment": "mat, wall, exercise ball, 12\"-24\" box",
                   "ladders": [
                     "p2_wallHold",
-                    "p2_donkey"
-                  ]
-                },
-                {
-                  "name": "Mat & box",
-                  "equipment": "mat, 12\"-24\" box",
-                  "ladders": [
+                    "p2_donkey",
                     "p2_pikeHold",
                     "p2_pikeShrug",
-                    "p2_headstandPrep"
-                  ]
-                },
-                {
-                  "name": "Mat · core",
-                  "equipment": "mat, exercise ball",
-                  "ladders": [
+                    "p2_headstandPrep",
                     "p2_compression"
                   ]
                 }
@@ -1717,7 +1663,7 @@
           "ladders": [
             {
               "id": "p2_wallHold",
-              "name": "Wall & ball · Wall holds",
+              "name": "Mat · Wall holds",
               "cue": "Hands planted first, a bit closer to the wall for each higher mark. Walk only your feet up and down.",
               "startStep": 0,
               "steps": [
@@ -1742,7 +1688,7 @@
             },
             {
               "id": "p2_donkey",
-              "name": "Wall & ball · Ball pike → donkey kicks",
+              "name": "Mat · Ball pike → donkey kicks",
               "startStep": 0,
               "cue": "Every rep: 3-second lowering. Arms locked, shoulders stay over your hands. If you can't control the lowering, go back a step.",
               "steps": [
@@ -1779,7 +1725,7 @@
             },
             {
               "id": "p2_pikeHold",
-              "name": "Mat & box · Elevated pike hold",
+              "name": "Mat · Elevated pike hold",
               "cue": "Push tall, ears between biceps.",
               "startStep": 0,
               "steps": [
@@ -1800,7 +1746,7 @@
             },
             {
               "id": "p2_pikePushup",
-              "name": "Mat & box · Pike push-ups",
+              "name": "Mat · Pike push-ups",
               "cue": "Head lands slightly in front of hands, elbows back at 45°.",
               "startStep": 0,
               "steps": [
@@ -1833,7 +1779,7 @@
             },
             {
               "id": "p2_pikeShrug",
-              "name": "Mat & box · Pike shrugs",
+              "name": "Mat · Pike shrugs",
               "cue": "Elbows locked, full range.",
               "startStep": 0,
               "steps": [
@@ -1854,7 +1800,7 @@
             },
             {
               "id": "p2_compression",
-              "name": "Core · Pike compression",
+              "name": "Mat · Pike compression",
               "cue": "Sit tall, knees straight, lift the heel an inch or two without leaning back.",
               "startStep": 0,
               "steps": [
@@ -1879,7 +1825,7 @@
             },
             {
               "id": "p2_hollow",
-              "name": "Core · Hollow body",
+              "name": "Mat · Hollow body",
               "cue": "Lower back flat the whole time.",
               "startStep": 0,
               "steps": [
@@ -1900,7 +1846,7 @@
             },
             {
               "id": "p2_dips",
-              "name": "Bars · Dips",
+              "name": "Machines · Dips",
               "cue": "Only as deep as feels stable. No jumping: step up onto the station's steps or a box to get into position.",
               "startStep": 0,
               "steps": [
@@ -1959,7 +1905,7 @@
             },
             {
               "id": "p2_tuck",
-              "name": "Bars · Tuck support → L-sit",
+              "name": "Machines · Tuck support → L-sit",
               "cue": "Parallettes or dip bars. Shoulders pushed down. No jumping: step up onto the station's steps or a box to get into position.",
               "startStep": 0,
               "steps": [
@@ -2018,7 +1964,7 @@
             },
             {
               "id": "p2_row",
-              "name": "Bars · Inverted rows",
+              "name": "Machines · Inverted rows",
               "cue": "Body straight, chest to the bar.",
               "startStep": 0,
               "steps": [
@@ -2077,7 +2023,7 @@
             },
             {
               "id": "p2_headstandPrep",
-              "name": "Mat & box · Forearm headstand prep",
+              "name": "Mat · Forearm headstand prep",
               "cue": "Forearms carry the weight, never your head and neck. Any neck pain: stop. Back of the head near the wall for the tuck.",
               "startStep": 0,
               "steps": [
