@@ -1142,7 +1142,7 @@
               "id": "plankCombo",
               "name": "Mat · Plank progression",
               "startStep": 0,
-              "cue": "Hold first, then the single-arm work in the same set. Back your feet up to the wall and place your toes at the mark; hands stay planted. Shift weight slowly, grip the floor, stop before the shoulder gives. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft.",
+              "cue": "Hold first, then the single-arm work in the same set. On the wall: back your feet up and place your toes at the mark, press toes into the wall, hands stay planted. Shift weight slowly, grip the floor, stop before the shoulder gives. Wall marks at 1, 2 and 3 ft (tape or wall features).",
               "steps": [
                 {
                   "name": "Floor plank: 30s hold, then 10 weight shifts",
@@ -1157,11 +1157,15 @@
                   "dose": "3 sets"
                 },
                 {
-                  "name": "Feet on wall at 1 ft: 20s hold, then 6 shoulder taps each side",
+                  "name": "Feet on the low bar (~4\"): 20s hold, then 6 shoulder taps each side",
                   "dose": "3 sets"
                 },
                 {
-                  "name": "Feet on wall at 1.5 ft: 20s hold, then 6 shoulder taps each side",
+                  "name": "Feet on wall at 1 ft: 20s hold only",
+                  "dose": "3 sets"
+                },
+                {
+                  "name": "Feet on wall at 1 ft: 20s hold, then 6 shoulder taps each side",
                   "dose": "3 sets"
                 },
                 {
