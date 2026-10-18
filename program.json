@@ -1,6 +1,6 @@
 {
-  "version": "1.8",
-  "updated": "2026-10-17",
+  "version": "1.9",
+  "updated": "2026-10-18",
   "matPools": {
     "push": [
       "Thread the Needle",
@@ -1026,7 +1026,7 @@
       "name": "Handstand",
       "rules": {
         "moveOn": "Hit the target with clean form 2 sessions in a row.",
-        "regress": "Pain, a giving-out feeling, form breaking down, or can't reach the bottom of the range."
+        "regress": "Pain, a giving-out feeling, form breaking down, or can't reach the bottom of the range. Also regress if you have to arch your back to reach the position."
       },
       "phases": [
         {
@@ -1041,7 +1041,8 @@
             "Band pull-aparts: 2 x 15",
             "Scapular push-ups: 2 x 10",
             "Wrist push-ups (rock up onto fingers): 2 x 10",
-            "Wall lat stretch: 2 x 30s"
+            "Wall lat stretch: 2 x 30s",
+            "Right shoulder: lying dowel overhead reach, ribs down: 10"
           ],
           "days": [
             {
@@ -1085,7 +1086,8 @@
                 "ytw",
                 "saHold",
                 "extRot",
-                "sidePlank"
+                "sidePlank",
+                "lStab"
               ],
               "after": "Machines (optional): seated row, legs.",
               "sections": [
@@ -1105,7 +1107,8 @@
                   "equipment": "mat, band",
                   "ladders": [
                     "extRot",
-                    "sidePlank"
+                    "sidePlank",
+                    "lStab"
                   ]
                 }
               ]
@@ -1113,6 +1116,7 @@
             {
               "name": "Day C: Skill & Core · Mat",
               "ladders": [
+                "rMob",
                 "plankCombo",
                 "pikeHold",
                 "pikeShrug",
@@ -1127,6 +1131,7 @@
                   "name": "Mat",
                   "equipment": "mat, wall, exercise ball",
                   "ladders": [
+                    "rMob",
                     "plankCombo",
                     "pikeHold",
                     "pikeShrug",
@@ -1188,7 +1193,7 @@
             {
               "id": "pikeHold",
               "name": "Mat · Pike hold",
-              "cue": "Ears between biceps, chest toward thighs. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
+              "cue": "Ears between biceps, chest toward thighs. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 1,
               "steps": [
                 {
@@ -1205,7 +1210,7 @@
             {
               "id": "pikeShrug",
               "name": "Mat · Pike shrugs",
-              "cue": "Elbows locked, full range, pause at the top. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
+              "cue": "Elbows locked, full range, pause at the top. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 2,
               "steps": [
                 {
@@ -1226,7 +1231,7 @@
             {
               "id": "pikePushup",
               "name": "Mat · Pike push-ups",
-              "cue": "Head lands slightly in front of hands, elbows back at 45°. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
+              "cue": "Head lands slightly in front of hands, elbows back at 45°. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 1,
               "steps": [
                 {
@@ -1292,29 +1297,29 @@
             },
             {
               "id": "ohp",
-              "name": "Machines · Overhead press",
-              "cue": "Barbell. Ribs down. Drop to 2 x 5 after pike push-ups.",
+              "name": "Machines · Half-kneeling dumbbell press",
+              "cue": "Half-kneeling, one arm at a time. Press only as high as your ribs stay down; stop before your back arches. The right arm may stop short of vertical, that's fine.",
               "startStep": 1,
               "steps": [
                 {
-                  "name": "30 lb",
-                  "dose": "3 x 5"
+                  "name": "15 lb dumbbell",
+                  "dose": "3 x 8 each arm"
                 },
                 {
-                  "name": "35 lb",
-                  "dose": "3 x 5"
+                  "name": "20 lb dumbbell",
+                  "dose": "3 x 8 each arm"
                 },
                 {
-                  "name": "40 lb, 2s lockout pause",
-                  "dose": "3 x 5"
+                  "name": "25 lb dumbbell",
+                  "dose": "3 x 6 each arm"
                 }
               ],
-              "baseName": "Overhead press"
+              "baseName": "Half-kneeling dumbbell press"
             },
             {
               "id": "saHold",
               "name": "Machines · Single-arm overhead hold",
-              "cue": "One weight, one arm at a time. Arm locked, biceps by ear, no leaning. Add 5 lb only when there's zero wobble.",
+              "cue": "One arm at a time. Hold only as high as your ribs stay down; the right arm may sit in front of your ear. Add 5 lb only with zero wobble and no arch.",
               "startStep": 1,
               "steps": [
                 {
@@ -1322,7 +1327,7 @@
                   "dose": "3 x 15s each arm"
                 },
                 {
-                  "name": "Standing hold, 10–15 lb dumbbell",
+                  "name": "Half-kneeling hold, 10–15 lb dumbbell",
                   "dose": "3 x 20s each arm"
                 }
               ],
@@ -1432,7 +1437,7 @@
             {
               "id": "ytw",
               "name": "Machines · Y-T-W raises",
-              "cue": "Slow, thumbs up, squeeze the shoulder blades. Shoulder stability without hanging.",
+              "cue": "Slow, thumbs up, squeeze the shoulder blades. Shoulder stability without hanging. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 0,
               "steps": [
                 {
@@ -1475,7 +1480,7 @@
               "id": "supHang",
               "name": "Machines · Supported hang",
               "startStep": 0,
-              "cue": "Bar about head height, feet stay on the floor, lean back into a long banana stretch. Take as much weight on your feet as you need. Shoulders stay active, not dangling.",
+              "cue": "Bar about head height, feet stay on the floor, lean back into a long banana stretch. Take as much weight on your feet as you need. Shoulders stay active, not dangling. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it. Left shoulder: stay active, never sink into the stretch.",
               "steps": [
                 {
                   "name": "Supported hang, most weight on feet",
@@ -1495,7 +1500,7 @@
             {
               "id": "headstandPrep",
               "name": "Mat · Forearm headstand prep",
-              "cue": "Elbows shoulder-width, press forearms into the floor and push the chest toward your legs. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
+              "cue": "Elbows shoulder-width, press forearms into the floor and push the chest toward your legs. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 0,
               "steps": [
                 {
@@ -1587,12 +1592,67 @@
                   "dose": "3 rounds"
                 }
               ]
+            },
+            {
+              "id": "rMob",
+              "baseName": "Right shoulder mobility",
+              "name": "Mat · Right shoulder mobility",
+              "cue": "Right (repaired) shoulder. Slow, gentle, never force or bounce. Ribs down and lower back flat: the moment your back arches, you've reached your real range. Left shoulder: do the upper-back and lat parts, but skip the end-range shoulder stretches on that side.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Foam roller upper-back extension + child's pose lat stretch",
+                  "dose": "2 x 8 / 2 x 30s"
+                },
+                {
+                  "name": "Add: lying dowel overhead reach, ribs down",
+                  "dose": "2 x 10"
+                },
+                {
+                  "name": "Add: right cross-body stretch and sleeper stretch",
+                  "dose": "2 x 30s each"
+                },
+                {
+                  "name": "Add: kneeling bench prayer stretch (elbows on bench, sit back)",
+                  "dose": "2 x 30s"
+                },
+                {
+                  "name": "Full routine, then wall slides ribs down, right arm a little higher each week",
+                  "dose": "2 x 10"
+                }
+              ]
+            },
+            {
+              "id": "lStab",
+              "baseName": "Left shoulder stability",
+              "name": "Mat · Left shoulder stability",
+              "cue": "Left shoulder (past dislocations): strength, not stretch. Light weight, slow, perfect control. Avoid the arm out to the side and rotated back position, and never hang or stretch into end range on this side.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Side-lying external rotation, 2-3 lb dumbbell",
+                  "dose": "3 x 12"
+                },
+                {
+                  "name": "Add: lying serratus punch (press up, reach the ceiling), 5-8 lb",
+                  "dose": "3 x 12"
+                },
+                {
+                  "name": "Add: bottoms-up kettlebell hold, light, elbow bent 90°",
+                  "dose": "3 x 20s"
+                },
+                {
+                  "name": "Bottoms-up kettlebell carry, light",
+                  "dose": "3 x 20 steps"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
           "extraChecks": [
             "Wrist rocks: 20 reps, pain-free the next day",
-            "One full week with no shoulder pain or slipping feeling"
+            "One full week with no shoulder pain or slipping feeling",
+            "Wall test logged: how high your right thumb reaches overhead with back and ribs flat against the wall"
           ]
         },
         {
@@ -1607,7 +1667,8 @@
             "Band pull-aparts: 2 x 15",
             "Scapular push-ups: 2 x 10",
             "Wrist push-ups (rock up onto fingers): 2 x 10",
-            "Wall lat stretch: 2 x 30s"
+            "Wall lat stretch: 2 x 30s",
+            "Right shoulder: wall slides, ribs down: 10"
           ],
           "days": [
             {
@@ -1648,7 +1709,8 @@
                 "p2_ytw",
                 "p2_saHold",
                 "p2_extRot",
-                "p2_arch"
+                "p2_arch",
+                "p2_lStab"
               ],
               "after": "Machines (optional): seated row, legs.",
               "sections": [
@@ -1667,7 +1729,8 @@
                   "equipment": "mat, band",
                   "ladders": [
                     "p2_extRot",
-                    "p2_arch"
+                    "p2_arch",
+                    "p2_lStab"
                   ]
                 }
               ]
@@ -1675,6 +1738,7 @@
             {
               "name": "Day C: Skill & Core · Mat",
               "ladders": [
+                "p2_rMob",
                 "p2_wallHold",
                 "p2_donkey",
                 "p2_pikeHold",
@@ -1689,6 +1753,7 @@
                   "name": "Mat",
                   "equipment": "mat, wall, exercise ball",
                   "ladders": [
+                    "p2_rMob",
                     "p2_wallHold",
                     "p2_donkey",
                     "p2_pikeHold",
@@ -1705,7 +1770,7 @@
             {
               "id": "p2_wallHold",
               "name": "Mat · Wall holds",
-              "cue": "Hands planted first, a bit closer to the wall for each higher mark. Walk only your feet up and down. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
+              "cue": "Hands planted first, a bit closer to the wall for each higher mark. Walk only your feet up and down. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 0,
               "steps": [
                 {
@@ -1767,7 +1832,7 @@
             {
               "id": "p2_pikeHold",
               "name": "Mat · Elevated pike hold",
-              "cue": "Push tall, ears between biceps. Walk your hands in toward the wall until your hips are high. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
+              "cue": "Push tall, ears between biceps. Walk your hands in toward the wall until your hips are high. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 0,
               "steps": [
                 {
@@ -1788,7 +1853,7 @@
             {
               "id": "p2_pikePushup",
               "name": "Mat · Pike push-ups",
-              "cue": "Head lands slightly in front of hands, elbows back at 45°. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
+              "cue": "Head lands slightly in front of hands, elbows back at 45°. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 0,
               "steps": [
                 {
@@ -1821,7 +1886,7 @@
             {
               "id": "p2_pikeShrug",
               "name": "Mat · Pike shrugs",
-              "cue": "Elbows locked, full range. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
+              "cue": "Elbows locked, full range. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 0,
               "steps": [
                 {
@@ -1908,29 +1973,29 @@
             },
             {
               "id": "p2_ohp",
-              "name": "Machines · Overhead press",
-              "cue": "Barbell, 2s pause at lockout, ribs down.",
+              "name": "Machines · Half-kneeling dumbbell press",
+              "cue": "Half-kneeling, one arm at a time. Press only as high as your ribs stay down; stop before your back arches. The right arm may stop short of vertical, that's fine.",
               "startStep": 0,
               "steps": [
                 {
-                  "name": "40 lb",
-                  "dose": "3 x 5"
+                  "name": "25 lb dumbbell",
+                  "dose": "3 x 8 each arm"
                 },
                 {
-                  "name": "45 lb",
-                  "dose": "3 x 5"
+                  "name": "30 lb dumbbell",
+                  "dose": "3 x 6 each arm"
                 },
                 {
-                  "name": "50 lb",
-                  "dose": "3 x 5"
+                  "name": "Landmine press, standing, ribs down",
+                  "dose": "3 x 6 each arm"
                 }
               ],
-              "baseName": "Overhead press"
+              "baseName": "Half-kneeling dumbbell press"
             },
             {
               "id": "p2_saHold",
               "name": "Machines · Single-arm overhead hold",
-              "cue": "One arm at a time, no leaning.",
+              "cue": "One arm at a time, no leaning. Ribs down: hold only as high as your back stays flat.",
               "startStep": 0,
               "steps": [
                 {
@@ -2027,7 +2092,7 @@
             {
               "id": "p2_vpull",
               "name": "Machines · Assisted pull-ups",
-              "cue": "No jumping. Step up onto the machine's platform to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly. Slow 3s lowering on each rep.",
+              "cue": "No jumping. Step up onto the machine's platform to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly. Slow 3s lowering on each rep. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 0,
               "steps": [
                 {
@@ -2048,7 +2113,7 @@
             {
               "id": "p2_ytw",
               "name": "Machines · Y-T-W raises",
-              "cue": "Slow and controlled.",
+              "cue": "Slow and controlled. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 0,
               "steps": [
                 {
@@ -2065,7 +2130,7 @@
             {
               "id": "p2_headstandPrep",
               "name": "Mat · Forearm headstand prep",
-              "cue": "Forearms carry the weight, never your head and neck. Any neck pain: stop. Back of the head near the wall for the tuck. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves.",
+              "cue": "Forearms carry the weight, never your head and neck. Any neck pain: stop. Back of the head near the wall for the tuck. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
               "startStep": 0,
               "steps": [
                 {
@@ -2107,12 +2172,55 @@
                   "dose": "2 x 60s"
                 }
               ]
+            },
+            {
+              "id": "p2_rMob",
+              "baseName": "Right shoulder mobility",
+              "name": "Mat · Right shoulder mobility",
+              "cue": "Right (repaired) shoulder. Slow, gentle, never force or bounce. Ribs down and lower back flat: the moment your back arches, you've reached your real range. Left shoulder: do the upper-back and lat parts, but skip the end-range shoulder stretches on that side.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Full routine from Phase 1 + wall slides",
+                  "dose": "2 x 10"
+                },
+                {
+                  "name": "Add: dowel overhead reach standing at the wall, back flat",
+                  "dose": "2 x 10"
+                },
+                {
+                  "name": "Add: active overhead holds, right arm, back against wall, ribs down",
+                  "dose": "3 x 15s"
+                }
+              ]
+            },
+            {
+              "id": "p2_lStab",
+              "baseName": "Left shoulder stability",
+              "name": "Mat · Left shoulder stability",
+              "cue": "Left shoulder (past dislocations): strength, not stretch. Light weight, slow, perfect control. Avoid the arm out to the side and rotated back position, and never hang or stretch into end range on this side.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Bottoms-up kettlebell carry, light",
+                  "dose": "3 x 20 steps"
+                },
+                {
+                  "name": "Bottoms-up kettlebell press, half-kneeling, ribs down",
+                  "dose": "3 x 6"
+                },
+                {
+                  "name": "Bottoms-up kettlebell press, slightly heavier",
+                  "dose": "3 x 6"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
           "extraChecks": [
             "Wrist rocks: 20 reps, pain-free the next day",
-            "One full week with no shoulder pain or slipping feeling"
+            "One full week with no shoulder pain or slipping feeling",
+            "Wall test: right thumb touches the wall overhead with back and ribs flat (needed before chest-to-wall work)"
           ]
         },
         {
