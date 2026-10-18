@@ -1,5 +1,5 @@
 {
-  "version": "1.9",
+  "version": "1.10",
   "updated": "2026-10-18",
   "matPools": {
     "push": [
@@ -1153,39 +1153,48 @@
               "steps": [
                 {
                   "name": "Floor plank: 30s hold, then 10 weight shifts",
-                  "dose": "3 sets"
+                  "dose": "3 sets",
+                  "baseDose": "3 sets"
                 },
                 {
                   "name": "Floor plank: 30s hold, then 6 fingertip hovers each side (palm up onto fingertips, then lift 1 inch)",
-                  "dose": "3 sets"
+                  "dose": "3 sets",
+                  "baseDose": "3 sets"
                 },
                 {
                   "name": "Floor plank: 20s hold, then 6 shoulder taps each side",
-                  "dose": "3 sets"
+                  "dose": "3 sets",
+                  "baseDose": "3 sets"
                 },
                 {
                   "name": "Feet on the low bar (~4\"): 20s hold, then 6 shoulder taps each side",
-                  "dose": "3 sets"
+                  "dose": "3 sets · NEEDS LOW BAR",
+                  "baseDose": "3 sets"
                 },
                 {
                   "name": "Feet on foam roller on the low bar, wedged against the wall (~10\"): 20s hold, then 6 shoulder taps each side",
-                  "dose": "3 sets"
+                  "dose": "3 sets · NEEDS FOAM ROLLER + LOW BAR + WALL",
+                  "baseDose": "3 sets"
                 },
                 {
                   "name": "Feet on wall at 1 ft: 20s hold only",
-                  "dose": "3 sets"
+                  "dose": "3 sets · NEEDS WALL",
+                  "baseDose": "3 sets"
                 },
                 {
                   "name": "Feet on wall at 1 ft: 20s hold, then 6 shoulder taps each side",
-                  "dose": "3 sets"
+                  "dose": "3 sets · NEEDS WALL",
+                  "baseDose": "3 sets"
                 },
                 {
                   "name": "Feet on wall at 2 ft: 20s hold, then 4 shoulder taps each side",
-                  "dose": "3 sets"
+                  "dose": "3 sets · NEEDS WALL",
+                  "baseDose": "3 sets"
                 },
                 {
                   "name": "Feet on wall at 3 ft: 20s hold, then 3 shoulder taps each side",
-                  "dose": "3 sets"
+                  "dose": "3 sets · NEEDS WALL",
+                  "baseDose": "3 sets"
                 }
               ],
               "baseName": "Plank progression"
@@ -1198,11 +1207,13 @@
               "steps": [
                 {
                   "name": "Kneeling pike reach",
-                  "dose": "3 x 20-30s"
+                  "dose": "3 x 20-30s",
+                  "baseDose": "3 x 20-30s"
                 },
                 {
                   "name": "Pike hold (floor)",
-                  "dose": "3 x 30s"
+                  "dose": "3 x 30s",
+                  "baseDose": "3 x 30s"
                 }
               ],
               "baseName": "Pike hold"
@@ -1215,15 +1226,18 @@
               "steps": [
                 {
                   "name": "Kneeling pike shrugs",
-                  "dose": "3 x 10-12"
+                  "dose": "3 x 10-12",
+                  "baseDose": "3 x 10-12"
                 },
                 {
                   "name": "Bent-knee pike shrugs",
-                  "dose": "3 x 8-10"
+                  "dose": "3 x 8-10",
+                  "baseDose": "3 x 8-10"
                 },
                 {
                   "name": "Full pike shrugs",
-                  "dose": "3 x 10"
+                  "dose": "3 x 10",
+                  "baseDose": "3 x 10"
                 }
               ],
               "baseName": "Pike shrugs"
@@ -1236,23 +1250,28 @@
               "steps": [
                 {
                   "name": "Kneeling pike push-ups",
-                  "dose": "3 x 5-8"
+                  "dose": "3 x 5-8",
+                  "baseDose": "3 x 5-8"
                 },
                 {
                   "name": "Pike push-up negatives (3-4s lower)",
-                  "dose": "3 x 3-5"
+                  "dose": "3 x 3-5",
+                  "baseDose": "3 x 3-5"
                 },
                 {
                   "name": "Knee-drop pike push-ups: lower in pike, knees drop at the bottom, press up from knees, lift back into pike",
-                  "dose": "3 x 5"
+                  "dose": "3 x 5",
+                  "baseDose": "3 x 5"
                 },
                 {
                   "name": "Partial pike push-ups",
-                  "dose": "3 x 5"
+                  "dose": "3 x 5",
+                  "baseDose": "3 x 5"
                 },
                 {
                   "name": "Full pike push-ups",
-                  "dose": "3 x 5"
+                  "dose": "3 x 5",
+                  "baseDose": "3 x 5"
                 }
               ],
               "baseName": "Pike push-ups"
@@ -1265,11 +1284,13 @@
               "steps": [
                 {
                   "name": "Support hold, feet lightly on floor",
-                  "dose": "3 x 10-20s"
+                  "dose": "3 x 10-20s · NEEDS DIP BARS",
+                  "baseDose": "3 x 10-20s"
                 },
                 {
                   "name": "Dip support hold",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s · NEEDS DIP BARS",
+                  "baseDose": "3 x 20s"
                 }
               ],
               "baseName": "Dip support hold"
@@ -1282,15 +1303,18 @@
               "steps": [
                 {
                   "name": "Assisted dip machine, heavy assist",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS DIP MACHINE",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Assisted dip machine, moderate assist",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6 · NEEDS DIP MACHINE",
+                  "baseDose": "3 x 6"
                 },
                 {
                   "name": "Assisted dip machine, moderate assist, 3s lowering",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6 · NEEDS DIP MACHINE",
+                  "baseDose": "3 x 6"
                 }
               ],
               "baseName": "Assisted dips"
@@ -1303,15 +1327,18 @@
               "steps": [
                 {
                   "name": "15 lb dumbbell",
-                  "dose": "3 x 8 each arm"
+                  "dose": "3 x 8 each arm · NEEDS DUMBBELL",
+                  "baseDose": "3 x 8 each arm"
                 },
                 {
                   "name": "20 lb dumbbell",
-                  "dose": "3 x 8 each arm"
+                  "dose": "3 x 8 each arm · NEEDS DUMBBELL",
+                  "baseDose": "3 x 8 each arm"
                 },
                 {
                   "name": "25 lb dumbbell",
-                  "dose": "3 x 6 each arm"
+                  "dose": "3 x 6 each arm · NEEDS DUMBBELL",
+                  "baseDose": "3 x 6 each arm"
                 }
               ],
               "baseName": "Half-kneeling dumbbell press"
@@ -1324,11 +1351,13 @@
               "steps": [
                 {
                   "name": "Half-kneeling hold, 5–10 lb dumbbell",
-                  "dose": "3 x 15s each arm"
+                  "dose": "3 x 15s each arm · NEEDS DUMBBELL",
+                  "baseDose": "3 x 15s each arm"
                 },
                 {
                   "name": "Half-kneeling hold, 10–15 lb dumbbell",
-                  "dose": "3 x 20s each arm"
+                  "dose": "3 x 20s each arm · NEEDS DUMBBELL",
+                  "baseDose": "3 x 20s each arm"
                 }
               ],
               "baseName": "Single-arm overhead hold"
@@ -1341,11 +1370,13 @@
               "steps": [
                 {
                   "name": "Arms-only or legs-only",
-                  "dose": "2 x 8 each side"
+                  "dose": "2 x 8 each side",
+                  "baseDose": "2 x 8 each side"
                 },
                 {
                   "name": "Full dead bugs",
-                  "dose": "2 x 8 each side"
+                  "dose": "2 x 8 each side",
+                  "baseDose": "2 x 8 each side"
                 }
               ],
               "baseName": "Dead bugs"
@@ -1358,23 +1389,28 @@
               "steps": [
                 {
                   "name": "Dead bugs only",
-                  "dose": "2 x 8 each side"
+                  "dose": "2 x 8 each side",
+                  "baseDose": "2 x 8 each side"
                 },
                 {
                   "name": "Tuck hollow hold",
-                  "dose": "3 x 20-30s"
+                  "dose": "3 x 20-30s",
+                  "baseDose": "3 x 20-30s"
                 },
                 {
                   "name": "One-leg hollow",
-                  "dose": "3 x 20-30s"
+                  "dose": "3 x 20-30s",
+                  "baseDose": "3 x 20-30s"
                 },
                 {
                   "name": "Bent-knee hollow, arms overhead",
-                  "dose": "3 x 20-30s"
+                  "dose": "3 x 20-30s",
+                  "baseDose": "3 x 20-30s"
                 },
                 {
                   "name": "Full hollow hold",
-                  "dose": "3 x 30s, flat back"
+                  "dose": "3 x 30s, flat back",
+                  "baseDose": "3 x 30s, flat back"
                 }
               ],
               "baseName": "Hollow hold"
@@ -1387,7 +1423,8 @@
               "steps": [
                 {
                   "name": "Band external rotations, light band",
-                  "dose": "2 x 15 each arm"
+                  "dose": "2 x 15 each arm · NEEDS BAND",
+                  "baseDose": "2 x 15 each arm"
                 }
               ],
               "baseName": "Band external rotations"
@@ -1400,15 +1437,18 @@
               "steps": [
                 {
                   "name": "Rows, bar at chest height",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS BAR",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Rows, bar at waist height",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS BAR",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Rows, bar at hip height",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS BAR",
+                  "baseDose": "3 x 8"
                 }
               ],
               "baseName": "Inverted rows"
@@ -1421,15 +1461,18 @@
               "steps": [
                 {
                   "name": "Lat pulldown, moderate weight",
-                  "dose": "3 x 10"
+                  "dose": "3 x 10 · NEEDS PULLDOWN",
+                  "baseDose": "3 x 10"
                 },
                 {
                   "name": "Lat pulldown, heavier",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS PULLDOWN",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Assisted pull-up machine, heavy assist",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6 · NEEDS ASSIST MACHINE",
+                  "baseDose": "3 x 6"
                 }
               ],
               "baseName": "Pulldown → assisted pull-ups"
@@ -1442,15 +1485,18 @@
               "steps": [
                 {
                   "name": "Face down on incline bench, no weight",
-                  "dose": "2 x 8 each letter"
+                  "dose": "2 x 8 each letter · NEEDS BENCH",
+                  "baseDose": "2 x 8 each letter"
                 },
                 {
                   "name": "2.5 lb dumbbells",
-                  "dose": "2 x 8 each letter"
+                  "dose": "2 x 8 each letter · NEEDS BENCH + DUMBBELL",
+                  "baseDose": "2 x 8 each letter"
                 },
                 {
                   "name": "5 lb dumbbells",
-                  "dose": "2 x 8 each letter"
+                  "dose": "2 x 8 each letter · NEEDS BENCH + DUMBBELL",
+                  "baseDose": "2 x 8 each letter"
                 }
               ],
               "baseName": "Y-T-W raises"
@@ -1463,15 +1509,18 @@
               "steps": [
                 {
                   "name": "Knees down",
-                  "dose": "3 x 20s each side"
+                  "dose": "3 x 20s each side",
+                  "baseDose": "3 x 20s each side"
                 },
                 {
                   "name": "Full side plank",
-                  "dose": "3 x 20s each side"
+                  "dose": "3 x 20s each side",
+                  "baseDose": "3 x 20s each side"
                 },
                 {
                   "name": "Full side plank",
-                  "dose": "3 x 30s each side"
+                  "dose": "3 x 30s each side",
+                  "baseDose": "3 x 30s each side"
                 }
               ],
               "baseName": "Side plank (forearm)"
@@ -1484,15 +1533,18 @@
               "steps": [
                 {
                   "name": "Supported hang, most weight on feet",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s · NEEDS BAR",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Supported hang, less weight on feet",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s · NEEDS BAR",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Supported scap pulls, feet on floor",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS BAR",
+                  "baseDose": "3 x 8"
                 }
               ],
               "baseName": "Supported hang"
@@ -1505,19 +1557,23 @@
               "steps": [
                 {
                   "name": "Forearm plank",
-                  "dose": "3 x 30s"
+                  "dose": "3 x 30s",
+                  "baseDose": "3 x 30s"
                 },
                 {
                   "name": "Dolphin hold (forearm down-dog, hips high)",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Dolphin hold, feet walked in a little",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Dolphin hold, feet walked in, shoulders over elbows",
-                  "dose": "3 x 30s"
+                  "dose": "3 x 30s",
+                  "baseDose": "3 x 30s"
                 }
               ],
               "baseName": "Forearm headstand prep"
@@ -1530,15 +1586,18 @@
               "steps": [
                 {
                   "name": "Kneeling, forearms on ball, short roll out",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS BALL",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Kneeling, roll out further",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS BALL",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Kneeling, roll out until arms are overhead",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS BALL",
+                  "baseDose": "3 x 8"
                 }
               ],
               "baseName": "Ball rollout"
@@ -1551,19 +1610,23 @@
               "steps": [
                 {
                   "name": "Reverse crunch, 3s lowering",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6",
+                  "baseDose": "3 x 6"
                 },
                 {
                   "name": "Bent-knee leg lowers, tap heels",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Single straight-leg lowers",
-                  "dose": "3 x 6 each"
+                  "dose": "3 x 6 each",
+                  "baseDose": "3 x 6 each"
                 },
                 {
                   "name": "Both straight legs, 4s lower",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6",
+                  "baseDose": "3 x 6"
                 }
               ],
               "baseName": "Slow leg lowers"
@@ -1577,19 +1640,23 @@
               "steps": [
                 {
                   "name": "Lying hamstring stretch with band, other leg flat",
-                  "dose": "2 x 30s each leg"
+                  "dose": "2 x 30s each leg · NEEDS BAND",
+                  "baseDose": "2 x 30s each leg"
                 },
                 {
                   "name": "Band stretch + contract-relax: press leg into band 5s, relax, ease deeper",
-                  "dose": "3 rounds each leg"
+                  "dose": "3 rounds each leg · NEEDS BAND",
+                  "baseDose": "3 rounds each leg"
                 },
                 {
                   "name": "Standing pike fold, knees soft, flat back, hands to shins",
-                  "dose": "2 x 30s"
+                  "dose": "2 x 30s",
+                  "baseDose": "2 x 30s"
                 },
                 {
                   "name": "Seated pike fold, flat back, contract-relax",
-                  "dose": "3 rounds"
+                  "dose": "3 rounds",
+                  "baseDose": "3 rounds"
                 }
               ]
             },
@@ -1602,23 +1669,28 @@
               "steps": [
                 {
                   "name": "Foam roller upper-back extension + child's pose lat stretch",
-                  "dose": "2 x 8 / 2 x 30s"
+                  "dose": "2 x 8 / 2 x 30s · NEEDS FOAM ROLLER",
+                  "baseDose": "2 x 8 / 2 x 30s"
                 },
                 {
                   "name": "Add: lying dowel overhead reach, ribs down",
-                  "dose": "2 x 10"
+                  "dose": "2 x 10 · NEEDS FOAM ROLLER + DOWEL",
+                  "baseDose": "2 x 10"
                 },
                 {
                   "name": "Add: right cross-body stretch and sleeper stretch",
-                  "dose": "2 x 30s each"
+                  "dose": "2 x 30s each · NEEDS FOAM ROLLER + DOWEL",
+                  "baseDose": "2 x 30s each"
                 },
                 {
                   "name": "Add: kneeling bench prayer stretch (elbows on bench, sit back)",
-                  "dose": "2 x 30s"
+                  "dose": "2 x 30s · NEEDS FOAM ROLLER + DOWEL + BENCH",
+                  "baseDose": "2 x 30s"
                 },
                 {
                   "name": "Full routine, then wall slides ribs down, right arm a little higher each week",
-                  "dose": "2 x 10"
+                  "dose": "2 x 10 · NEEDS FOAM ROLLER + DOWEL + BENCH + WALL",
+                  "baseDose": "2 x 10"
                 }
               ]
             },
@@ -1631,19 +1703,23 @@
               "steps": [
                 {
                   "name": "Side-lying external rotation, 2-3 lb dumbbell",
-                  "dose": "3 x 12"
+                  "dose": "3 x 12 · NEEDS DUMBBELL",
+                  "baseDose": "3 x 12"
                 },
                 {
                   "name": "Add: lying serratus punch (press up, reach the ceiling), 5-8 lb",
-                  "dose": "3 x 12"
+                  "dose": "3 x 12 · NEEDS DUMBBELL",
+                  "baseDose": "3 x 12"
                 },
                 {
                   "name": "Add: bottoms-up kettlebell hold, light, elbow bent 90°",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s · NEEDS DUMBBELL + KETTLEBELL",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Bottoms-up kettlebell carry, light",
-                  "dose": "3 x 20 steps"
+                  "dose": "3 x 20 steps · NEEDS KETTLEBELL",
+                  "baseDose": "3 x 20 steps"
                 }
               ]
             }
@@ -1775,19 +1851,23 @@
               "steps": [
                 {
                   "name": "Feet at 3 ft on the wall",
-                  "dose": "3 x 30s"
+                  "dose": "3 x 30s · NEEDS WALL",
+                  "baseDose": "3 x 30s"
                 },
                 {
                   "name": "Feet at 4 ft",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s · NEEDS WALL",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Feet at 4 ft",
-                  "dose": "3 x 30s"
+                  "dose": "3 x 30s · NEEDS WALL",
+                  "baseDose": "3 x 30s"
                 },
                 {
                   "name": "Wall L-hold, hips stacked over hands",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s · NEEDS WALL",
+                  "baseDose": "3 x 20s"
                 }
               ],
               "baseName": "Wall holds"
@@ -1800,31 +1880,38 @@
               "steps": [
                 {
                   "name": "Ball plank, shins on ball",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s · NEEDS BALL",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Ball tuck, roll knees to chest",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS BALL",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Ball pike, hips halfway up, 3s return",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6 · NEEDS BALL",
+                  "baseDose": "3 x 6"
                 },
                 {
                   "name": "Ball pike, hips over hands, 3s return",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6 · NEEDS BALL",
+                  "baseDose": "3 x 6"
                 },
                 {
                   "name": "Rock and hold: feet light 2s, lower toes slowly",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6",
+                  "baseDose": "3 x 6"
                 },
                 {
                   "name": "Small donkey kick, 3s lower, quiet landing",
-                  "dose": "3 x 5"
+                  "dose": "3 x 5",
+                  "baseDose": "3 x 5"
                 },
                 {
                   "name": "Donkey kick, hips over hands, 3s lower",
-                  "dose": "3 x 5"
+                  "dose": "3 x 5",
+                  "baseDose": "3 x 5"
                 }
               ],
               "baseName": "Ball pike → donkey kicks"
@@ -1837,15 +1924,18 @@
               "steps": [
                 {
                   "name": "Pike hold, feet walked in close to hands",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Pike hold, feet on wall at 1 ft",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s · NEEDS WALL",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Pike hold, feet on wall at 2 ft, hips high",
-                  "dose": "3 x 30s"
+                  "dose": "3 x 30s · NEEDS WALL",
+                  "baseDose": "3 x 30s"
                 }
               ],
               "baseName": "Elevated pike hold"
@@ -1858,27 +1948,33 @@
               "steps": [
                 {
                   "name": "Full pike push-ups",
-                  "dose": "3 x 5"
+                  "dose": "3 x 5",
+                  "baseDose": "3 x 5"
                 },
                 {
                   "name": "Full pike push-ups",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Pike push-ups, feet walked in close",
-                  "dose": "3 x 5"
+                  "dose": "3 x 5",
+                  "baseDose": "3 x 5"
                 },
                 {
                   "name": "Pike push-ups, feet on wall at 1 ft",
-                  "dose": "3 x 5"
+                  "dose": "3 x 5 · NEEDS WALL",
+                  "baseDose": "3 x 5"
                 },
                 {
                   "name": "Pike push-ups, feet on wall at 2 ft",
-                  "dose": "3 x 5"
+                  "dose": "3 x 5 · NEEDS WALL",
+                  "baseDose": "3 x 5"
                 },
                 {
                   "name": "Wall L-pike push-ups, hips over hands",
-                  "dose": "3 x 3"
+                  "dose": "3 x 3 · NEEDS WALL",
+                  "baseDose": "3 x 3"
                 }
               ],
               "baseName": "Pike push-ups"
@@ -1891,15 +1987,18 @@
               "steps": [
                 {
                   "name": "Full pike shrugs",
-                  "dose": "3 x 10"
+                  "dose": "3 x 10",
+                  "baseDose": "3 x 10"
                 },
                 {
                   "name": "Pike shrugs, feet walked in close",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Pike shrugs, feet on wall at 2 ft",
-                  "dose": "3 x 10"
+                  "dose": "3 x 10 · NEEDS WALL",
+                  "baseDose": "3 x 10"
                 }
               ],
               "baseName": "Pike shrugs"
@@ -1912,19 +2011,23 @@
               "steps": [
                 {
                   "name": "Single-leg lifts, hands by knees",
-                  "dose": "3 x 6 each"
+                  "dose": "3 x 6 each",
+                  "baseDose": "3 x 6 each"
                 },
                 {
                   "name": "Single-leg lifts, hands by hips",
-                  "dose": "3 x 8 each"
+                  "dose": "3 x 8 each",
+                  "baseDose": "3 x 8 each"
                 },
                 {
                   "name": "Both legs, hands by knees",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Both legs, hands by hips",
-                  "dose": "3 x 10"
+                  "dose": "3 x 10",
+                  "baseDose": "3 x 10"
                 }
               ],
               "baseName": "Pike compression"
@@ -1937,15 +2040,18 @@
               "steps": [
                 {
                   "name": "Full hollow hold",
-                  "dose": "3 x 30s"
+                  "dose": "3 x 30s",
+                  "baseDose": "3 x 30s"
                 },
                 {
                   "name": "Full hollow hold",
-                  "dose": "3 x 45s"
+                  "dose": "3 x 45s",
+                  "baseDose": "3 x 45s"
                 },
                 {
                   "name": "Hollow rocks",
-                  "dose": "3 x 10"
+                  "dose": "3 x 10",
+                  "baseDose": "3 x 10"
                 }
               ],
               "baseName": "Hollow body"
@@ -1958,15 +2064,18 @@
               "steps": [
                 {
                   "name": "Assisted dip machine, light assist, 3s lowering",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6 · NEEDS DIP MACHINE",
+                  "baseDose": "3 x 6"
                 },
                 {
                   "name": "Partial-range dips on bars",
-                  "dose": "3 x 3"
+                  "dose": "3 x 3 · NEEDS DIP BARS",
+                  "baseDose": "3 x 3"
                 },
                 {
                   "name": "Full dips on bars",
-                  "dose": "3 x 3"
+                  "dose": "3 x 3 · NEEDS DIP BARS",
+                  "baseDose": "3 x 3"
                 }
               ],
               "baseName": "Dips"
@@ -1979,15 +2088,18 @@
               "steps": [
                 {
                   "name": "25 lb dumbbell",
-                  "dose": "3 x 8 each arm"
+                  "dose": "3 x 8 each arm · NEEDS DUMBBELL",
+                  "baseDose": "3 x 8 each arm"
                 },
                 {
                   "name": "30 lb dumbbell",
-                  "dose": "3 x 6 each arm"
+                  "dose": "3 x 6 each arm · NEEDS DUMBBELL",
+                  "baseDose": "3 x 6 each arm"
                 },
                 {
                   "name": "Landmine press, standing, ribs down",
-                  "dose": "3 x 6 each arm"
+                  "dose": "3 x 6 each arm · NEEDS BARBELL",
+                  "baseDose": "3 x 6 each arm"
                 }
               ],
               "baseName": "Half-kneeling dumbbell press"
@@ -2000,11 +2112,13 @@
               "steps": [
                 {
                   "name": "Standing hold, 15 lb dumbbell",
-                  "dose": "3 x 20s each arm"
+                  "dose": "3 x 20s each arm · NEEDS DUMBBELL",
+                  "baseDose": "3 x 20s each arm"
                 },
                 {
                   "name": "Overhead carry, 15–20 lb dumbbell",
-                  "dose": "20 steps each arm"
+                  "dose": "20 steps each arm · NEEDS DUMBBELL",
+                  "baseDose": "20 steps each arm"
                 }
               ],
               "baseName": "Single-arm overhead hold"
@@ -2017,19 +2131,23 @@
               "steps": [
                 {
                   "name": "Tuck support, one foot on floor",
-                  "dose": "3 x 10s"
+                  "dose": "3 x 10s · NEEDS DIP BARS",
+                  "baseDose": "3 x 10s"
                 },
                 {
                   "name": "Tuck support, both feet up",
-                  "dose": "3 x 10s"
+                  "dose": "3 x 10s · NEEDS DIP BARS",
+                  "baseDose": "3 x 10s"
                 },
                 {
                   "name": "Tuck support",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s · NEEDS DIP BARS",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "One-leg L-sit, switch legs each set",
-                  "dose": "3 x 10s"
+                  "dose": "3 x 10s · NEEDS DIP BARS",
+                  "baseDose": "3 x 10s"
                 }
               ],
               "baseName": "Tuck support → L-sit"
@@ -2042,15 +2160,18 @@
               "steps": [
                 {
                   "name": "Superman hold, arms by sides",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Superman hold, arms overhead",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Superman hold, arms overhead",
-                  "dose": "3 x 30s"
+                  "dose": "3 x 30s",
+                  "baseDose": "3 x 30s"
                 }
               ],
               "baseName": "Arch body hold"
@@ -2063,7 +2184,8 @@
               "steps": [
                 {
                   "name": "Band external rotations, light band",
-                  "dose": "2 x 15 each arm"
+                  "dose": "2 x 15 each arm · NEEDS BAND",
+                  "baseDose": "2 x 15 each arm"
                 }
               ],
               "baseName": "Band external rotations"
@@ -2076,15 +2198,18 @@
               "steps": [
                 {
                   "name": "Rows, bar at hip height",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS BAR",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Rows, bar at hip height",
-                  "dose": "3 x 12"
+                  "dose": "3 x 12 · NEEDS BAR",
+                  "baseDose": "3 x 12"
                 },
                 {
                   "name": "Rows, bar lowered, body nearly horizontal",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS BAR",
+                  "baseDose": "3 x 8"
                 }
               ],
               "baseName": "Inverted rows"
@@ -2097,15 +2222,18 @@
               "steps": [
                 {
                   "name": "Assisted pull-up machine, heavy assist",
-                  "dose": "3 x 8"
+                  "dose": "3 x 8 · NEEDS ASSIST MACHINE",
+                  "baseDose": "3 x 8"
                 },
                 {
                   "name": "Assisted pull-up machine, moderate assist",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6 · NEEDS ASSIST MACHINE",
+                  "baseDose": "3 x 6"
                 },
                 {
                   "name": "Assisted pull-up machine, light assist",
-                  "dose": "3 x 5"
+                  "dose": "3 x 5 · NEEDS ASSIST MACHINE",
+                  "baseDose": "3 x 5"
                 }
               ],
               "baseName": "Assisted pull-ups"
@@ -2118,11 +2246,13 @@
               "steps": [
                 {
                   "name": "5 lb dumbbells",
-                  "dose": "2 x 10 each letter"
+                  "dose": "2 x 10 each letter · NEEDS BENCH + DUMBBELL",
+                  "baseDose": "2 x 10 each letter"
                 },
                 {
                   "name": "8 lb dumbbells",
-                  "dose": "2 x 8 each letter"
+                  "dose": "2 x 8 each letter · NEEDS BENCH + DUMBBELL",
+                  "baseDose": "2 x 8 each letter"
                 }
               ],
               "baseName": "Y-T-W raises"
@@ -2135,19 +2265,23 @@
               "steps": [
                 {
                   "name": "Dolphin push-ups (rock forward and back)",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6",
+                  "baseDose": "3 x 6"
                 },
                 {
                   "name": "Headstand setup: hands clasped, crown lightly on floor, knees down",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Headstand setup, walk feet in until hips over shoulders",
-                  "dose": "3 x 20s"
+                  "dose": "3 x 20s",
+                  "baseDose": "3 x 20s"
                 },
                 {
                   "name": "Tucked lift at the wall, feet just off the floor",
-                  "dose": "3 x 5s"
+                  "dose": "3 x 5s · NEEDS WALL",
+                  "baseDose": "3 x 5s"
                 }
               ],
               "baseName": "Forearm headstand prep"
@@ -2161,15 +2295,18 @@
               "steps": [
                 {
                   "name": "Seated pike fold, contract-relax",
-                  "dose": "3 rounds"
+                  "dose": "3 rounds",
+                  "baseDose": "3 rounds"
                 },
                 {
                   "name": "Elephant walks: standing pike, hands down, straighten one leg at a time",
-                  "dose": "2 x 10 each leg"
+                  "dose": "2 x 10 each leg",
+                  "baseDose": "2 x 10 each leg"
                 },
                 {
                   "name": "Seated pike fold, legs straight, chest toward thighs",
-                  "dose": "2 x 60s"
+                  "dose": "2 x 60s",
+                  "baseDose": "2 x 60s"
                 }
               ]
             },
@@ -2182,15 +2319,18 @@
               "steps": [
                 {
                   "name": "Full routine from Phase 1 + wall slides",
-                  "dose": "2 x 10"
+                  "dose": "2 x 10 · NEEDS FOAM ROLLER + DOWEL + BENCH + WALL",
+                  "baseDose": "2 x 10"
                 },
                 {
                   "name": "Add: dowel overhead reach standing at the wall, back flat",
-                  "dose": "2 x 10"
+                  "dose": "2 x 10 · NEEDS FOAM ROLLER + DOWEL + BENCH + WALL",
+                  "baseDose": "2 x 10"
                 },
                 {
                   "name": "Add: active overhead holds, right arm, back against wall, ribs down",
-                  "dose": "3 x 15s"
+                  "dose": "3 x 15s · NEEDS FOAM ROLLER + DOWEL + BENCH + WALL",
+                  "baseDose": "3 x 15s"
                 }
               ]
             },
@@ -2203,15 +2343,18 @@
               "steps": [
                 {
                   "name": "Bottoms-up kettlebell carry, light",
-                  "dose": "3 x 20 steps"
+                  "dose": "3 x 20 steps · NEEDS KETTLEBELL",
+                  "baseDose": "3 x 20 steps"
                 },
                 {
                   "name": "Bottoms-up kettlebell press, half-kneeling, ribs down",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6 · NEEDS KETTLEBELL",
+                  "baseDose": "3 x 6"
                 },
                 {
                   "name": "Bottoms-up kettlebell press, slightly heavier",
-                  "dose": "3 x 6"
+                  "dose": "3 x 6 · NEEDS KETTLEBELL",
+                  "baseDose": "3 x 6"
                 }
               ]
             }
