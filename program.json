@@ -1,5 +1,5 @@
 {
-  "version": "1.10",
+  "version": "2.0",
   "updated": "2026-10-18",
   "matPools": {
     "push": [
@@ -1023,7 +1023,7 @@
   },
   "skills": {
     "handstand": {
-      "name": "Handstand",
+      "name": "Shoulders & Inversions",
       "rules": {
         "moveOn": "Hit the target with clean form 2 sessions in a row.",
         "regress": "Pain, a giving-out feeling, form breaking down, or can't reach the bottom of the range. Also regress if you have to arch your back to reach the position."
@@ -1031,9 +1031,9 @@
       "phases": [
         {
           "id": 1,
-          "name": "Phase 1: Foundation",
+          "name": "Phase 1: Shoulder Foundation",
           "status": "active",
-          "goal": "Straight-arm shoulder stability, overhead strength, core line and wrist tolerance before going inverted.",
+          "goal": "Left cuff strength, right shoulder range, safe pressing, core and hamstrings. Worth doing for its own sake.",
           "warmup": [
             "Wrist circles: 10 each direction",
             "Wrist rocks on all fours: 10 fingers forward, 10 back",
@@ -1733,9 +1733,9 @@
         },
         {
           "id": 2,
-          "name": "Phase 2: Pike & Core Builder",
+          "name": "Phase 2: Strength & Headstand Prep",
           "status": "active",
-          "goal": "Pike strength, core control and shoulder endurance before going chest-to-wall.",
+          "goal": "Build pike strength, core control and shoulder endurance, and learn the forearm headstand setup.",
           "warmup": [
             "Wrist circles: 10 each direction",
             "Wrist rocks on all fours: 10 fingers forward, 10 back",
@@ -2363,22 +2363,23 @@
           "extraChecks": [
             "Wrist rocks: 20 reps, pain-free the next day",
             "One full week with no shoulder pain or slipping feeling",
-            "Wall test: right thumb touches the wall overhead with back and ribs flat (needed before chest-to-wall work)"
+            "Wall test: right thumb touches the wall overhead with back and ribs flat (needed before chest-to-wall work)",
+            "4 weeks of left shoulder work with no instability or giving-out episodes"
           ]
         },
         {
           "id": 3,
-          "name": "Phase 3: Wall Work",
+          "name": "Phase 3: Forearm Headstand",
           "status": "coming soon",
-          "goal": "Forearm headstand (wall, then freestanding), wall walks, chest-to-wall hold, wall shoulder taps, cartwheel bail-out, full L-sit, strict pull-ups.",
+          "goal": "Main goal: forearm headstand at the wall, then a few seconds away from it with a practiced, controlled exit. Plus full L-sit and strict pull-ups.",
           "days": [],
           "ladders": []
         },
         {
           "id": 4,
-          "name": "Phase 4: Balance & Freestanding",
+          "name": "Phase 4: Wall Handstand (optional)",
           "status": "coming soon",
-          "goal": "Kick-ups, toe and heel pulls, freestanding holds.",
+          "goal": "Only if the right-shoulder wall test passes and the left shoulder has been solid for months: wall walks, chest-to-wall holds, wall shoulder taps. No kick-ups or freestanding work.",
           "days": [],
           "ladders": []
         }
