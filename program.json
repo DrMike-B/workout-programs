@@ -1039,6 +1039,7 @@
             "Wrist rocks on all fours: 10 fingers forward, 10 back",
             "Cat-cow: 8",
             "Band pull-aparts: 2 x 15",
+            "Band external rotations, light band: 2 x 15 each arm",
             "Scapular push-ups: 2 x 10",
             "Wrist push-ups (rock up onto fingers): 2 x 10",
             "Wall lat stretch: 2 x 30s",
@@ -1049,7 +1050,7 @@
               "name": "Day A: Push · Mat → Machines",
               "ladders": [
                 "pikePushup",
-                "deadBug",
+                "ballRollout",
                 "legLowers",
                 "dipSupport",
                 "dips",
@@ -1062,7 +1063,7 @@
                   "equipment": "mat, exercise ball",
                   "ladders": [
                     "pikePushup",
-                    "deadBug",
+                    "ballRollout",
                     "legLowers"
                   ]
                 },
@@ -1085,7 +1086,6 @@
                 "vpull",
                 "ytw",
                 "saHold",
-                "extRot",
                 "sidePlank",
                 "lStab"
               ],
@@ -1106,7 +1106,6 @@
                   "name": "Mat",
                   "equipment": "mat, band",
                   "ladders": [
-                    "extRot",
                     "sidePlank",
                     "lStab"
                   ]
@@ -1118,10 +1117,8 @@
               "ladders": [
                 "rMob",
                 "plankCombo",
-                "pikeHold",
-                "pikeShrug",
+                "pikeCombo",
                 "headstandPrep",
-                "ballRollout",
                 "hollow",
                 "hams"
               ],
@@ -1133,10 +1130,8 @@
                   "ladders": [
                     "rMob",
                     "plankCombo",
-                    "pikeHold",
-                    "pikeShrug",
+                    "pikeCombo",
                     "headstandPrep",
-                    "ballRollout",
                     "hollow",
                     "hams"
                   ]
@@ -1198,49 +1193,6 @@
                 }
               ],
               "baseName": "Plank progression"
-            },
-            {
-              "id": "pikeHold",
-              "name": "Mat · Pike hold",
-              "cue": "Ears between biceps, chest toward thighs. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
-              "startStep": 1,
-              "steps": [
-                {
-                  "name": "Kneeling pike reach",
-                  "dose": "3 x 20-30s",
-                  "baseDose": "3 x 20-30s"
-                },
-                {
-                  "name": "Pike hold (floor)",
-                  "dose": "3 x 30s",
-                  "baseDose": "3 x 30s"
-                }
-              ],
-              "baseName": "Pike hold"
-            },
-            {
-              "id": "pikeShrug",
-              "name": "Mat · Pike shrugs",
-              "cue": "Elbows locked, full range, pause at the top. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
-              "startStep": 2,
-              "steps": [
-                {
-                  "name": "Kneeling pike shrugs",
-                  "dose": "3 x 10-12",
-                  "baseDose": "3 x 10-12"
-                },
-                {
-                  "name": "Bent-knee pike shrugs",
-                  "dose": "3 x 8-10",
-                  "baseDose": "3 x 8-10"
-                },
-                {
-                  "name": "Full pike shrugs",
-                  "dose": "3 x 10",
-                  "baseDose": "3 x 10"
-                }
-              ],
-              "baseName": "Pike shrugs"
             },
             {
               "id": "pikePushup",
@@ -1363,25 +1315,6 @@
               "baseName": "Single-arm overhead hold"
             },
             {
-              "id": "deadBug",
-              "name": "Mat · Dead bugs",
-              "cue": "Lower back flat.",
-              "startStep": 1,
-              "steps": [
-                {
-                  "name": "Arms-only or legs-only",
-                  "dose": "2 x 8 each side",
-                  "baseDose": "2 x 8 each side"
-                },
-                {
-                  "name": "Full dead bugs",
-                  "dose": "2 x 8 each side",
-                  "baseDose": "2 x 8 each side"
-                }
-              ],
-              "baseName": "Dead bugs"
-            },
-            {
               "id": "hollow",
               "name": "Mat · Hollow hold",
               "cue": "Exhale, ribs down. Shorten the hold before letting the back arch.",
@@ -1414,20 +1347,6 @@
                 }
               ],
               "baseName": "Hollow hold"
-            },
-            {
-              "id": "extRot",
-              "name": "Mat · Band external rotations",
-              "cue": "Light band, slow, elbow tucked at your side. Pain-free.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Band external rotations, light band",
-                  "dose": "2 x 15 each arm · NEEDS BAND",
-                  "baseDose": "2 x 15 each arm"
-                }
-              ],
-              "baseName": "Band external rotations"
             },
             {
               "id": "row",
@@ -1722,6 +1641,30 @@
                   "baseDose": "3 x 20 steps"
                 }
               ]
+            },
+            {
+              "id": "pikeCombo",
+              "baseName": "Pike hold + shrugs",
+              "name": "Mat · Pike hold + shrugs",
+              "cue": "Hold first, then shrug in the same set. Ears between biceps, elbows locked, full shrug range with a pause at the top. Tight hamstrings: bend your knees a little so your back stays flat. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
+              "startStep": 2,
+              "steps": [
+                {
+                  "name": "Kneeling pike: 20s hold, then 10 kneeling shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets"
+                },
+                {
+                  "name": "Bent-knee pike: 20s hold, then 8 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets"
+                },
+                {
+                  "name": "Full pike: 30s hold, then 10 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
@@ -1741,6 +1684,7 @@
             "Wrist rocks on all fours: 10 fingers forward, 10 back",
             "Cat-cow: 8",
             "Band pull-aparts: 2 x 15",
+            "Band external rotations, light band: 2 x 15 each arm",
             "Scapular push-ups: 2 x 10",
             "Wrist push-ups (rock up onto fingers): 2 x 10",
             "Wall lat stretch: 2 x 30s",
@@ -1752,6 +1696,7 @@
               "ladders": [
                 "p2_pikePushup",
                 "p2_hollow",
+                "p2_compression",
                 "p2_dips",
                 "p2_tuck",
                 "p2_ohp"
@@ -1763,7 +1708,8 @@
                   "equipment": "mat, wall",
                   "ladders": [
                     "p2_pikePushup",
-                    "p2_hollow"
+                    "p2_hollow",
+                    "p2_compression"
                   ]
                 },
                 {
@@ -1784,7 +1730,6 @@
                 "p2_vpull",
                 "p2_ytw",
                 "p2_saHold",
-                "p2_extRot",
                 "p2_arch",
                 "p2_lStab"
               ],
@@ -1804,7 +1749,6 @@
                   "name": "Mat",
                   "equipment": "mat, band",
                   "ladders": [
-                    "p2_extRot",
                     "p2_arch",
                     "p2_lStab"
                   ]
@@ -1817,10 +1761,8 @@
                 "p2_rMob",
                 "p2_wallHold",
                 "p2_donkey",
-                "p2_pikeHold",
-                "p2_pikeShrug",
+                "p2_pikeCombo",
                 "p2_headstandPrep",
-                "p2_compression",
                 "p2_hams"
               ],
               "after": "Machines (optional): legs.",
@@ -1832,10 +1774,8 @@
                     "p2_rMob",
                     "p2_wallHold",
                     "p2_donkey",
-                    "p2_pikeHold",
-                    "p2_pikeShrug",
+                    "p2_pikeCombo",
                     "p2_headstandPrep",
-                    "p2_compression",
                     "p2_hams"
                   ]
                 }
@@ -1917,30 +1857,6 @@
               "baseName": "Ball pike → donkey kicks"
             },
             {
-              "id": "p2_pikeHold",
-              "name": "Mat · Elevated pike hold",
-              "cue": "Push tall, ears between biceps. Walk your hands in toward the wall until your hips are high. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Pike hold, feet walked in close to hands",
-                  "dose": "3 x 20s",
-                  "baseDose": "3 x 20s"
-                },
-                {
-                  "name": "Pike hold, feet on wall at 1 ft",
-                  "dose": "3 x 20s · NEEDS WALL",
-                  "baseDose": "3 x 20s"
-                },
-                {
-                  "name": "Pike hold, feet on wall at 2 ft, hips high",
-                  "dose": "3 x 30s · NEEDS WALL",
-                  "baseDose": "3 x 30s"
-                }
-              ],
-              "baseName": "Elevated pike hold"
-            },
-            {
               "id": "p2_pikePushup",
               "name": "Mat · Pike push-ups",
               "cue": "Head lands slightly in front of hands, elbows back at 45°. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
@@ -1978,30 +1894,6 @@
                 }
               ],
               "baseName": "Pike push-ups"
-            },
-            {
-              "id": "p2_pikeShrug",
-              "name": "Mat · Pike shrugs",
-              "cue": "Elbows locked, full range. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Full pike shrugs",
-                  "dose": "3 x 10",
-                  "baseDose": "3 x 10"
-                },
-                {
-                  "name": "Pike shrugs, feet walked in close",
-                  "dose": "3 x 8",
-                  "baseDose": "3 x 8"
-                },
-                {
-                  "name": "Pike shrugs, feet on wall at 2 ft",
-                  "dose": "3 x 10 · NEEDS WALL",
-                  "baseDose": "3 x 10"
-                }
-              ],
-              "baseName": "Pike shrugs"
             },
             {
               "id": "p2_compression",
@@ -2177,20 +2069,6 @@
               "baseName": "Arch body hold"
             },
             {
-              "id": "p2_extRot",
-              "name": "Mat · Band external rotations",
-              "cue": "Slow, elbow tucked.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Band external rotations, light band",
-                  "dose": "2 x 15 each arm · NEEDS BAND",
-                  "baseDose": "2 x 15 each arm"
-                }
-              ],
-              "baseName": "Band external rotations"
-            },
-            {
               "id": "p2_row",
               "name": "Machines · Inverted rows",
               "cue": "Body straight, chest to the bar.",
@@ -2355,6 +2233,35 @@
                   "name": "Bottoms-up kettlebell press, slightly heavier",
                   "dose": "3 x 6 · NEEDS KETTLEBELL",
                   "baseDose": "3 x 6"
+                }
+              ]
+            },
+            {
+              "id": "p2_pikeCombo",
+              "baseName": "Pike hold + shrugs",
+              "name": "Mat · Pike hold + shrugs",
+              "cue": "Hold first, then shrug in the same set. Push tall, elbows locked. Tight hamstrings: bend your knees a little so your back stays flat. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Full pike: 30s hold, then 10 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets"
+                },
+                {
+                  "name": "Feet walked in close: 20s hold, then 8 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets"
+                },
+                {
+                  "name": "Feet on wall at 1 ft: 20s hold, then 8 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets · NEEDS WALL"
+                },
+                {
+                  "name": "Feet on wall at 2 ft, hips high: 30s hold, then 10 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets · NEEDS WALL"
                 }
               ]
             }
