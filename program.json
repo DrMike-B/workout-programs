@@ -1047,14 +1047,14 @@
           ],
           "days": [
             {
-              "name": "Day A: Push · Mat → Machines",
+              "name": "Day A: Push · Mat → Bench → Machines",
               "ladders": [
                 "pikePushup",
                 "ballRollout",
                 "legLowers",
+                "ohp",
                 "dipSupport",
-                "dips",
-                "ohp"
+                "dips"
               ],
               "after": "Machines (optional): legs only. No extra pressing.",
               "sections": [
@@ -1068,46 +1068,58 @@
                   ]
                 },
                 {
+                  "name": "Bench",
+                  "equipment": "dumbbells",
+                  "ladders": [
+                    "ohp"
+                  ]
+                },
+                {
                   "name": "Machines",
-                  "equipment": "dip station, assisted dip machine, barbell",
+                  "equipment": "dip station, assisted dip machine",
                   "ladders": [
                     "dipSupport",
-                    "dips",
-                    "ohp"
+                    "dips"
                   ]
                 }
               ]
             },
             {
-              "name": "Day B: Pull · Machines → Mat",
+              "name": "Day B: Pull · Mat → Bench → Machines",
               "ladders": [
-                "supHang",
-                "row",
-                "vpull",
+                "sidePlank",
+                "lStab",
                 "ytw",
                 "saHold",
-                "sidePlank",
-                "lStab"
+                "supHang",
+                "row",
+                "vpull"
               ],
               "after": "Machines (optional): seated row, legs.",
               "sections": [
                 {
-                  "name": "Machines",
-                  "equipment": "Smith or rack bar, lat pulldown, assisted pull-up, bench, dumbbells",
+                  "name": "Mat",
+                  "equipment": "mat, dumbbell, kettlebell",
                   "ladders": [
-                    "supHang",
-                    "row",
-                    "vpull",
+                    "sidePlank",
+                    "lStab"
+                  ]
+                },
+                {
+                  "name": "Bench",
+                  "equipment": "incline bench, dumbbells",
+                  "ladders": [
                     "ytw",
                     "saHold"
                   ]
                 },
                 {
-                  "name": "Mat",
-                  "equipment": "mat, band",
+                  "name": "Machines",
+                  "equipment": "Smith or rack bar, lat pulldown, assisted pull-up",
                   "ladders": [
-                    "sidePlank",
-                    "lStab"
+                    "supHang",
+                    "row",
+                    "vpull"
                   ]
                 }
               ]
@@ -1126,7 +1138,7 @@
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, wall, exercise ball",
+                  "equipment": "mat, wall, low bar, foam roller, dowel, band, exercise ball",
                   "ladders": [
                     "rMob",
                     "plankCombo",
@@ -1296,7 +1308,7 @@
             },
             {
               "id": "ohp",
-              "name": "Machines · Half-kneeling dumbbell press",
+              "name": "Bench · Half-kneeling dumbbell press",
               "cue": "Half-kneeling. Press only as high as ribs stay down.",
               "startStep": 1,
               "steps": [
@@ -1324,7 +1336,7 @@
             },
             {
               "id": "saHold",
-              "name": "Machines · Single-arm overhead hold",
+              "name": "Bench · Single-arm overhead hold",
               "cue": "One arm at a time. Hold only as high as your back stays flat.",
               "startStep": 1,
               "steps": [
@@ -1442,7 +1454,7 @@
             },
             {
               "id": "ytw",
-              "name": "Machines · Y-T-W raises",
+              "name": "Bench · Y-T-W raises",
               "cue": "Face down on incline bench. Slow, thumbs up.",
               "startStep": 0,
               "steps": [
@@ -1782,14 +1794,14 @@
           ],
           "days": [
             {
-              "name": "Day A: Push · Mat → Machines",
+              "name": "Day A: Push · Mat → Bench → Machines",
               "ladders": [
                 "p2_pikePushup",
                 "p2_hollow",
                 "p2_compression",
+                "p2_ohp",
                 "p2_dips",
-                "p2_tuck",
-                "p2_ohp"
+                "p2_tuck"
               ],
               "after": "Machines (optional): legs only. No extra pressing.",
               "sections": [
@@ -1803,44 +1815,56 @@
                   ]
                 },
                 {
+                  "name": "Bench",
+                  "equipment": "dumbbells, landmine",
+                  "ladders": [
+                    "p2_ohp"
+                  ]
+                },
+                {
                   "name": "Machines",
-                  "equipment": "dip station, assisted dip machine, barbell",
+                  "equipment": "dip station, assisted dip machine",
                   "ladders": [
                     "p2_dips",
-                    "p2_tuck",
-                    "p2_ohp"
+                    "p2_tuck"
                   ]
                 }
               ]
             },
             {
-              "name": "Day B: Pull · Machines → Mat",
+              "name": "Day B: Pull · Mat → Bench → Machines",
               "ladders": [
-                "p2_row",
-                "p2_vpull",
+                "p2_arch",
+                "p2_lStab",
                 "p2_ytw",
                 "p2_saHold",
-                "p2_arch",
-                "p2_lStab"
+                "p2_row",
+                "p2_vpull"
               ],
               "after": "Machines (optional): seated row, legs.",
               "sections": [
                 {
-                  "name": "Machines",
-                  "equipment": "Smith or rack bar, assisted pull-up, bench, dumbbells",
+                  "name": "Mat",
+                  "equipment": "mat, kettlebell",
                   "ladders": [
-                    "p2_row",
-                    "p2_vpull",
+                    "p2_arch",
+                    "p2_lStab"
+                  ]
+                },
+                {
+                  "name": "Bench",
+                  "equipment": "incline bench, dumbbells",
+                  "ladders": [
                     "p2_ytw",
                     "p2_saHold"
                   ]
                 },
                 {
-                  "name": "Mat",
-                  "equipment": "mat, band",
+                  "name": "Machines",
+                  "equipment": "Smith or rack bar, assisted pull-up",
                   "ladders": [
-                    "p2_arch",
-                    "p2_lStab"
+                    "p2_row",
+                    "p2_vpull"
                   ]
                 }
               ]
@@ -1859,7 +1883,7 @@
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, wall, exercise ball",
+                  "equipment": "mat, wall, exercise ball, foam roller, dowel, band",
                   "ladders": [
                     "p2_rMob",
                     "p2_wallHold",
@@ -2097,7 +2121,7 @@
             },
             {
               "id": "p2_ohp",
-              "name": "Machines · Half-kneeling dumbbell press",
+              "name": "Bench · Half-kneeling dumbbell press",
               "cue": "Press only as high as ribs stay down.",
               "startStep": 0,
               "steps": [
@@ -2125,7 +2149,7 @@
             },
             {
               "id": "p2_saHold",
-              "name": "Machines · Single-arm overhead hold",
+              "name": "Bench · Single-arm overhead hold",
               "cue": "One arm at a time. Back stays flat.",
               "startStep": 0,
               "steps": [
@@ -2265,7 +2289,7 @@
             },
             {
               "id": "p2_ytw",
-              "name": "Machines · Y-T-W raises",
+              "name": "Bench · Y-T-W raises",
               "cue": "Slow, thumbs up.",
               "startStep": 0,
               "steps": [
