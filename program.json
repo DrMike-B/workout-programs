@@ -1578,7 +1578,7 @@
             {
               "id": "headstandPrep",
               "name": "Mat · Forearm headstand prep",
-              "cue": "Forearms carry the weight. Any neck pain: stop.",
+              "cue": "Forearms carry the weight. Head hangs off the floor, back long. Any neck pain: stop.",
               "startStep": 0,
               "steps": [
                 {
@@ -1589,21 +1589,21 @@
                 },
                 {
                   "name": "Dolphin hold (forearm down-dog, hips high)",
-                  "dose": "3 x 20s · TIP: elbows shoulder-width, hips high",
+                  "dose": "3 x 20s · TIP: head off the floor, bend knees to keep back flat",
                   "baseDose": "3 x 20s",
-                  "tip": "elbows shoulder-width, hips high"
+                  "tip": "head off the floor, bend knees to keep back flat"
                 },
                 {
                   "name": "Dolphin hold, feet walked in a little",
-                  "dose": "3 x 20s · TIP: walk in only as far as back stays long",
+                  "dose": "3 x 20s · TIP: walk in only as far as back stays flat",
                   "baseDose": "3 x 20s",
-                  "tip": "walk in only as far as back stays long"
+                  "tip": "walk in only as far as back stays flat"
                 },
                 {
                   "name": "Dolphin hold, feet walked in, shoulders over elbows",
-                  "dose": "3 x 30s · TIP: push the floor away, chest toward legs",
+                  "dose": "3 x 30s · TIP: push the floor away, don't sink between shoulders",
                   "baseDose": "3 x 30s",
-                  "tip": "push the floor away, chest toward legs"
+                  "tip": "push the floor away, don't sink between shoulders"
                 }
               ],
               "baseName": "Forearm headstand prep",
@@ -2581,9 +2581,9 @@
               "steps": [
                 {
                   "name": "Dolphin push-ups (rock forward and back)",
-                  "dose": "3 x 6 · TIP: rock forward and back, elbows planted",
+                  "dose": "3 x 6 · TIP: head stays off the floor, back long",
                   "baseDose": "3 x 6",
-                  "tip": "rock forward and back, elbows planted"
+                  "tip": "head stays off the floor, back long"
                 },
                 {
                   "name": "Headstand setup: hands clasped, crown lightly on floor, knees down",
