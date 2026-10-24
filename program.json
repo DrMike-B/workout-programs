@@ -1,6 +1,6 @@
 {
-  "version": "2.1",
-  "updated": "2026-10-18",
+  "version": "2.2",
+  "updated": "2026-10-24",
   "matPools": {
     "push": [
       "Thread the Needle",
@@ -1043,7 +1043,8 @@
             "Scapular push-ups: 2 x 10",
             "Wrist push-ups (rock up onto fingers): 2 x 10",
             "Wall lat stretch: 2 x 30s",
-            "Right shoulder: lying dowel overhead reach, ribs down: 10"
+            "Right shoulder: lying dowel overhead reach, ribs down: 10",
+            "90/90 hip switches: 8"
           ],
           "days": [
             {
@@ -1056,7 +1057,7 @@
                 "dipSupport",
                 "dips"
               ],
-              "after": "Machines (optional): legs only. No extra pressing.",
+              "after": "",
               "sections": [
                 {
                   "name": "Mat",
@@ -1095,7 +1096,7 @@
                 "row",
                 "vpull"
               ],
-              "after": "Machines (optional): seated row, legs.",
+              "after": "",
               "sections": [
                 {
                   "name": "Mat",
@@ -1134,7 +1135,7 @@
                 "hollow",
                 "hams"
               ],
-              "after": "Machines (optional): legs.",
+              "after": "",
               "sections": [
                 {
                   "name": "Mat",
@@ -1149,6 +1150,44 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Day D: Legs & Glutes · Mat → Bench → Machines",
+              "sections": [
+                {
+                  "name": "Mat",
+                  "equipment": "mat, band",
+                  "ladders": [
+                    "glBridge",
+                    "glAbd"
+                  ]
+                },
+                {
+                  "name": "Bench",
+                  "equipment": "bench, dumbbells",
+                  "ladders": [
+                    "hipThrust",
+                    "splitSq",
+                    "slRdl"
+                  ]
+                },
+                {
+                  "name": "Machines",
+                  "equipment": "cable machine",
+                  "ladders": [
+                    "kick"
+                  ]
+                }
+              ],
+              "ladders": [
+                "glBridge",
+                "glAbd",
+                "hipThrust",
+                "splitSq",
+                "slRdl",
+                "kick"
+              ],
+              "after": "Machines (optional): leg press or hack squat, leg curl, calf raises."
             }
           ],
           "ladders": [
@@ -1767,6 +1806,192 @@
                 }
               ],
               "cueFull": "Hold first, then shrug in the same set. Ears between biceps, elbows locked, full shrug range with a pause at the top. Tight hamstrings: bend your knees a little so your back stays flat. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
+            },
+            {
+              "id": "glBridge",
+              "baseName": "Glute bridge",
+              "name": "Mat · Glute bridge",
+              "cue": "Ribs down, tuck the pelvis at the top. Squeeze glutes, don't arch your back.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Glute bridge, 2s squeeze at top",
+                  "baseDose": "3 x 12",
+                  "tip": "push through heels",
+                  "dose": "3 x 12 · TIP: push through heels"
+                },
+                {
+                  "name": "Banded glute bridge (band above knees)",
+                  "baseDose": "3 x 12",
+                  "tip": "knees push out into the band",
+                  "dose": "3 x 12 · NEEDS BAND · TIP: knees push out into the band"
+                },
+                {
+                  "name": "Single-leg glute bridge",
+                  "baseDose": "3 x 10 each",
+                  "tip": "hips stay level",
+                  "dose": "3 x 10 each · TIP: hips stay level"
+                },
+                {
+                  "name": "Single-leg glute bridge, 3s hold at top",
+                  "baseDose": "3 x 10 each",
+                  "tip": "graduation: slow and level",
+                  "dose": "3 x 10 each · TIP: graduation: slow and level"
+                }
+              ]
+            },
+            {
+              "id": "glAbd",
+              "baseName": "Side glutes",
+              "name": "Mat · Side glutes",
+              "cue": "Hips stacked, slight forward tilt of the top hip. Slow.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Clamshell",
+                  "baseDose": "3 x 15 each",
+                  "tip": "heels together, knee opens",
+                  "dose": "3 x 15 each · TIP: heels together, knee opens"
+                },
+                {
+                  "name": "Banded clamshell",
+                  "baseDose": "3 x 15 each",
+                  "tip": "don't roll backward",
+                  "dose": "3 x 15 each · NEEDS BAND · TIP: don't roll backward"
+                },
+                {
+                  "name": "Side-lying leg raise, toes slightly down",
+                  "baseDose": "3 x 12 each",
+                  "tip": "lead with the heel",
+                  "dose": "3 x 12 each · TIP: lead with the heel"
+                },
+                {
+                  "name": "Side plank (knees down) with top-leg lift",
+                  "baseDose": "3 x 8 each",
+                  "tip": "hips high the whole time",
+                  "dose": "3 x 8 each · TIP: hips high the whole time"
+                }
+              ]
+            },
+            {
+              "id": "hipThrust",
+              "baseName": "Hip thrust",
+              "name": "Bench · Hip thrust",
+              "cue": "Ribs down, tuck the pelvis at the top. Squeeze glutes, don't arch your back. Upper back on the bench edge.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Bodyweight hip thrust",
+                  "baseDose": "3 x 12",
+                  "tip": "chin tucked, eyes forward",
+                  "dose": "3 x 12 · NEEDS BENCH · TIP: chin tucked, eyes forward"
+                },
+                {
+                  "name": "Hip thrust, 25 lb dumbbell on hips",
+                  "baseDose": "3 x 10",
+                  "tip": "pad the dumbbell with a towel",
+                  "dose": "3 x 10 · NEEDS BENCH + DUMBBELL · TIP: pad the dumbbell with a towel"
+                },
+                {
+                  "name": "Hip thrust, 40 lb dumbbell on hips",
+                  "baseDose": "3 x 10",
+                  "tip": "pause 1s at the top",
+                  "dose": "3 x 10 · NEEDS BENCH + DUMBBELL · TIP: pause 1s at the top"
+                },
+                {
+                  "name": "Single-leg hip thrust, bodyweight",
+                  "baseDose": "3 x 10 each",
+                  "tip": "graduation: hips stay level",
+                  "dose": "3 x 10 each · NEEDS BENCH · TIP: graduation: hips stay level"
+                }
+              ]
+            },
+            {
+              "id": "splitSq",
+              "baseName": "Split squat",
+              "name": "Bench · Split squat",
+              "cue": "Lean slightly forward and push through the front heel: more glutes, less knee.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Split squat, bodyweight, hand on bench for balance",
+                  "baseDose": "3 x 8 each",
+                  "tip": "back knee lowers gently",
+                  "dose": "3 x 8 each · NEEDS BENCH · TIP: back knee lowers gently"
+                },
+                {
+                  "name": "Split squat, 15 lb dumbbells",
+                  "baseDose": "3 x 8 each",
+                  "tip": "torso leans slightly forward",
+                  "dose": "3 x 8 each · NEEDS DUMBBELL · TIP: torso leans slightly forward"
+                },
+                {
+                  "name": "Rear-foot-elevated split squat, bodyweight",
+                  "baseDose": "3 x 8 each",
+                  "tip": "front foot far enough forward",
+                  "dose": "3 x 8 each · NEEDS BENCH · TIP: front foot far enough forward"
+                },
+                {
+                  "name": "Rear-foot-elevated split squat, 15 lb dumbbells",
+                  "baseDose": "3 x 8 each",
+                  "tip": "graduation: slow, controlled",
+                  "dose": "3 x 8 each · NEEDS BENCH + DUMBBELL · TIP: graduation: slow, controlled"
+                }
+              ]
+            },
+            {
+              "id": "slRdl",
+              "baseName": "Single-leg Romanian deadlift",
+              "name": "Bench · Single-leg Romanian deadlift",
+              "cue": "Hinge at the hip, back flat. Feel it in the standing-leg glute and hamstring.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Single-leg RDL, hand on wall, bodyweight",
+                  "baseDose": "3 x 8 each",
+                  "tip": "soft knee, hips square",
+                  "dose": "3 x 8 each · NEEDS WALL · TIP: soft knee, hips square"
+                },
+                {
+                  "name": "Single-leg RDL, hand on wall, dumbbell in other hand",
+                  "baseDose": "3 x 8 each",
+                  "tip": "weight hangs straight down",
+                  "dose": "3 x 8 each · NEEDS WALL + DUMBBELL · TIP: weight hangs straight down"
+                },
+                {
+                  "name": "Single-leg RDL, free-standing, dumbbell",
+                  "baseDose": "3 x 8 each",
+                  "tip": "graduation: balance without the wall",
+                  "dose": "3 x 8 each · NEEDS DUMBBELL · TIP: graduation: balance without the wall"
+                }
+              ]
+            },
+            {
+              "id": "kick",
+              "baseName": "Cable kickback",
+              "name": "Machines · Cable kickback",
+              "cue": "Slight forward lean, hips square. Move from the hip, not the lower back.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Cable kickback, light",
+                  "baseDose": "3 x 12 each",
+                  "tip": "stop before your back arches",
+                  "dose": "3 x 12 each · NEEDS CABLE · TIP: stop before your back arches"
+                },
+                {
+                  "name": "Cable kickback, moderate",
+                  "baseDose": "3 x 12 each",
+                  "tip": "1s squeeze at the back",
+                  "dose": "3 x 12 each · NEEDS CABLE · TIP: 1s squeeze at the back"
+                },
+                {
+                  "name": "Cable kickback, heavier, slow 3s return",
+                  "baseDose": "3 x 10 each",
+                  "tip": "graduation: smooth, no swing",
+                  "dose": "3 x 10 each · NEEDS CABLE · TIP: graduation: smooth, no swing"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
@@ -1790,7 +2015,8 @@
             "Scapular push-ups: 2 x 10",
             "Wrist push-ups (rock up onto fingers): 2 x 10",
             "Wall lat stretch: 2 x 30s",
-            "Right shoulder: wall slides, ribs down: 10"
+            "Right shoulder: wall slides, ribs down: 10",
+            "90/90 hip switches: 8"
           ],
           "days": [
             {
@@ -1803,7 +2029,7 @@
                 "p2_dips",
                 "p2_tuck"
               ],
-              "after": "Machines (optional): legs only. No extra pressing.",
+              "after": "",
               "sections": [
                 {
                   "name": "Mat",
@@ -1841,7 +2067,7 @@
                 "p2_row",
                 "p2_vpull"
               ],
-              "after": "Machines (optional): seated row, legs.",
+              "after": "",
               "sections": [
                 {
                   "name": "Mat",
@@ -1879,7 +2105,7 @@
                 "p2_headstandPrep",
                 "p2_hams"
               ],
-              "after": "Machines (optional): legs.",
+              "after": "",
               "sections": [
                 {
                   "name": "Mat",
@@ -1894,6 +2120,44 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Day D: Legs & Glutes · Mat → Bench → Machines",
+              "sections": [
+                {
+                  "name": "Mat",
+                  "equipment": "mat, band, exercise ball",
+                  "ladders": [
+                    "p2_glBridge",
+                    "p2_glAbd"
+                  ]
+                },
+                {
+                  "name": "Bench",
+                  "equipment": "bench, dumbbells, barbell",
+                  "ladders": [
+                    "p2_hipThrust",
+                    "p2_splitSq",
+                    "p2_slRdl"
+                  ]
+                },
+                {
+                  "name": "Machines",
+                  "equipment": "cable machine",
+                  "ladders": [
+                    "p2_kick"
+                  ]
+                }
+              ],
+              "ladders": [
+                "p2_glBridge",
+                "p2_glAbd",
+                "p2_hipThrust",
+                "p2_splitSq",
+                "p2_slRdl",
+                "p2_kick"
+              ],
+              "after": "Machines (optional): leg press or hack squat, leg curl, calf raises."
             }
           ],
           "ladders": [
@@ -2460,6 +2724,168 @@
                 }
               ],
               "cueFull": "Hold first, then shrug in the same set. Push tall, elbows locked. Tight hamstrings: bend your knees a little so your back stays flat. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
+            },
+            {
+              "id": "p2_glBridge",
+              "baseName": "Glute bridge",
+              "name": "Mat · Glute bridge",
+              "cue": "Ribs down, tuck the pelvis at the top. Squeeze glutes, don't arch your back.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Single-leg glute bridge, 3s hold at top",
+                  "baseDose": "3 x 10 each",
+                  "tip": "hips stay level",
+                  "dose": "3 x 10 each · TIP: hips stay level"
+                },
+                {
+                  "name": "Single-leg bridge, foot on bench",
+                  "baseDose": "3 x 10 each",
+                  "tip": "push through the heel",
+                  "dose": "3 x 10 each · NEEDS BENCH · TIP: push through the heel"
+                },
+                {
+                  "name": "Single-leg bridge, foot on ball",
+                  "baseDose": "3 x 8 each",
+                  "tip": "graduation: ball stays still",
+                  "dose": "3 x 8 each · NEEDS BALL · TIP: graduation: ball stays still"
+                }
+              ]
+            },
+            {
+              "id": "p2_glAbd",
+              "baseName": "Side glutes",
+              "name": "Mat · Side glutes",
+              "cue": "Hips stacked. Slow.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Side plank (knees down) with top-leg lift",
+                  "baseDose": "3 x 10 each",
+                  "tip": "hips high",
+                  "dose": "3 x 10 each · TIP: hips high"
+                },
+                {
+                  "name": "Full side plank with top-leg lift",
+                  "baseDose": "3 x 6 each",
+                  "tip": "body one straight line",
+                  "dose": "3 x 6 each · TIP: body one straight line"
+                },
+                {
+                  "name": "Banded lateral walk, band above knees",
+                  "baseDose": "3 x 12 steps each way",
+                  "tip": "graduation: stay low, toes forward",
+                  "dose": "3 x 12 steps each way · NEEDS BAND · TIP: graduation: stay low, toes forward"
+                }
+              ]
+            },
+            {
+              "id": "p2_hipThrust",
+              "baseName": "Hip thrust",
+              "name": "Bench · Hip thrust",
+              "cue": "Ribs down, tuck the pelvis at the top. Squeeze glutes, don't arch your back. Upper back on the bench edge.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Single-leg hip thrust, bodyweight",
+                  "baseDose": "3 x 12 each",
+                  "tip": "hips stay level",
+                  "dose": "3 x 12 each · NEEDS BENCH · TIP: hips stay level"
+                },
+                {
+                  "name": "Barbell hip thrust, 65 lb, padded bar",
+                  "baseDose": "3 x 10",
+                  "tip": "chin tucked, ribs down",
+                  "dose": "3 x 10 · NEEDS BENCH + BARBELL · TIP: chin tucked, ribs down"
+                },
+                {
+                  "name": "Barbell hip thrust, 95 lb, padded bar",
+                  "baseDose": "3 x 8",
+                  "tip": "graduation: 1s pause at top",
+                  "dose": "3 x 8 · NEEDS BENCH + BARBELL · TIP: graduation: 1s pause at top"
+                }
+              ]
+            },
+            {
+              "id": "p2_splitSq",
+              "baseName": "Split squat",
+              "name": "Bench · Split squat",
+              "cue": "Lean slightly forward and push through the front heel.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Rear-foot-elevated split squat, 20 lb dumbbells",
+                  "baseDose": "3 x 8 each",
+                  "tip": "slow on the way down",
+                  "dose": "3 x 8 each · NEEDS BENCH + DUMBBELL · TIP: slow on the way down"
+                },
+                {
+                  "name": "Rear-foot-elevated split squat, 25 lb dumbbells",
+                  "baseDose": "3 x 8 each",
+                  "tip": "front knee tracks over toes",
+                  "dose": "3 x 8 each · NEEDS BENCH + DUMBBELL · TIP: front knee tracks over toes"
+                },
+                {
+                  "name": "Rear-foot-elevated split squat, 25 lb, 3s lowering",
+                  "baseDose": "3 x 8 each",
+                  "tip": "graduation: steady and controlled",
+                  "dose": "3 x 8 each · NEEDS BENCH + DUMBBELL · TIP: graduation: steady and controlled"
+                }
+              ]
+            },
+            {
+              "id": "p2_slRdl",
+              "baseName": "Single-leg Romanian deadlift",
+              "name": "Bench · Single-leg Romanian deadlift",
+              "cue": "Hinge at the hip, back flat.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Single-leg RDL, 20 lb dumbbell",
+                  "baseDose": "3 x 8 each",
+                  "tip": "hips square",
+                  "dose": "3 x 8 each · NEEDS DUMBBELL · TIP: hips square"
+                },
+                {
+                  "name": "Single-leg RDL, 25 lb dumbbell",
+                  "baseDose": "3 x 8 each",
+                  "tip": "weight close to the leg",
+                  "dose": "3 x 8 each · NEEDS DUMBBELL · TIP: weight close to the leg"
+                },
+                {
+                  "name": "Single-leg RDL, 30 lb dumbbell, 3s lowering",
+                  "baseDose": "3 x 8 each",
+                  "tip": "graduation: no wobble",
+                  "dose": "3 x 8 each · NEEDS DUMBBELL · TIP: graduation: no wobble"
+                }
+              ]
+            },
+            {
+              "id": "p2_kick",
+              "baseName": "Cable kickback",
+              "name": "Machines · Cable kickback",
+              "cue": "Hips square. Move from the hip, not the lower back.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Cable kickback, heavier, slow 3s return",
+                  "baseDose": "3 x 10 each",
+                  "tip": "no swing",
+                  "dose": "3 x 10 each · NEEDS CABLE · TIP: no swing"
+                },
+                {
+                  "name": "Cable kickback, 2s hold at the back",
+                  "baseDose": "3 x 10 each",
+                  "tip": "squeeze hard",
+                  "dose": "3 x 10 each · NEEDS CABLE · TIP: squeeze hard"
+                },
+                {
+                  "name": "Cable kickback, heavier, 2s hold",
+                  "baseDose": "3 x 10 each",
+                  "tip": "graduation: smooth, back flat",
+                  "dose": "3 x 10 each · NEEDS CABLE · TIP: graduation: smooth, back flat"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
