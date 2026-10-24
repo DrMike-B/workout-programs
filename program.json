@@ -1173,7 +1173,7 @@
                 },
                 {
                   "name": "Machines",
-                  "equipment": "cable machine",
+                  "equipment": "glute kickback machine",
                   "ladders": [
                     "kick"
                   ]
@@ -1968,28 +1968,28 @@
             },
             {
               "id": "kick",
-              "baseName": "Cable kickback",
-              "name": "Machines · Cable kickback",
-              "cue": "Slight forward lean, hips square. Move from the hip, not the lower back.",
+              "baseName": "Glute kickback machine",
+              "name": "Machines · Glute kickback machine",
+              "cue": "Chest on the pad, hips square. Push through the heel; stop before your back arches.",
               "startStep": 0,
               "steps": [
                 {
-                  "name": "Cable kickback, light",
+                  "name": "Glute kickback machine, light",
                   "baseDose": "3 x 12 each",
-                  "tip": "stop before your back arches",
-                  "dose": "3 x 12 each · NEEDS CABLE · TIP: stop before your back arches"
+                  "tip": "find the seat and pad settings",
+                  "dose": "3 x 12 each · NEEDS GLUTE MACHINE · TIP: find the seat and pad settings"
                 },
                 {
-                  "name": "Cable kickback, moderate",
+                  "name": "Glute kickback machine, moderate",
                   "baseDose": "3 x 12 each",
-                  "tip": "1s squeeze at the back",
-                  "dose": "3 x 12 each · NEEDS CABLE · TIP: 1s squeeze at the back"
+                  "tip": "1s squeeze at the top",
+                  "dose": "3 x 12 each · NEEDS GLUTE MACHINE · TIP: 1s squeeze at the top"
                 },
                 {
-                  "name": "Cable kickback, heavier, slow 3s return",
+                  "name": "Glute kickback machine, heavier, slow 3s return",
                   "baseDose": "3 x 10 each",
                   "tip": "graduation: smooth, no swing",
-                  "dose": "3 x 10 each · NEEDS CABLE · TIP: graduation: smooth, no swing"
+                  "dose": "3 x 10 each · NEEDS GLUTE MACHINE · TIP: graduation: smooth, no swing"
                 }
               ]
             }
@@ -2143,7 +2143,7 @@
                 },
                 {
                   "name": "Machines",
-                  "equipment": "cable machine",
+                  "equipment": "glute kickback machine",
                   "ladders": [
                     "p2_kick"
                   ]
@@ -2862,28 +2862,28 @@
             },
             {
               "id": "p2_kick",
-              "baseName": "Cable kickback",
-              "name": "Machines · Cable kickback",
-              "cue": "Hips square. Move from the hip, not the lower back.",
+              "baseName": "Glute kickback machine",
+              "name": "Machines · Glute kickback machine",
+              "cue": "Chest on the pad, hips square. Push through the heel; stop before your back arches.",
               "startStep": 0,
               "steps": [
                 {
-                  "name": "Cable kickback, heavier, slow 3s return",
+                  "name": "Glute kickback machine, heavier, slow 3s return",
                   "baseDose": "3 x 10 each",
                   "tip": "no swing",
-                  "dose": "3 x 10 each · NEEDS CABLE · TIP: no swing"
+                  "dose": "3 x 10 each · NEEDS GLUTE MACHINE · TIP: no swing"
                 },
                 {
-                  "name": "Cable kickback, 2s hold at the back",
+                  "name": "Glute kickback machine, 2s hold at the top",
                   "baseDose": "3 x 10 each",
                   "tip": "squeeze hard",
-                  "dose": "3 x 10 each · NEEDS CABLE · TIP: squeeze hard"
+                  "dose": "3 x 10 each · NEEDS GLUTE MACHINE · TIP: squeeze hard"
                 },
                 {
-                  "name": "Cable kickback, heavier, 2s hold",
+                  "name": "Glute kickback machine, heavier, 2s hold",
                   "baseDose": "3 x 10 each",
                   "tip": "graduation: smooth, back flat",
-                  "dose": "3 x 10 each · NEEDS CABLE · TIP: graduation: smooth, back flat"
+                  "dose": "3 x 10 each · NEEDS GLUTE MACHINE · TIP: graduation: smooth, back flat"
                 }
               ]
             }
