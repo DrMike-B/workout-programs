@@ -1,5 +1,5 @@
 {
-  "version": "2.2",
+  "version": "2.3",
   "updated": "2026-10-24",
   "matPools": {
     "push": [
@@ -1048,7 +1048,7 @@
           ],
           "days": [
             {
-              "name": "Day A: Push · Mat → Bench → Machines",
+              "name": "Day A: Push · Mat → Machines · BRING: MAT, BALL, DUMBBELLS, DIP BARS, ASSISTED PULL-UP/DIP MACHINE",
               "ladders": [
                 "pikePushup",
                 "ballRollout",
@@ -1065,13 +1065,7 @@
                   "ladders": [
                     "pikePushup",
                     "ballRollout",
-                    "legLowers"
-                  ]
-                },
-                {
-                  "name": "Bench",
-                  "equipment": "dumbbells",
-                  "ladders": [
+                    "legLowers",
                     "ohp"
                   ]
                 },
@@ -1083,15 +1077,22 @@
                     "dips"
                   ]
                 }
+              ],
+              "gear": [
+                "MAT",
+                "BALL",
+                "DUMBBELLS",
+                "DIP BARS",
+                "ASSISTED PULL-UP/DIP MACHINE"
               ]
             },
             {
-              "name": "Day B: Pull · Mat → Bench → Machines",
+              "name": "Day B: Pull · Mat → Bench → Machines · BRING: MAT, DUMBBELLS, KETTLEBELL, BENCH, RACK BAR, PULLDOWN MACHINE, ASSISTED PULL-UP/DIP MACHINE",
               "ladders": [
                 "sidePlank",
                 "lStab",
-                "ytw",
                 "saHold",
+                "ytw",
                 "supHang",
                 "row",
                 "vpull"
@@ -1103,15 +1104,15 @@
                   "equipment": "mat, dumbbell, kettlebell",
                   "ladders": [
                     "sidePlank",
-                    "lStab"
+                    "lStab",
+                    "saHold"
                   ]
                 },
                 {
                   "name": "Bench",
                   "equipment": "incline bench, dumbbells",
                   "ladders": [
-                    "ytw",
-                    "saHold"
+                    "ytw"
                   ]
                 },
                 {
@@ -1123,10 +1124,19 @@
                     "vpull"
                   ]
                 }
+              ],
+              "gear": [
+                "MAT",
+                "DUMBBELLS",
+                "KETTLEBELL",
+                "BENCH",
+                "RACK BAR",
+                "PULLDOWN MACHINE",
+                "ASSISTED PULL-UP/DIP MACHINE"
               ]
             },
             {
-              "name": "Day C: Skill & Core · Mat",
+              "name": "Day C: Skill & Core · Mat · BRING: MAT, WALL, BAND, FOAM ROLLER, DOWEL, BENCH, LOW BAR",
               "ladders": [
                 "rMob",
                 "plankCombo",
@@ -1149,10 +1159,19 @@
                     "hams"
                   ]
                 }
+              ],
+              "gear": [
+                "MAT",
+                "WALL",
+                "BAND",
+                "FOAM ROLLER",
+                "DOWEL",
+                "BENCH",
+                "LOW BAR"
               ]
             },
             {
-              "name": "Day D: Legs & Glutes · Mat → Bench → Machines",
+              "name": "Day D: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, WALL, BAND, DUMBBELLS, BENCH, GLUTE MACHINE",
               "sections": [
                 {
                   "name": "Mat",
@@ -1187,7 +1206,15 @@
                 "slRdl",
                 "kick"
               ],
-              "after": "Machines (optional): leg press or hack squat, leg curl, calf raises."
+              "after": "Machines (optional): leg press or hack squat, leg curl, calf raises.",
+              "gear": [
+                "MAT",
+                "WALL",
+                "BAND",
+                "DUMBBELLS",
+                "BENCH",
+                "GLUTE MACHINE"
+              ]
             }
           ],
           "ladders": [
@@ -1325,19 +1352,19 @@
               "steps": [
                 {
                   "name": "Assisted dip machine, heavy assist",
-                  "dose": "3 x 8 · NEEDS DIP MACHINE · TIP: smooth reps, shoulders down",
+                  "dose": "3 x 8 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: smooth reps, shoulders down",
                   "baseDose": "3 x 8",
                   "tip": "smooth reps, shoulders down"
                 },
                 {
                   "name": "Assisted dip machine, moderate assist",
-                  "dose": "3 x 6 · NEEDS DIP MACHINE · TIP: elbows track back, not out",
+                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: elbows track back, not out",
                   "baseDose": "3 x 6",
                   "tip": "elbows track back, not out"
                 },
                 {
                   "name": "Assisted dip machine, moderate assist, 3s lowering",
-                  "dose": "3 x 6 · NEEDS DIP MACHINE · TIP: 3s down, steady push up",
+                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: 3s down, steady push up",
                   "baseDose": "3 x 6",
                   "tip": "3s down, steady push up"
                 }
@@ -1347,7 +1374,7 @@
             },
             {
               "id": "ohp",
-              "name": "Bench · Half-kneeling dumbbell press",
+              "name": "Mat · Half-kneeling dumbbell press",
               "cue": "Half-kneeling. Press only as high as ribs stay down.",
               "startStep": 1,
               "steps": [
@@ -1375,7 +1402,7 @@
             },
             {
               "id": "saHold",
-              "name": "Bench · Single-arm overhead hold",
+              "name": "Mat · Single-arm overhead hold",
               "cue": "One arm at a time. Hold only as high as your back stays flat.",
               "startStep": 1,
               "steps": [
@@ -1443,19 +1470,19 @@
               "steps": [
                 {
                   "name": "Rows, bar at chest height",
-                  "dose": "3 x 8 · NEEDS BAR · TIP: squeeze shoulder blades together",
+                  "dose": "3 x 8 · NEEDS RACK BAR · TIP: squeeze shoulder blades together",
                   "baseDose": "3 x 8",
                   "tip": "squeeze shoulder blades together"
                 },
                 {
                   "name": "Rows, bar at waist height",
-                  "dose": "3 x 8 · NEEDS BAR · TIP: walk feet forward a little",
+                  "dose": "3 x 8 · NEEDS RACK BAR · TIP: walk feet forward a little",
                   "baseDose": "3 x 8",
                   "tip": "walk feet forward a little"
                 },
                 {
                   "name": "Rows, bar at hip height",
-                  "dose": "3 x 8 · NEEDS BAR · TIP: pause 1s at the top",
+                  "dose": "3 x 8 · NEEDS RACK BAR · TIP: pause 1s at the top",
                   "baseDose": "3 x 8",
                   "tip": "pause 1s at the top"
                 }
@@ -1471,19 +1498,19 @@
               "steps": [
                 {
                   "name": "Lat pulldown, moderate weight",
-                  "dose": "3 x 10 · NEEDS PULLDOWN · TIP: pull bar to upper chest",
+                  "dose": "3 x 10 · NEEDS PULLDOWN MACHINE · TIP: pull bar to upper chest",
                   "baseDose": "3 x 10",
                   "tip": "pull bar to upper chest"
                 },
                 {
                   "name": "Lat pulldown, heavier",
-                  "dose": "3 x 8 · NEEDS PULLDOWN · TIP: control 2s on the way up",
+                  "dose": "3 x 8 · NEEDS PULLDOWN MACHINE · TIP: control 2s on the way up",
                   "baseDose": "3 x 8",
                   "tip": "control 2s on the way up"
                 },
                 {
                   "name": "Assisted pull-up machine, heavy assist",
-                  "dose": "3 x 6 · NEEDS ASSIST MACHINE · TIP: step onto the platform, 3s lower",
+                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: step onto the platform, 3s lower",
                   "baseDose": "3 x 6",
                   "tip": "step onto the platform, 3s lower"
                 }
@@ -1555,19 +1582,19 @@
               "steps": [
                 {
                   "name": "Supported hang, most weight on feet",
-                  "dose": "3 x 20s · NEEDS BAR · TIP: lean back gently, banana shape",
+                  "dose": "3 x 20s · NEEDS RACK BAR · TIP: lean back gently, banana shape",
                   "baseDose": "3 x 20s",
                   "tip": "lean back gently, banana shape"
                 },
                 {
                   "name": "Supported hang, less weight on feet",
-                  "dose": "3 x 20s · NEEDS BAR · TIP: feet take less, shoulders still active",
+                  "dose": "3 x 20s · NEEDS RACK BAR · TIP: feet take less, shoulders still active",
                   "baseDose": "3 x 20s",
                   "tip": "feet take less, shoulders still active"
                 },
                 {
                   "name": "Supported scap pulls, feet on floor",
-                  "dose": "3 x 8 · NEEDS BAR · TIP: arms straight, only shoulder blades move",
+                  "dose": "3 x 8 · NEEDS RACK BAR · TIP: arms straight, only shoulder blades move",
                   "baseDose": "3 x 8",
                   "tip": "arms straight, only shoulder blades move"
                 }
@@ -2020,7 +2047,7 @@
           ],
           "days": [
             {
-              "name": "Day A: Push · Mat → Bench → Machines",
+              "name": "Day A: Push · Mat → Machines · BRING: MAT, WALL, DUMBBELLS, BARBELL, DIP BARS, ASSISTED PULL-UP/DIP MACHINE",
               "ladders": [
                 "p2_pikePushup",
                 "p2_hollow",
@@ -2037,13 +2064,7 @@
                   "ladders": [
                     "p2_pikePushup",
                     "p2_hollow",
-                    "p2_compression"
-                  ]
-                },
-                {
-                  "name": "Bench",
-                  "equipment": "dumbbells, landmine",
-                  "ladders": [
+                    "p2_compression",
                     "p2_ohp"
                   ]
                 },
@@ -2055,15 +2076,23 @@
                     "p2_tuck"
                   ]
                 }
+              ],
+              "gear": [
+                "MAT",
+                "WALL",
+                "DUMBBELLS",
+                "BARBELL",
+                "DIP BARS",
+                "ASSISTED PULL-UP/DIP MACHINE"
               ]
             },
             {
-              "name": "Day B: Pull · Mat → Bench → Machines",
+              "name": "Day B: Pull · Mat → Bench → Machines · BRING: MAT, DUMBBELLS, KETTLEBELL, BENCH, RACK BAR, ASSISTED PULL-UP/DIP MACHINE",
               "ladders": [
                 "p2_arch",
                 "p2_lStab",
-                "p2_ytw",
                 "p2_saHold",
+                "p2_ytw",
                 "p2_row",
                 "p2_vpull"
               ],
@@ -2074,15 +2103,15 @@
                   "equipment": "mat, kettlebell",
                   "ladders": [
                     "p2_arch",
-                    "p2_lStab"
+                    "p2_lStab",
+                    "p2_saHold"
                   ]
                 },
                 {
                   "name": "Bench",
                   "equipment": "incline bench, dumbbells",
                   "ladders": [
-                    "p2_ytw",
-                    "p2_saHold"
+                    "p2_ytw"
                   ]
                 },
                 {
@@ -2093,10 +2122,18 @@
                     "p2_vpull"
                   ]
                 }
+              ],
+              "gear": [
+                "MAT",
+                "DUMBBELLS",
+                "KETTLEBELL",
+                "BENCH",
+                "RACK BAR",
+                "ASSISTED PULL-UP/DIP MACHINE"
               ]
             },
             {
-              "name": "Day C: Skill & Core · Mat",
+              "name": "Day C: Skill & Core · Mat · BRING: MAT, WALL, BALL, FOAM ROLLER, DOWEL, BENCH",
               "ladders": [
                 "p2_rMob",
                 "p2_wallHold",
@@ -2119,10 +2156,18 @@
                     "p2_hams"
                   ]
                 }
+              ],
+              "gear": [
+                "MAT",
+                "WALL",
+                "BALL",
+                "FOAM ROLLER",
+                "DOWEL",
+                "BENCH"
               ]
             },
             {
-              "name": "Day D: Legs & Glutes · Mat → Bench → Machines",
+              "name": "Day D: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, BAND, BALL, DUMBBELLS, BARBELL, BENCH, GLUTE MACHINE",
               "sections": [
                 {
                   "name": "Mat",
@@ -2157,7 +2202,16 @@
                 "p2_slRdl",
                 "p2_kick"
               ],
-              "after": "Machines (optional): leg press or hack squat, leg curl, calf raises."
+              "after": "Machines (optional): leg press or hack squat, leg curl, calf raises.",
+              "gear": [
+                "MAT",
+                "BAND",
+                "BALL",
+                "DUMBBELLS",
+                "BARBELL",
+                "BENCH",
+                "GLUTE MACHINE"
+              ]
             }
           ],
           "ladders": [
@@ -2363,7 +2417,7 @@
               "steps": [
                 {
                   "name": "Assisted dip machine, light assist, 3s lowering",
-                  "dose": "3 x 6 · NEEDS DIP MACHINE · TIP: light assist, 3s down",
+                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: light assist, 3s down",
                   "baseDose": "3 x 6",
                   "tip": "light assist, 3s down"
                 },
@@ -2385,7 +2439,7 @@
             },
             {
               "id": "p2_ohp",
-              "name": "Bench · Half-kneeling dumbbell press",
+              "name": "Mat · Half-kneeling dumbbell press",
               "cue": "Press only as high as ribs stay down.",
               "startStep": 0,
               "steps": [
@@ -2413,7 +2467,7 @@
             },
             {
               "id": "p2_saHold",
-              "name": "Bench · Single-arm overhead hold",
+              "name": "Mat · Single-arm overhead hold",
               "cue": "One arm at a time. Back stays flat.",
               "startStep": 0,
               "steps": [
@@ -2503,19 +2557,19 @@
               "steps": [
                 {
                   "name": "Rows, bar at hip height",
-                  "dose": "3 x 8 · NEEDS BAR · TIP: squeeze shoulder blades",
+                  "dose": "3 x 8 · NEEDS RACK BAR · TIP: squeeze shoulder blades",
                   "baseDose": "3 x 8",
                   "tip": "squeeze shoulder blades"
                 },
                 {
                   "name": "Rows, bar at hip height",
-                  "dose": "3 x 12 · NEEDS BAR · TIP: more reps, same form",
+                  "dose": "3 x 12 · NEEDS RACK BAR · TIP: more reps, same form",
                   "baseDose": "3 x 12",
                   "tip": "more reps, same form"
                 },
                 {
                   "name": "Rows, bar lowered, body nearly horizontal",
-                  "dose": "3 x 8 · NEEDS BAR · TIP: lower bar, harder",
+                  "dose": "3 x 8 · NEEDS RACK BAR · TIP: lower bar, harder",
                   "baseDose": "3 x 8",
                   "tip": "lower bar, harder"
                 }
@@ -2531,19 +2585,19 @@
               "steps": [
                 {
                   "name": "Assisted pull-up machine, heavy assist",
-                  "dose": "3 x 8 · NEEDS ASSIST MACHINE · TIP: heavy assist, full range",
+                  "dose": "3 x 8 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: heavy assist, full range",
                   "baseDose": "3 x 8",
                   "tip": "heavy assist, full range"
                 },
                 {
                   "name": "Assisted pull-up machine, moderate assist",
-                  "dose": "3 x 6 · NEEDS ASSIST MACHINE · TIP: less assist, same control",
+                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: less assist, same control",
                   "baseDose": "3 x 6",
                   "tip": "less assist, same control"
                 },
                 {
                   "name": "Assisted pull-up machine, light assist",
-                  "dose": "3 x 5 · NEEDS ASSIST MACHINE · TIP: graduation: light assist",
+                  "dose": "3 x 5 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: graduation: light assist",
                   "baseDose": "3 x 5",
                   "tip": "graduation: light assist"
                 }
