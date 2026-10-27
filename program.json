@@ -1142,6 +1142,7 @@
                 "plankCombo",
                 "pikeCombo",
                 "headstandPrep",
+                "sitThrough",
                 "hollow",
                 "hams"
               ],
@@ -1155,6 +1156,7 @@
                     "plankCombo",
                     "pikeCombo",
                     "headstandPrep",
+                    "sitThrough",
                     "hollow",
                     "hams"
                   ]
@@ -2019,6 +2021,39 @@
                   "dose": "3 x 10 each · NEEDS GLUTE MACHINE · TIP: graduation: smooth, no swing"
                 }
               ]
+            },
+            {
+              "id": "sitThrough",
+              "baseName": "Sit-through",
+              "name": "Mat · Sit-through",
+              "cue": "Support hand beside your hip, never behind you. Slow and controlled; stop if the shoulder feels unsteady.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Tabletop sit-through, knees down: thread one leg through to sit",
+                  "baseDose": "5 each side",
+                  "tip": "lift the hand, rotate the hips, then the leg",
+                  "dose": "5 each side · TIP: lift the hand, rotate the hips, then the leg"
+                },
+                {
+                  "name": "Bear sit-through, knees 1 inch off the floor",
+                  "baseDose": "5 each side",
+                  "tip": "shift weight onto the planted hand first",
+                  "dose": "5 each side · TIP: shift weight onto the planted hand first"
+                },
+                {
+                  "name": "Plank sit-through, 2s pause seated",
+                  "baseDose": "5 each side",
+                  "tip": "push the floor away with the support hand",
+                  "dose": "5 each side · TIP: push the floor away with the support hand"
+                },
+                {
+                  "name": "Continuous sit-throughs, alternating sides",
+                  "baseDose": "30s",
+                  "tip": "graduation: smooth rhythm, no rushing",
+                  "dose": "30s · TIP: graduation: smooth rhythm, no rushing"
+                }
+              ]
             }
           ],
           "graduation": "Reach the last step of every ladder and hit its target.",
@@ -2140,6 +2175,7 @@
                 "p2_donkey",
                 "p2_pikeCombo",
                 "p2_headstandPrep",
+                "p2_sitThrough",
                 "p2_hams"
               ],
               "after": "",
@@ -2153,6 +2189,7 @@
                     "p2_donkey",
                     "p2_pikeCombo",
                     "p2_headstandPrep",
+                    "p2_sitThrough",
                     "p2_hams"
                   ]
                 }
@@ -2938,6 +2975,33 @@
                   "baseDose": "3 x 10 each",
                   "tip": "graduation: smooth, back flat",
                   "dose": "3 x 10 each · NEEDS GLUTE MACHINE · TIP: graduation: smooth, back flat"
+                }
+              ]
+            },
+            {
+              "id": "p2_sitThrough",
+              "baseName": "Sit-through",
+              "name": "Mat · Sit-through",
+              "cue": "Support hand beside your hip, never behind you. Slow and controlled; stop if the shoulder feels unsteady.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Continuous sit-throughs, alternating sides",
+                  "baseDose": "30s",
+                  "tip": "smooth rhythm",
+                  "dose": "30s · TIP: smooth rhythm"
+                },
+                {
+                  "name": "Continuous sit-throughs, alternating sides",
+                  "baseDose": "45s",
+                  "tip": "breathe, stay relaxed",
+                  "dose": "45s · TIP: breathe, stay relaxed"
+                },
+                {
+                  "name": "Continuous sit-throughs, 2s pause each side",
+                  "baseDose": "60s",
+                  "tip": "graduation: controlled the whole minute",
+                  "dose": "60s · TIP: graduation: controlled the whole minute"
                 }
               ]
             }
