@@ -1187,7 +1187,6 @@
                   "name": "Bench",
                   "equipment": "bench, dumbbells",
                   "ladders": [
-                    "hipThrust",
                     "splitSq",
                     "slRdl"
                   ]
@@ -1203,7 +1202,6 @@
               "ladders": [
                 "glBridge",
                 "glAbd",
-                "hipThrust",
                 "splitSq",
                 "slRdl",
                 "kick"
@@ -1903,39 +1901,6 @@
               ]
             },
             {
-              "id": "hipThrust",
-              "baseName": "Hip thrust",
-              "name": "Bench · Hip thrust",
-              "cue": "Ribs down, tuck the pelvis at the top. Squeeze glutes, don't arch your back. Upper back on the bench edge.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Bodyweight hip thrust",
-                  "baseDose": "3 x 12",
-                  "tip": "chin tucked, eyes forward",
-                  "dose": "3 x 12 · NEEDS BENCH · TIP: chin tucked, eyes forward"
-                },
-                {
-                  "name": "Hip thrust, 25 lb dumbbell on hips",
-                  "baseDose": "3 x 10",
-                  "tip": "pad the dumbbell with a towel",
-                  "dose": "3 x 10 · NEEDS BENCH + DUMBBELL · TIP: pad the dumbbell with a towel"
-                },
-                {
-                  "name": "Hip thrust, 40 lb dumbbell on hips",
-                  "baseDose": "3 x 10",
-                  "tip": "pause 1s at the top",
-                  "dose": "3 x 10 · NEEDS BENCH + DUMBBELL · TIP: pause 1s at the top"
-                },
-                {
-                  "name": "Single-leg hip thrust, bodyweight",
-                  "baseDose": "3 x 10 each",
-                  "tip": "graduation: hips stay level",
-                  "dose": "3 x 10 each · NEEDS BENCH · TIP: graduation: hips stay level"
-                }
-              ]
-            },
-            {
               "id": "splitSq",
               "baseName": "Split squat",
               "name": "Bench · Split squat",
@@ -2204,7 +2169,7 @@
               ]
             },
             {
-              "name": "Day D: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, BAND, BALL, DUMBBELLS, BARBELL, BENCH, GLUTE MACHINE",
+              "name": "Day D: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, BAND, BALL, DUMBBELLS, BENCH, GLUTE MACHINE",
               "sections": [
                 {
                   "name": "Mat",
@@ -2216,9 +2181,8 @@
                 },
                 {
                   "name": "Bench",
-                  "equipment": "bench, dumbbells, barbell",
+                  "equipment": "bench, dumbbells",
                   "ladders": [
-                    "p2_hipThrust",
                     "p2_splitSq",
                     "p2_slRdl"
                   ]
@@ -2234,7 +2198,6 @@
               "ladders": [
                 "p2_glBridge",
                 "p2_glAbd",
-                "p2_hipThrust",
                 "p2_splitSq",
                 "p2_slRdl",
                 "p2_kick"
@@ -2245,7 +2208,6 @@
                 "BAND",
                 "BALL",
                 "DUMBBELLS",
-                "BARBELL",
                 "BENCH",
                 "GLUTE MACHINE"
               ]
@@ -2867,33 +2829,6 @@
                   "baseDose": "3 x 12 steps each way",
                   "tip": "graduation: stay low, toes forward",
                   "dose": "3 x 12 steps each way · NEEDS BAND · TIP: graduation: stay low, toes forward"
-                }
-              ]
-            },
-            {
-              "id": "p2_hipThrust",
-              "baseName": "Hip thrust",
-              "name": "Bench · Hip thrust",
-              "cue": "Ribs down, tuck the pelvis at the top. Squeeze glutes, don't arch your back. Upper back on the bench edge.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Single-leg hip thrust, bodyweight",
-                  "baseDose": "3 x 12 each",
-                  "tip": "hips stay level",
-                  "dose": "3 x 12 each · NEEDS BENCH · TIP: hips stay level"
-                },
-                {
-                  "name": "Barbell hip thrust, 65 lb, padded bar",
-                  "baseDose": "3 x 10",
-                  "tip": "chin tucked, ribs down",
-                  "dose": "3 x 10 · NEEDS BENCH + BARBELL · TIP: chin tucked, ribs down"
-                },
-                {
-                  "name": "Barbell hip thrust, 95 lb, padded bar",
-                  "baseDose": "3 x 8",
-                  "tip": "graduation: 1s pause at top",
-                  "dose": "3 x 8 · NEEDS BENCH + BARBELL · TIP: graduation: 1s pause at top"
                 }
               ]
             },
