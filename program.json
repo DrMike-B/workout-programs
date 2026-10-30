@@ -1638,8 +1638,8 @@
             },
             {
               "id": "ballRollout",
-              "name": "Mat · Ball rollout",
-              "cue": "Ribs down, glutes tight. Roll only as far as your back stays flat.",
+              "name": "Mat · Ball rollout → ball pike",
+              "cue": "Ribs down, back flat. On the ball pike steps, push the floor away; don't sink between your shoulders.",
               "startStep": 0,
               "steps": [
                 {
@@ -1656,12 +1656,30 @@
                 },
                 {
                   "name": "Kneeling, roll out until arms are overhead",
-                  "dose": "3 x 8 · NEEDS BALL · TIP: graduation: arms overhead, back still flat",
+                  "dose": "3 x 8 · NEEDS BALL · TIP: arms overhead, back still flat",
                   "baseDose": "3 x 8",
-                  "tip": "graduation: arms overhead, back still flat"
+                  "tip": "arms overhead, back still flat"
+                },
+                {
+                  "name": "Ball walkout: lie over the ball, walk hands out until shins are on it, walk back",
+                  "baseDose": "3 x 5",
+                  "tip": "push the floor away, body straight",
+                  "dose": "3 x 5 · NEEDS BALL · TIP: push the floor away, body straight"
+                },
+                {
+                  "name": "Ball tuck: shins on ball, roll knees toward chest",
+                  "baseDose": "3 x 8",
+                  "tip": "hands under shoulders, slow return",
+                  "dose": "3 x 8 · NEEDS BALL · TIP: hands under shoulders, slow return"
+                },
+                {
+                  "name": "Half ball pike: shins on ball, roll in until hips rise halfway",
+                  "baseDose": "3 x 6",
+                  "tip": "graduation: hips up, ribs down, slow return",
+                  "dose": "3 x 6 · NEEDS BALL · TIP: graduation: hips up, ribs down, slow return"
                 }
               ],
-              "baseName": "Ball rollout",
+              "baseName": "Ball rollout → ball pike",
               "cueFull": "Ribs down, glutes squeezed, back flat. Only roll as far as you can without your lower back sagging. Ab wheel instead? It's much harder: only after full ball rollouts, kneeling, rolling toward a wall to limit range."
             },
             {
