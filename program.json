@@ -1,6 +1,6 @@
 {
-  "version": "2.3",
-  "updated": "2026-10-24",
+  "version": "3.0",
+  "updated": "2026-11-06",
   "matPools": {
     "push": [
       "Thread the Needle",
@@ -1031,9 +1031,9 @@
       "phases": [
         {
           "id": 1,
-          "name": "Phase 1: Shoulder Foundation",
+          "name": "Phase 1: Training Program",
           "status": "active",
-          "goal": "Left cuff strength, right shoulder range, safe pressing, core and hamstrings. Worth doing for its own sake.",
+          "goal": "Rotate 1A → 2A → 3A → 4A → 1B → 2B → 3B → 4B. Each exercise moves up its own ladder at its own pace.",
           "warmup": [
             "Wrist circles: 10 each direction",
             "Wrist rocks on all fours: 10 fingers forward, 10 back",
@@ -1048,136 +1048,214 @@
           ],
           "days": [
             {
-              "name": "Day A: Push · Mat → Machines · BRING: MAT, BALL, DUMBBELLS, DIP BARS, ASSISTED PULL-UP/DIP MACHINE",
-              "ladders": [
-                "pikePushup",
-                "ballRollout",
-                "legLowers",
-                "ohp",
-                "dipSupport",
-                "dips"
+              "name": "1A: Push · Mat → Machines · BRING: MAT, WALL, DIP BARS, ASSISTED PULL-UP/DIP MACHINE",
+              "gear": [
+                "MAT",
+                "WALL",
+                "DIP BARS",
+                "ASSISTED PULL-UP/DIP MACHINE"
               ],
-              "after": "",
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, exercise ball",
                   "ladders": [
                     "pikePushup",
-                    "ballRollout",
-                    "legLowers",
-                    "ohp"
+                    "legLowers"
                   ]
                 },
                 {
                   "name": "Machines",
-                  "equipment": "dip station, assisted dip machine",
                   "ladders": [
                     "dipSupport",
                     "dips"
                   ]
                 }
               ],
-              "gear": [
-                "MAT",
-                "BALL",
-                "DUMBBELLS",
-                "DIP BARS",
-                "ASSISTED PULL-UP/DIP MACHINE"
-              ]
+              "ladders": [
+                "pikePushup",
+                "legLowers",
+                "dipSupport",
+                "dips"
+              ],
+              "after": ""
             },
             {
-              "name": "Day B: Pull · Mat → Bench → Machines · BRING: MAT, DUMBBELLS, KETTLEBELL, BENCH, RACK BAR, PULLDOWN MACHINE, ASSISTED PULL-UP/DIP MACHINE",
-              "ladders": [
-                "sidePlank",
-                "lStab",
-                "saHold",
-                "ytw",
-                "supHang",
-                "row",
-                "vpull"
+              "name": "1B: Push · Mat · BRING: MAT, WALL, BALL, DUMBBELLS, BARBELL, BENCH",
+              "gear": [
+                "MAT",
+                "WALL",
+                "BALL",
+                "DUMBBELLS",
+                "BARBELL",
+                "BENCH"
               ],
-              "after": "",
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, dumbbell, kettlebell",
                   "ladders": [
-                    "sidePlank",
+                    "wallPushPlus",
+                    "pushUp",
+                    "ohp",
+                    "ballRollout"
+                  ]
+                }
+              ],
+              "ladders": [
+                "wallPushPlus",
+                "pushUp",
+                "ohp",
+                "ballRollout"
+              ],
+              "after": ""
+            },
+            {
+              "name": "2A: Pull · Mat → Machines · BRING: MAT, DUMBBELLS, KETTLEBELL, RACK BAR, PULLDOWN MACHINE, ASSISTED PULL-UP/DIP MACHINE",
+              "gear": [
+                "MAT",
+                "DUMBBELLS",
+                "KETTLEBELL",
+                "RACK BAR",
+                "PULLDOWN MACHINE",
+                "ASSISTED PULL-UP/DIP MACHINE"
+              ],
+              "sections": [
+                {
+                  "name": "Mat",
+                  "ladders": [
                     "lStab",
+                    "sidePlank"
+                  ]
+                },
+                {
+                  "name": "Machines",
+                  "ladders": [
+                    "row",
+                    "vpull"
+                  ]
+                }
+              ],
+              "ladders": [
+                "lStab",
+                "sidePlank",
+                "row",
+                "vpull"
+              ],
+              "after": ""
+            },
+            {
+              "name": "2B: Pull · Mat → Bench → Machines · BRING: MAT, BAND, DUMBBELLS, BENCH, RACK BAR, CABLE",
+              "gear": [
+                "MAT",
+                "BAND",
+                "DUMBBELLS",
+                "BENCH",
+                "RACK BAR",
+                "CABLE"
+              ],
+              "sections": [
+                {
+                  "name": "Mat",
+                  "ladders": [
+                    "birdDog",
                     "saHold"
                   ]
                 },
                 {
                   "name": "Bench",
-                  "equipment": "incline bench, dumbbells",
                   "ladders": [
                     "ytw"
                   ]
                 },
                 {
                   "name": "Machines",
-                  "equipment": "Smith or rack bar, lat pulldown, assisted pull-up",
                   "ladders": [
                     "supHang",
-                    "row",
-                    "vpull"
+                    "facePull"
                   ]
                 }
               ],
-              "gear": [
-                "MAT",
-                "DUMBBELLS",
-                "KETTLEBELL",
-                "BENCH",
-                "RACK BAR",
-                "PULLDOWN MACHINE",
-                "ASSISTED PULL-UP/DIP MACHINE"
-              ]
+              "ladders": [
+                "birdDog",
+                "saHold",
+                "ytw",
+                "supHang",
+                "facePull"
+              ],
+              "after": ""
             },
             {
-              "name": "Day C: Skill & Core · Mat · BRING: MAT, WALL, BAND, FOAM ROLLER, DOWEL, BENCH, LOW BAR",
-              "ladders": [
-                "rMob",
-                "plankCombo",
-                "pikeCombo",
-                "headstandPrep",
-                "sitThrough",
-                "hollow",
-                "hams"
+              "name": "3A: Skill & Core · Mat · BRING: MAT, WALL, FOAM ROLLER, DOWEL, BENCH, LOW BAR",
+              "gear": [
+                "MAT",
+                "WALL",
+                "FOAM ROLLER",
+                "DOWEL",
+                "BENCH",
+                "LOW BAR"
               ],
-              "after": "",
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, wall, low bar, foam roller, dowel, band, exercise ball",
                   "ladders": [
                     "rMob",
                     "plankCombo",
                     "pikeCombo",
-                    "headstandPrep",
-                    "sitThrough",
-                    "hollow",
-                    "hams"
+                    "hollow"
                   ]
                 }
               ],
+              "ladders": [
+                "rMob",
+                "plankCombo",
+                "pikeCombo",
+                "hollow"
+              ],
+              "after": ""
+            },
+            {
+              "name": "3B: Skill & Core · Mat · BRING: MAT, WALL, BAND, FOAM ROLLER, DOWEL, BENCH",
               "gear": [
                 "MAT",
                 "WALL",
                 "BAND",
                 "FOAM ROLLER",
                 "DOWEL",
-                "BENCH",
-                "LOW BAR"
-              ]
-            },
-            {
-              "name": "Day D: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, WALL, BAND, DUMBBELLS, BENCH, GLUTE MACHINE",
+                "BENCH"
+              ],
               "sections": [
                 {
                   "name": "Mat",
-                  "equipment": "mat, band",
+                  "ladders": [
+                    "rMob",
+                    "headstandPrep",
+                    "sitThrough",
+                    "flow",
+                    "hams"
+                  ]
+                }
+              ],
+              "ladders": [
+                "rMob",
+                "headstandPrep",
+                "sitThrough",
+                "flow",
+                "hams"
+              ],
+              "after": ""
+            },
+            {
+              "name": "4A: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, BAND, BALL, DUMBBELLS, BENCH, GLUTE MACHINE",
+              "gear": [
+                "MAT",
+                "BAND",
+                "BALL",
+                "DUMBBELLS",
+                "BENCH",
+                "GLUTE MACHINE"
+              ],
+              "sections": [
+                {
+                  "name": "Mat",
                   "ladders": [
                     "glBridge",
                     "glAbd"
@@ -1185,15 +1263,12 @@
                 },
                 {
                   "name": "Bench",
-                  "equipment": "bench, dumbbells",
                   "ladders": [
-                    "splitSq",
-                    "slRdl"
+                    "splitSq"
                   ]
                 },
                 {
                   "name": "Machines",
-                  "equipment": "glute kickback machine",
                   "ladders": [
                     "kick"
                   ]
@@ -1203,85 +1278,50 @@
                 "glBridge",
                 "glAbd",
                 "splitSq",
-                "slRdl",
                 "kick"
               ],
-              "after": "Machines (optional): leg press or hack squat, leg curl, calf raises.",
+              "after": ""
+            },
+            {
+              "name": "4B: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, WALL, DUMBBELLS, LEG PRESS, ABDUCTOR MACHINE",
               "gear": [
                 "MAT",
                 "WALL",
-                "BAND",
                 "DUMBBELLS",
-                "BENCH",
-                "GLUTE MACHINE"
-              ]
+                "LEG PRESS",
+                "ABDUCTOR MACHINE"
+              ],
+              "sections": [
+                {
+                  "name": "Mat",
+                  "ladders": [
+                    "balance"
+                  ]
+                },
+                {
+                  "name": "Bench",
+                  "ladders": [
+                    "slRdl"
+                  ]
+                },
+                {
+                  "name": "Machines",
+                  "ladders": [
+                    "legPress",
+                    "hipAbd"
+                  ]
+                }
+              ],
+              "ladders": [
+                "balance",
+                "slRdl",
+                "legPress",
+                "hipAbd"
+              ],
+              "after": ""
             }
           ],
           "ladders": [
-            {
-              "id": "plankCombo",
-              "name": "Mat · Plank progression",
-              "startStep": 0,
-              "cue": "Push the floor away. Stop before the shoulder starts to give.",
-              "steps": [
-                {
-                  "name": "Floor plank: 30s hold, then 10 weight shifts",
-                  "dose": "3 sets · TIP: shift slowly, hips stay level",
-                  "baseDose": "3 sets",
-                  "tip": "shift slowly, hips stay level"
-                },
-                {
-                  "name": "Floor plank: 30s hold, then 6 fingertip hovers each side (palm up onto fingertips, then lift 1 inch)",
-                  "dose": "3 sets · TIP: palm lifts first, fingertips stay down",
-                  "baseDose": "3 sets",
-                  "tip": "palm lifts first, fingertips stay down"
-                },
-                {
-                  "name": "Floor plank: 20s hold, then 6 shoulder taps each side",
-                  "dose": "3 sets · TIP: widen feet if hips rock",
-                  "baseDose": "3 sets",
-                  "tip": "widen feet if hips rock"
-                },
-                {
-                  "name": "Feet on the low bar (~4\"): 20s hold, then 6 shoulder taps each side",
-                  "dose": "3 sets · NEEDS LOW BAR · TIP: toes on bar, body one straight line",
-                  "baseDose": "3 sets",
-                  "tip": "toes on bar, body one straight line"
-                },
-                {
-                  "name": "Feet on foam roller on the low bar, wedged against the wall (~10\"): 20s hold, then 6 shoulder taps each side",
-                  "dose": "3 sets · NEEDS FOAM ROLLER + LOW BAR + WALL · TIP: test the roller with one foot first",
-                  "baseDose": "3 sets",
-                  "tip": "test the roller with one foot first"
-                },
-                {
-                  "name": "Feet on wall at 1 ft: 20s hold only",
-                  "dose": "3 sets · NEEDS WALL · TIP: press toes into the wall, just hold",
-                  "baseDose": "3 sets",
-                  "tip": "press toes into the wall, just hold"
-                },
-                {
-                  "name": "Feet on wall at 1 ft: 20s hold, then 6 shoulder taps each side",
-                  "dose": "3 sets · NEEDS WALL · TIP: hands stay planted, only one hand lifts",
-                  "baseDose": "3 sets",
-                  "tip": "hands stay planted, only one hand lifts"
-                },
-                {
-                  "name": "Feet on wall at 2 ft: 20s hold, then 4 shoulder taps each side",
-                  "dose": "3 sets · NEEDS WALL · TIP: fewer taps, slower taps",
-                  "baseDose": "3 sets",
-                  "tip": "fewer taps, slower taps"
-                },
-                {
-                  "name": "Feet on wall at 3 ft: 20s hold, then 3 shoulder taps each side",
-                  "dose": "3 sets · NEEDS WALL · TIP: graduation: walk feet down, never drop",
-                  "baseDose": "3 sets",
-                  "tip": "graduation: walk feet down, never drop"
-                }
-              ],
-              "baseName": "Plank progression",
-              "cueFull": "Hold first, then the single-arm work in the same set. On the wall: back your feet up and place your toes at the mark, press toes into the wall, hands stay planted. Shift weight slowly, grip the floor, stop before the shoulder gives. Wall marks at 1, 2 and 3 ft (tape or wall features). Roller step: press it with a foot first to check it's wedged before putting weight on it. Have a medicine ball? Rolling it under one hand works for the fingertip-hover step too."
-            },
             {
               "id": "pikePushup",
               "name": "Mat · Pike push-ups",
@@ -1317,60 +1357,168 @@
                   "dose": "3 x 5 · TIP: head lightly touches, no bouncing",
                   "baseDose": "3 x 5",
                   "tip": "head lightly touches, no bouncing"
+                },
+                {
+                  "name": "Full pike push-ups",
+                  "dose": "3 x 8 · TIP: smooth, no bouncing",
+                  "baseDose": "3 x 8",
+                  "tip": "smooth, no bouncing"
+                },
+                {
+                  "name": "Pike push-ups, feet walked in close",
+                  "dose": "3 x 5 · TIP: feet closer = more on shoulders",
+                  "baseDose": "3 x 5",
+                  "tip": "feet closer = more on shoulders"
+                },
+                {
+                  "name": "Pike push-ups, feet on wall at 1 ft",
+                  "dose": "3 x 5 · NEEDS WALL · TIP: set feet at the mark first",
+                  "baseDose": "3 x 5",
+                  "tip": "set feet at the mark first"
+                },
+                {
+                  "name": "Pike push-ups, feet on wall at 2 ft",
+                  "dose": "3 x 5 · NEEDS WALL · TIP: hips high over hands",
+                  "baseDose": "3 x 5",
+                  "tip": "hips high over hands"
+                },
+                {
+                  "name": "Wall L-pike push-ups, hips over hands",
+                  "dose": "3 x 3 · NEEDS WALL · TIP: graduation: hips over hands, slow",
+                  "baseDose": "3 x 3",
+                  "tip": "graduation: hips over hands, slow"
                 }
               ],
               "baseName": "Pike push-ups",
               "cueFull": "Head lands slightly in front of hands, elbows back at 45°. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
             },
             {
-              "id": "dipSupport",
-              "name": "Machines · Dip support hold",
-              "cue": "Arms locked, shoulders pushed down. Use the steps, no jumping.",
-              "startStep": 1,
+              "id": "ballRollout",
+              "name": "Mat · Ball rollout → donkey kicks",
+              "cue": "Ribs down, back flat. On the ball pike steps, push the floor away; don't sink between your shoulders.",
+              "startStep": 0,
               "steps": [
                 {
-                  "name": "Support hold, feet lightly on floor",
-                  "dose": "3 x 10-20s · NEEDS DIP BARS · TIP: feet take a little weight",
-                  "baseDose": "3 x 10-20s",
-                  "tip": "feet take a little weight"
+                  "name": "Kneeling, forearms on ball, short roll out",
+                  "dose": "3 x 8 · NEEDS BALL · TIP: small range, smooth return",
+                  "baseDose": "3 x 8",
+                  "tip": "small range, smooth return"
                 },
                 {
-                  "name": "Dip support hold",
-                  "dose": "3 x 20s · NEEDS DIP BARS · TIP: squeeze the bars, stay tall",
-                  "baseDose": "3 x 20s",
-                  "tip": "squeeze the bars, stay tall"
+                  "name": "Kneeling, roll out further",
+                  "dose": "3 x 8 · NEEDS BALL · TIP: a few inches further",
+                  "baseDose": "3 x 8",
+                  "tip": "a few inches further"
+                },
+                {
+                  "name": "Kneeling, roll out until arms are overhead",
+                  "dose": "3 x 8 · NEEDS BALL · TIP: arms overhead, back still flat",
+                  "baseDose": "3 x 8",
+                  "tip": "arms overhead, back still flat"
+                },
+                {
+                  "name": "Ball walkout: lie over the ball, walk hands out until shins are on it, walk back",
+                  "baseDose": "3 x 5",
+                  "tip": "push the floor away, body straight",
+                  "dose": "3 x 5 · NEEDS BALL · TIP: push the floor away, body straight"
+                },
+                {
+                  "name": "Ball tuck: shins on ball, roll knees toward chest",
+                  "baseDose": "3 x 8",
+                  "tip": "hands under shoulders, slow return",
+                  "dose": "3 x 8 · NEEDS BALL · TIP: hands under shoulders, slow return"
+                },
+                {
+                  "name": "Half ball pike: shins on ball, roll in until hips rise halfway",
+                  "baseDose": "3 x 6",
+                  "tip": "graduation: hips up, ribs down, slow return",
+                  "dose": "3 x 6 · NEEDS BALL · TIP: graduation: hips up, ribs down, slow return"
+                },
+                {
+                  "name": "Ball pike, hips over hands, 3s return",
+                  "dose": "3 x 6 · NEEDS BALL · TIP: hips over hands, slow return",
+                  "baseDose": "3 x 6",
+                  "tip": "hips over hands, slow return"
+                },
+                {
+                  "name": "Rock and hold: feet light 2s, lower toes slowly",
+                  "dose": "3 x 6 · TIP: feet go light, toes down slowly",
+                  "baseDose": "3 x 6",
+                  "tip": "feet go light, toes down slowly"
+                },
+                {
+                  "name": "GATED: Small donkey kick, 3s lower, quiet landing",
+                  "dose": "3 x 5 · TIP: only after 4 weeks with no left-shoulder episodes",
+                  "baseDose": "3 x 5",
+                  "tip": "only after 4 weeks with no left-shoulder episodes"
+                },
+                {
+                  "name": "GATED: Donkey kick, hips over hands, 3s lower",
+                  "dose": "3 x 5 · TIP: only after 4 weeks with no left-shoulder episodes",
+                  "baseDose": "3 x 5",
+                  "tip": "only after 4 weeks with no left-shoulder episodes"
                 }
               ],
-              "baseName": "Dip support hold",
-              "cueFull": "Shoulders pushed down, away from ears. No jumping: use the station's built-in steps to get into position."
+              "baseName": "Ball rollout → donkey kicks",
+              "cueFull": "Ribs down, glutes squeezed, back flat. Only roll as far as you can without your lower back sagging. Ab wheel instead? It's much harder: only after full ball rollouts, kneeling, rolling toward a wall to limit range."
             },
             {
-              "id": "dips",
-              "name": "Machines · Assisted dips",
-              "cue": "Less weight on the stack = harder. Only as deep as feels stable.",
-              "startStep": 1,
+              "id": "legLowers",
+              "name": "Mat · Leg lowers → pike compression",
+              "cue": "Lower back down on the lying steps; sit tall, knees straight on the seated steps.",
+              "startStep": 0,
               "steps": [
                 {
-                  "name": "Assisted dip machine, heavy assist",
-                  "dose": "3 x 8 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: smooth reps, shoulders down",
+                  "name": "Reverse crunch, 3s lowering",
+                  "dose": "3 x 6 · TIP: knees curl in, 3s lowering",
+                  "baseDose": "3 x 6",
+                  "tip": "knees curl in, 3s lowering"
+                },
+                {
+                  "name": "Bent-knee leg lowers, tap heels",
+                  "dose": "3 x 8 · TIP: tap heels, keep the back flat",
                   "baseDose": "3 x 8",
-                  "tip": "smooth reps, shoulders down"
+                  "tip": "tap heels, keep the back flat"
                 },
                 {
-                  "name": "Assisted dip machine, moderate assist",
-                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: elbows track back, not out",
-                  "baseDose": "3 x 6",
-                  "tip": "elbows track back, not out"
+                  "name": "Single straight-leg lowers",
+                  "dose": "3 x 6 each · TIP: other knee bent, foot on floor",
+                  "baseDose": "3 x 6 each",
+                  "tip": "other knee bent, foot on floor"
                 },
                 {
-                  "name": "Assisted dip machine, moderate assist, 3s lowering",
-                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: 3s down, steady push up",
+                  "name": "Both straight legs, 4s lower",
+                  "dose": "3 x 6 · TIP: lower only as far as back stays down",
                   "baseDose": "3 x 6",
-                  "tip": "3s down, steady push up"
+                  "tip": "lower only as far as back stays down"
+                },
+                {
+                  "name": "Single-leg lifts, hands by knees",
+                  "dose": "3 x 6 each · TIP: lift the heel an inch",
+                  "baseDose": "3 x 6 each",
+                  "tip": "lift the heel an inch"
+                },
+                {
+                  "name": "Single-leg lifts, hands by hips",
+                  "dose": "3 x 8 each · TIP: hands closer, harder",
+                  "baseDose": "3 x 8 each",
+                  "tip": "hands closer, harder"
+                },
+                {
+                  "name": "Both legs, hands by knees",
+                  "dose": "3 x 8 · TIP: both heels lift together",
+                  "baseDose": "3 x 8",
+                  "tip": "both heels lift together"
+                },
+                {
+                  "name": "Both legs, hands by hips",
+                  "dose": "3 x 10 · TIP: graduation: hands by hips",
+                  "baseDose": "3 x 10",
+                  "tip": "graduation: hands by hips"
                 }
               ],
-              "baseName": "Assisted dips",
-              "cueFull": "Kneel or stand on the pad. Shoulders pushed down away from your ears, only go as deep as feels stable. Less weight on the stack = harder."
+              "baseName": "Leg lowers → pike compression",
+              "cueFull": "Lower back pressed into the floor. Only lower as far as you can without it lifting. This trains the controlled lowering for donkey kicks."
             },
             {
               "id": "ohp",
@@ -1395,72 +1543,120 @@
                   "dose": "3 x 6 each arm · NEEDS DUMBBELL · TIP: control the lowering",
                   "baseDose": "3 x 6 each arm",
                   "tip": "control the lowering"
+                },
+                {
+                  "name": "25 lb dumbbell",
+                  "dose": "3 x 8 each arm · NEEDS DUMBBELL · TIP: half-kneeling, one arm",
+                  "baseDose": "3 x 8 each arm",
+                  "tip": "half-kneeling, one arm"
+                },
+                {
+                  "name": "30 lb dumbbell",
+                  "dose": "3 x 6 each arm · NEEDS DUMBBELL · TIP: control the lowering",
+                  "baseDose": "3 x 6 each arm",
+                  "tip": "control the lowering"
+                },
+                {
+                  "name": "Landmine press, standing, ribs down",
+                  "dose": "3 x 6 each arm · NEEDS BARBELL · TIP: angled press, easier on the shoulder",
+                  "baseDose": "3 x 6 each arm",
+                  "tip": "angled press, easier on the shoulder"
                 }
               ],
               "baseName": "Half-kneeling dumbbell press",
               "cueFull": "Half-kneeling, one arm at a time. Press only as high as your ribs stay down; stop before your back arches. The right arm may stop short of vertical, that's fine."
             },
             {
-              "id": "saHold",
-              "name": "Mat · Single-arm overhead hold",
-              "cue": "One arm at a time. Hold only as high as your back stays flat.",
+              "id": "dipSupport",
+              "name": "Machines · Dip support → L-sit",
+              "cue": "Arms locked, shoulders pushed down. Use the steps, no jumping.",
               "startStep": 1,
               "steps": [
                 {
-                  "name": "Half-kneeling hold, 5–10 lb dumbbell",
-                  "dose": "3 x 15s each arm · NEEDS DUMBBELL · TIP: arm in front of your ear is fine",
-                  "baseDose": "3 x 15s each arm",
-                  "tip": "arm in front of your ear is fine"
+                  "name": "Support hold, feet lightly on floor",
+                  "dose": "3 x 10-20s · NEEDS DIP BARS · TIP: feet take a little weight",
+                  "baseDose": "3 x 10-20s",
+                  "tip": "feet take a little weight"
                 },
                 {
-                  "name": "Half-kneeling hold, 10–15 lb dumbbell",
-                  "dose": "3 x 20s each arm · NEEDS DUMBBELL · TIP: add 5 lb only with zero wobble",
-                  "baseDose": "3 x 20s each arm",
-                  "tip": "add 5 lb only with zero wobble"
+                  "name": "Dip support hold",
+                  "dose": "3 x 20s · NEEDS DIP BARS · TIP: squeeze the bars, stay tall",
+                  "baseDose": "3 x 20s",
+                  "tip": "squeeze the bars, stay tall"
+                },
+                {
+                  "name": "Tuck support, one foot on floor",
+                  "dose": "3 x 10s · NEEDS DIP BARS · TIP: one foot helps balance",
+                  "baseDose": "3 x 10s",
+                  "tip": "one foot helps balance"
+                },
+                {
+                  "name": "Tuck support, both feet up",
+                  "dose": "3 x 10s · NEEDS DIP BARS · TIP: knees up, stay tall",
+                  "baseDose": "3 x 10s",
+                  "tip": "knees up, stay tall"
+                },
+                {
+                  "name": "Tuck support",
+                  "dose": "3 x 20s · NEEDS DIP BARS · TIP: longer hold",
+                  "baseDose": "3 x 20s",
+                  "tip": "longer hold"
+                },
+                {
+                  "name": "One-leg L-sit, switch legs each set",
+                  "dose": "3 x 10s · NEEDS DIP BARS · TIP: switch legs each set",
+                  "baseDose": "3 x 10s",
+                  "tip": "switch legs each set"
                 }
               ],
-              "baseName": "Single-arm overhead hold",
-              "cueFull": "One arm at a time. Hold only as high as your ribs stay down; the right arm may sit in front of your ear. Add 5 lb only with zero wobble and no arch."
+              "baseName": "Dip support → L-sit",
+              "cueFull": "Shoulders pushed down, away from ears. No jumping: use the station's built-in steps to get into position."
             },
             {
-              "id": "hollow",
-              "name": "Mat · Hollow hold",
-              "cue": "Lower back pressed to the floor. Shorten before you arch.",
+              "id": "dips",
+              "name": "Machines · Assisted dips → dips",
+              "cue": "Less weight on the stack = harder. Only as deep as feels stable.",
               "startStep": 1,
               "steps": [
                 {
-                  "name": "Dead bugs only",
-                  "dose": "2 x 8 each side · TIP: opposite arm and leg, slow",
-                  "baseDose": "2 x 8 each side",
-                  "tip": "opposite arm and leg, slow"
+                  "name": "Assisted dip machine, heavy assist",
+                  "dose": "3 x 8 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: smooth reps, shoulders down",
+                  "baseDose": "3 x 8",
+                  "tip": "smooth reps, shoulders down"
                 },
                 {
-                  "name": "Tuck hollow hold",
-                  "dose": "3 x 20-30s · TIP: knees to chest, shoulders lifted",
-                  "baseDose": "3 x 20-30s",
-                  "tip": "knees to chest, shoulders lifted"
+                  "name": "Assisted dip machine, moderate assist",
+                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: elbows track back, not out",
+                  "baseDose": "3 x 6",
+                  "tip": "elbows track back, not out"
                 },
                 {
-                  "name": "One-leg hollow",
-                  "dose": "3 x 20-30s · TIP: switch the long leg each set",
-                  "baseDose": "3 x 20-30s",
-                  "tip": "switch the long leg each set"
+                  "name": "Assisted dip machine, moderate assist, 3s lowering",
+                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: 3s down, steady push up",
+                  "baseDose": "3 x 6",
+                  "tip": "3s down, steady push up"
                 },
                 {
-                  "name": "Bent-knee hollow, arms overhead",
-                  "dose": "3 x 20-30s · TIP: arms by ears, knees bent",
-                  "baseDose": "3 x 20-30s",
-                  "tip": "arms by ears, knees bent"
+                  "name": "Assisted dip machine, light assist, 3s lowering",
+                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: light assist, 3s down",
+                  "baseDose": "3 x 6",
+                  "tip": "light assist, 3s down"
                 },
                 {
-                  "name": "Full hollow hold",
-                  "dose": "3 x 30s, flat back · TIP: exhale, ribs down, toes pointed",
-                  "baseDose": "3 x 30s, flat back",
-                  "tip": "exhale, ribs down, toes pointed"
+                  "name": "Partial-range dips on bars",
+                  "dose": "3 x 3 · NEEDS DIP BARS · TIP: halfway down, press up",
+                  "baseDose": "3 x 3",
+                  "tip": "halfway down, press up"
+                },
+                {
+                  "name": "Full dips on bars",
+                  "dose": "3 x 3 · NEEDS DIP BARS · TIP: graduation: full range, shoulders down",
+                  "baseDose": "3 x 3",
+                  "tip": "graduation: full range, shoulders down"
                 }
               ],
-              "baseName": "Hollow hold",
-              "cueFull": "Exhale, ribs down. Shorten the hold before letting the back arch."
+              "baseName": "Assisted dips → dips",
+              "cueFull": "Kneel or stand on the pad. Shoulders pushed down away from your ears, only go as deep as feels stable. Less weight on the stack = harder."
             },
             {
               "id": "row",
@@ -1485,6 +1681,18 @@
                   "dose": "3 x 8 · NEEDS RACK BAR · TIP: pause 1s at the top",
                   "baseDose": "3 x 8",
                   "tip": "pause 1s at the top"
+                },
+                {
+                  "name": "Rows, bar at hip height",
+                  "dose": "3 x 12 · NEEDS RACK BAR · TIP: more reps, same form",
+                  "baseDose": "3 x 12",
+                  "tip": "more reps, same form"
+                },
+                {
+                  "name": "Rows, bar lowered, body nearly horizontal",
+                  "dose": "3 x 8 · NEEDS RACK BAR · TIP: lower bar, harder",
+                  "baseDose": "3 x 8",
+                  "tip": "lower bar, harder"
                 }
               ],
               "baseName": "Inverted rows",
@@ -1513,6 +1721,24 @@
                   "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: step onto the platform, 3s lower",
                   "baseDose": "3 x 6",
                   "tip": "step onto the platform, 3s lower"
+                },
+                {
+                  "name": "Assisted pull-up machine, heavy assist",
+                  "dose": "3 x 8 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: heavy assist, full range",
+                  "baseDose": "3 x 8",
+                  "tip": "heavy assist, full range"
+                },
+                {
+                  "name": "Assisted pull-up machine, moderate assist",
+                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: less assist, same control",
+                  "baseDose": "3 x 6",
+                  "tip": "less assist, same control"
+                },
+                {
+                  "name": "Assisted pull-up machine, light assist",
+                  "dose": "3 x 5 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: graduation: light assist",
+                  "baseDose": "3 x 5",
+                  "tip": "graduation: light assist"
                 }
               ],
               "baseName": "Pulldown → assisted pull-ups",
@@ -1541,10 +1767,102 @@
                   "dose": "2 x 8 each letter · NEEDS BENCH + DUMBBELL · TIP: stop if the left shoulder pinches",
                   "baseDose": "2 x 8 each letter",
                   "tip": "stop if the left shoulder pinches"
+                },
+                {
+                  "name": "5 lb dumbbells",
+                  "dose": "2 x 10 each letter · NEEDS BENCH + DUMBBELL · TIP: squeeze shoulder blades each rep",
+                  "baseDose": "2 x 10 each letter",
+                  "tip": "squeeze shoulder blades each rep"
+                },
+                {
+                  "name": "8 lb dumbbells",
+                  "dose": "2 x 8 each letter · NEEDS BENCH + DUMBBELL · TIP: stop if the left shoulder pinches",
+                  "baseDose": "2 x 8 each letter",
+                  "tip": "stop if the left shoulder pinches"
                 }
               ],
               "baseName": "Y-T-W raises",
               "cueFull": "Slow, thumbs up, squeeze the shoulder blades. Shoulder stability without hanging. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
+            },
+            {
+              "id": "saHold",
+              "name": "Mat · Single-arm overhead hold",
+              "cue": "One arm at a time. Hold only as high as your back stays flat.",
+              "startStep": 1,
+              "steps": [
+                {
+                  "name": "Half-kneeling hold, 5–10 lb dumbbell",
+                  "dose": "3 x 15s each arm · NEEDS DUMBBELL · TIP: arm in front of your ear is fine",
+                  "baseDose": "3 x 15s each arm",
+                  "tip": "arm in front of your ear is fine"
+                },
+                {
+                  "name": "Half-kneeling hold, 10–15 lb dumbbell",
+                  "dose": "3 x 20s each arm · NEEDS DUMBBELL · TIP: add 5 lb only with zero wobble",
+                  "baseDose": "3 x 20s each arm",
+                  "tip": "add 5 lb only with zero wobble"
+                },
+                {
+                  "name": "Standing hold, 15 lb dumbbell",
+                  "dose": "3 x 20s each arm · NEEDS DUMBBELL · TIP: no lean away from the weight",
+                  "baseDose": "3 x 20s each arm",
+                  "tip": "no lean away from the weight"
+                },
+                {
+                  "name": "Overhead carry, 15–20 lb dumbbell",
+                  "dose": "20 steps each arm · NEEDS DUMBBELL · TIP: walk slowly, arm steady",
+                  "baseDose": "20 steps each arm",
+                  "tip": "walk slowly, arm steady"
+                }
+              ],
+              "baseName": "Single-arm overhead hold",
+              "cueFull": "One arm at a time. Hold only as high as your ribs stay down; the right arm may sit in front of your ear. Add 5 lb only with zero wobble and no arch."
+            },
+            {
+              "id": "lStab",
+              "baseName": "Left shoulder stability",
+              "name": "Mat · Left shoulder stability",
+              "cue": "Left shoulder: strength, not stretch. Light and slow.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Side-lying external rotation, 2-3 lb dumbbell",
+                  "dose": "3 x 12 · NEEDS DUMBBELL · TIP: elbow pinned to your side",
+                  "baseDose": "3 x 12",
+                  "tip": "elbow pinned to your side"
+                },
+                {
+                  "name": "Add: lying serratus punch (press up, reach the ceiling), 5-8 lb",
+                  "dose": "3 x 12 · NEEDS DUMBBELL · TIP: reach the ceiling, don't shrug",
+                  "baseDose": "3 x 12",
+                  "tip": "reach the ceiling, don't shrug"
+                },
+                {
+                  "name": "Add: bottoms-up kettlebell hold, light, elbow bent 90°",
+                  "dose": "3 x 20s · NEEDS DUMBBELL + KETTLEBELL · TIP: bell upside down, wrist straight",
+                  "baseDose": "3 x 20s",
+                  "tip": "bell upside down, wrist straight"
+                },
+                {
+                  "name": "Bottoms-up kettlebell carry, light",
+                  "dose": "3 x 20 steps · NEEDS KETTLEBELL · TIP: walk slowly, keep the bell still",
+                  "baseDose": "3 x 20 steps",
+                  "tip": "walk slowly, keep the bell still"
+                },
+                {
+                  "name": "Bottoms-up kettlebell press, half-kneeling, ribs down",
+                  "dose": "3 x 6 · NEEDS KETTLEBELL · TIP: press only as high as ribs stay down",
+                  "baseDose": "3 x 6",
+                  "tip": "press only as high as ribs stay down"
+                },
+                {
+                  "name": "Bottoms-up kettlebell press, slightly heavier",
+                  "dose": "3 x 6 · NEEDS KETTLEBELL · TIP: small jump in weight",
+                  "baseDose": "3 x 6",
+                  "tip": "small jump in weight"
+                }
+              ],
+              "cueFull": "Left shoulder (past dislocations): strength, not stretch. Light weight, slow, perfect control. Avoid the arm out to the side and rotated back position, and never hang or stretch into end range on this side."
             },
             {
               "id": "sidePlank",
@@ -1603,152 +1921,190 @@
               "cueFull": "Bar about head height, feet stay on the floor, lean back into a long banana stretch. Take as much weight on your feet as you need. Shoulders stay active, not dangling. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it. Left shoulder: stay active, never sink into the stretch."
             },
             {
-              "id": "headstandPrep",
-              "name": "Mat · Forearm headstand prep",
-              "cue": "Forearms carry the weight. Head hangs off the floor, back long. Any neck pain: stop.",
+              "id": "plankCombo",
+              "name": "Mat · Plank → wall holds",
               "startStep": 0,
+              "cue": "Push the floor away. Stop before the shoulder starts to give.",
               "steps": [
                 {
-                  "name": "Forearm plank",
-                  "dose": "3 x 30s · TIP: elbows under shoulders",
+                  "name": "Floor plank: 30s hold, then 10 weight shifts",
+                  "dose": "3 sets · TIP: shift slowly, hips stay level",
+                  "baseDose": "3 sets",
+                  "tip": "shift slowly, hips stay level"
+                },
+                {
+                  "name": "Floor plank: 30s hold, then 6 fingertip hovers each side (palm up onto fingertips, then lift 1 inch)",
+                  "dose": "3 sets · TIP: palm lifts first, fingertips stay down",
+                  "baseDose": "3 sets",
+                  "tip": "palm lifts first, fingertips stay down"
+                },
+                {
+                  "name": "Floor plank: 20s hold, then 6 shoulder taps each side",
+                  "dose": "3 sets · TIP: widen feet if hips rock",
+                  "baseDose": "3 sets",
+                  "tip": "widen feet if hips rock"
+                },
+                {
+                  "name": "Feet on the low bar (~4\"): 20s hold, then 6 shoulder taps each side",
+                  "dose": "3 sets · NEEDS LOW BAR · TIP: toes on bar, body one straight line",
+                  "baseDose": "3 sets",
+                  "tip": "toes on bar, body one straight line"
+                },
+                {
+                  "name": "Feet on foam roller on the low bar, wedged against the wall (~10\"): 20s hold, then 6 shoulder taps each side",
+                  "dose": "3 sets · NEEDS FOAM ROLLER + LOW BAR + WALL · TIP: test the roller with one foot first",
+                  "baseDose": "3 sets",
+                  "tip": "test the roller with one foot first"
+                },
+                {
+                  "name": "Feet on wall at 1 ft: 20s hold only",
+                  "dose": "3 sets · NEEDS WALL · TIP: press toes into the wall, just hold",
+                  "baseDose": "3 sets",
+                  "tip": "press toes into the wall, just hold"
+                },
+                {
+                  "name": "Feet on wall at 1 ft: 20s hold, then 6 shoulder taps each side",
+                  "dose": "3 sets · NEEDS WALL · TIP: hands stay planted, only one hand lifts",
+                  "baseDose": "3 sets",
+                  "tip": "hands stay planted, only one hand lifts"
+                },
+                {
+                  "name": "Feet on wall at 2 ft: 20s hold, then 4 shoulder taps each side",
+                  "dose": "3 sets · NEEDS WALL · TIP: fewer taps, slower taps",
+                  "baseDose": "3 sets",
+                  "tip": "fewer taps, slower taps"
+                },
+                {
+                  "name": "Feet on wall at 3 ft: 20s hold, then 3 shoulder taps each side",
+                  "dose": "3 sets · NEEDS WALL · TIP: graduation: walk feet down, never drop",
+                  "baseDose": "3 sets",
+                  "tip": "graduation: walk feet down, never drop"
+                },
+                {
+                  "name": "Feet at 3 ft on the wall",
+                  "dose": "3 x 30s · NEEDS WALL · TIP: longer hold at a familiar height",
                   "baseDose": "3 x 30s",
-                  "tip": "elbows under shoulders"
+                  "tip": "longer hold at a familiar height"
                 },
                 {
-                  "name": "Dolphin hold (forearm down-dog, hips high)",
-                  "dose": "3 x 20s · TIP: head off the floor, bend knees to keep back flat",
+                  "name": "Feet at 4 ft",
+                  "dose": "3 x 20s · NEEDS WALL · TIP: hands a bit closer to the wall",
                   "baseDose": "3 x 20s",
-                  "tip": "head off the floor, bend knees to keep back flat"
+                  "tip": "hands a bit closer to the wall"
                 },
                 {
-                  "name": "Dolphin hold, feet walked in a little",
-                  "dose": "3 x 20s · TIP: walk in only as far as back stays flat",
-                  "baseDose": "3 x 20s",
-                  "tip": "walk in only as far as back stays flat"
-                },
-                {
-                  "name": "Dolphin hold, feet walked in, shoulders over elbows",
-                  "dose": "3 x 30s · TIP: push the floor away, don't sink between shoulders",
+                  "name": "Feet at 4 ft",
+                  "dose": "3 x 30s · NEEDS WALL · TIP: push tall the whole time",
                   "baseDose": "3 x 30s",
-                  "tip": "push the floor away, don't sink between shoulders"
+                  "tip": "push tall the whole time"
+                },
+                {
+                  "name": "GATED: Wall L-hold, hips stacked over hands",
+                  "dose": "3 x 20s · NEEDS WALL · TIP: only after 4 weeks with no left-shoulder episodes",
+                  "baseDose": "3 x 20s",
+                  "tip": "only after 4 weeks with no left-shoulder episodes"
                 }
               ],
-              "baseName": "Forearm headstand prep",
-              "cueFull": "Elbows shoulder-width, press forearms into the floor and push the chest toward your legs. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
+              "baseName": "Plank → wall holds",
+              "cueFull": "Hold first, then the single-arm work in the same set. On the wall: back your feet up and place your toes at the mark, press toes into the wall, hands stay planted. Shift weight slowly, grip the floor, stop before the shoulder gives. Wall marks at 1, 2 and 3 ft (tape or wall features). Roller step: press it with a foot first to check it's wedged before putting weight on it. Have a medicine ball? Rolling it under one hand works for the fingertip-hover step too."
             },
             {
-              "id": "ballRollout",
-              "name": "Mat · Ball rollout → ball pike",
-              "cue": "Ribs down, back flat. On the ball pike steps, push the floor away; don't sink between your shoulders.",
-              "startStep": 0,
+              "id": "pikeCombo",
+              "baseName": "Pike hold + shrugs",
+              "name": "Mat · Pike hold + shrugs",
+              "cue": "Hold, then shrug in the same set. Elbows locked.",
+              "startStep": 2,
               "steps": [
                 {
-                  "name": "Kneeling, forearms on ball, short roll out",
-                  "dose": "3 x 8 · NEEDS BALL · TIP: small range, smooth return",
-                  "baseDose": "3 x 8",
-                  "tip": "small range, smooth return"
+                  "name": "Kneeling pike: 20s hold, then 10 kneeling shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets · TIP: ears between biceps",
+                  "tip": "ears between biceps"
                 },
                 {
-                  "name": "Kneeling, roll out further",
-                  "dose": "3 x 8 · NEEDS BALL · TIP: a few inches further",
-                  "baseDose": "3 x 8",
-                  "tip": "a few inches further"
+                  "name": "Bent-knee pike: 20s hold, then 8 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets · TIP: full shrug range, pause at the top",
+                  "tip": "full shrug range, pause at the top"
                 },
                 {
-                  "name": "Kneeling, roll out until arms are overhead",
-                  "dose": "3 x 8 · NEEDS BALL · TIP: arms overhead, back still flat",
-                  "baseDose": "3 x 8",
-                  "tip": "arms overhead, back still flat"
+                  "name": "Full pike: 30s hold, then 10 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets · TIP: bend knees if hamstrings pull",
+                  "tip": "bend knees if hamstrings pull"
                 },
                 {
-                  "name": "Ball walkout: lie over the ball, walk hands out until shins are on it, walk back",
-                  "baseDose": "3 x 5",
-                  "tip": "push the floor away, body straight",
-                  "dose": "3 x 5 · NEEDS BALL · TIP: push the floor away, body straight"
+                  "name": "Feet walked in close: 20s hold, then 8 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets · TIP: feet closer to hands",
+                  "tip": "feet closer to hands"
                 },
                 {
-                  "name": "Ball tuck: shins on ball, roll knees toward chest",
-                  "baseDose": "3 x 8",
-                  "tip": "hands under shoulders, slow return",
-                  "dose": "3 x 8 · NEEDS BALL · TIP: hands under shoulders, slow return"
+                  "name": "Feet on wall at 1 ft: 20s hold, then 8 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets · NEEDS WALL · TIP: feet at the 1 ft mark",
+                  "tip": "feet at the 1 ft mark"
                 },
                 {
-                  "name": "Half ball pike: shins on ball, roll in until hips rise halfway",
-                  "baseDose": "3 x 6",
-                  "tip": "graduation: hips up, ribs down, slow return",
-                  "dose": "3 x 6 · NEEDS BALL · TIP: graduation: hips up, ribs down, slow return"
+                  "name": "Feet on wall at 2 ft, hips high: 30s hold, then 10 shrugs",
+                  "baseDose": "3 sets",
+                  "dose": "3 sets · NEEDS WALL · TIP: hips high over hands",
+                  "tip": "hips high over hands"
                 }
               ],
-              "baseName": "Ball rollout → ball pike",
-              "cueFull": "Ribs down, glutes squeezed, back flat. Only roll as far as you can without your lower back sagging. Ab wheel instead? It's much harder: only after full ball rollouts, kneeling, rolling toward a wall to limit range."
+              "cueFull": "Hold first, then shrug in the same set. Ears between biceps, elbows locked, full shrug range with a pause at the top. Tight hamstrings: bend your knees a little so your back stays flat. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
             },
             {
-              "id": "legLowers",
-              "name": "Mat · Slow leg lowers",
-              "cue": "Lower back stays pressed down.",
-              "startStep": 0,
+              "id": "hollow",
+              "name": "Mat · Hollow hold",
+              "cue": "Lower back pressed to the floor. Shorten before you arch.",
+              "startStep": 1,
               "steps": [
                 {
-                  "name": "Reverse crunch, 3s lowering",
-                  "dose": "3 x 6 · TIP: knees curl in, 3s lowering",
-                  "baseDose": "3 x 6",
-                  "tip": "knees curl in, 3s lowering"
+                  "name": "Dead bugs only",
+                  "dose": "2 x 8 each side · TIP: opposite arm and leg, slow",
+                  "baseDose": "2 x 8 each side",
+                  "tip": "opposite arm and leg, slow"
                 },
                 {
-                  "name": "Bent-knee leg lowers, tap heels",
-                  "dose": "3 x 8 · TIP: tap heels, keep the back flat",
-                  "baseDose": "3 x 8",
-                  "tip": "tap heels, keep the back flat"
+                  "name": "Tuck hollow hold",
+                  "dose": "3 x 20-30s · TIP: knees to chest, shoulders lifted",
+                  "baseDose": "3 x 20-30s",
+                  "tip": "knees to chest, shoulders lifted"
                 },
                 {
-                  "name": "Single straight-leg lowers",
-                  "dose": "3 x 6 each · TIP: other knee bent, foot on floor",
-                  "baseDose": "3 x 6 each",
-                  "tip": "other knee bent, foot on floor"
+                  "name": "One-leg hollow",
+                  "dose": "3 x 20-30s · TIP: switch the long leg each set",
+                  "baseDose": "3 x 20-30s",
+                  "tip": "switch the long leg each set"
                 },
                 {
-                  "name": "Both straight legs, 4s lower",
-                  "dose": "3 x 6 · TIP: lower only as far as back stays down",
-                  "baseDose": "3 x 6",
-                  "tip": "lower only as far as back stays down"
+                  "name": "Bent-knee hollow, arms overhead",
+                  "dose": "3 x 20-30s · TIP: arms by ears, knees bent",
+                  "baseDose": "3 x 20-30s",
+                  "tip": "arms by ears, knees bent"
+                },
+                {
+                  "name": "Full hollow hold",
+                  "dose": "3 x 30s, flat back · TIP: exhale, ribs down, toes pointed",
+                  "baseDose": "3 x 30s, flat back",
+                  "tip": "exhale, ribs down, toes pointed"
+                },
+                {
+                  "name": "Full hollow hold",
+                  "dose": "3 x 45s · TIP: longer hold, same shape",
+                  "baseDose": "3 x 45s",
+                  "tip": "longer hold, same shape"
+                },
+                {
+                  "name": "Hollow rocks",
+                  "dose": "3 x 10 · TIP: small rocks, keep the shape",
+                  "baseDose": "3 x 10",
+                  "tip": "small rocks, keep the shape"
                 }
               ],
-              "baseName": "Slow leg lowers",
-              "cueFull": "Lower back pressed into the floor. Only lower as far as you can without it lifting. This trains the controlled lowering for donkey kicks."
-            },
-            {
-              "id": "hams",
-              "baseName": "Hamstrings & pike stretch",
-              "name": "Mat · Hamstrings & pike stretch",
-              "cue": "Gentle, never bounce. Back stays long.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Lying hamstring stretch with band, other leg flat",
-                  "dose": "2 x 30s each leg · NEEDS BAND · TIP: other leg flat on the floor",
-                  "baseDose": "2 x 30s each leg",
-                  "tip": "other leg flat on the floor"
-                },
-                {
-                  "name": "Band stretch + contract-relax: press leg into band 5s, relax, ease deeper",
-                  "dose": "3 rounds each leg · NEEDS BAND · TIP: press 5s, relax, ease deeper",
-                  "baseDose": "3 rounds each leg",
-                  "tip": "press 5s, relax, ease deeper"
-                },
-                {
-                  "name": "Standing pike fold, knees soft, flat back, hands to shins",
-                  "dose": "2 x 30s · TIP: bend knees as much as needed",
-                  "baseDose": "2 x 30s",
-                  "tip": "bend knees as much as needed"
-                },
-                {
-                  "name": "Seated pike fold, flat back, contract-relax",
-                  "dose": "3 rounds · TIP: lead with the chest",
-                  "baseDose": "3 rounds",
-                  "tip": "lead with the chest"
-                }
-              ],
-              "cueFull": "Gentle, never bounce. Lead with the chest and keep the back long. Progress comes over months, not sessions."
+              "baseName": "Hollow hold",
+              "cueFull": "Exhale, ribs down. Shorten the hold before letting the back arch."
             },
             {
               "id": "rMob",
@@ -1786,71 +2142,170 @@
                   "dose": "2 x 10 · NEEDS FOAM ROLLER + DOWEL + BENCH + WALL · TIP: a little higher each week",
                   "baseDose": "2 x 10",
                   "tip": "a little higher each week"
+                },
+                {
+                  "name": "Add: dowel overhead reach standing at the wall, back flat",
+                  "dose": "2 x 10 · NEEDS FOAM ROLLER + DOWEL + BENCH + WALL · TIP: back flat against the wall",
+                  "baseDose": "2 x 10",
+                  "tip": "back flat against the wall"
+                },
+                {
+                  "name": "Add: active overhead holds, right arm, back against wall, ribs down",
+                  "dose": "3 x 15s · NEEDS FOAM ROLLER + DOWEL + BENCH + WALL · TIP: arm hovers off the wall, ribs down",
+                  "baseDose": "3 x 15s",
+                  "tip": "arm hovers off the wall, ribs down"
                 }
               ],
               "cueFull": "Right (repaired) shoulder. Slow, gentle, never force or bounce. Ribs down and lower back flat: the moment your back arches, you've reached your real range. Left shoulder: do the upper-back and lat parts, but skip the end-range shoulder stretches on that side."
             },
             {
-              "id": "lStab",
-              "baseName": "Left shoulder stability",
-              "name": "Mat · Left shoulder stability",
-              "cue": "Left shoulder: strength, not stretch. Light and slow.",
+              "id": "headstandPrep",
+              "name": "Mat · Forearm headstand prep",
+              "cue": "Forearms carry the weight. Head hangs off the floor, back long. Any neck pain: stop.",
               "startStep": 0,
               "steps": [
                 {
-                  "name": "Side-lying external rotation, 2-3 lb dumbbell",
-                  "dose": "3 x 12 · NEEDS DUMBBELL · TIP: elbow pinned to your side",
-                  "baseDose": "3 x 12",
-                  "tip": "elbow pinned to your side"
+                  "name": "Forearm plank",
+                  "dose": "3 x 30s · TIP: elbows under shoulders",
+                  "baseDose": "3 x 30s",
+                  "tip": "elbows under shoulders"
                 },
                 {
-                  "name": "Add: lying serratus punch (press up, reach the ceiling), 5-8 lb",
-                  "dose": "3 x 12 · NEEDS DUMBBELL · TIP: reach the ceiling, don't shrug",
-                  "baseDose": "3 x 12",
-                  "tip": "reach the ceiling, don't shrug"
-                },
-                {
-                  "name": "Add: bottoms-up kettlebell hold, light, elbow bent 90°",
-                  "dose": "3 x 20s · NEEDS DUMBBELL + KETTLEBELL · TIP: bell upside down, wrist straight",
+                  "name": "Dolphin hold (forearm down-dog, hips high)",
+                  "dose": "3 x 20s · TIP: head off the floor, bend knees to keep back flat",
                   "baseDose": "3 x 20s",
-                  "tip": "bell upside down, wrist straight"
+                  "tip": "head off the floor, bend knees to keep back flat"
                 },
                 {
-                  "name": "Bottoms-up kettlebell carry, light",
-                  "dose": "3 x 20 steps · NEEDS KETTLEBELL · TIP: walk slowly, keep the bell still",
-                  "baseDose": "3 x 20 steps",
-                  "tip": "walk slowly, keep the bell still"
+                  "name": "Dolphin hold, feet walked in a little",
+                  "dose": "3 x 20s · TIP: walk in only as far as back stays flat",
+                  "baseDose": "3 x 20s",
+                  "tip": "walk in only as far as back stays flat"
+                },
+                {
+                  "name": "Dolphin hold, feet walked in, shoulders over elbows",
+                  "dose": "3 x 30s · TIP: push the floor away, don't sink between shoulders",
+                  "baseDose": "3 x 30s",
+                  "tip": "push the floor away, don't sink between shoulders"
+                },
+                {
+                  "name": "Dolphin push-ups (rock forward and back)",
+                  "dose": "3 x 6 · TIP: head stays off the floor, back long",
+                  "baseDose": "3 x 6",
+                  "tip": "head stays off the floor, back long"
+                },
+                {
+                  "name": "Headstand setup: hands clasped, crown lightly on floor, knees down",
+                  "dose": "3 x 20s · TIP: crown barely touches, forearms press",
+                  "baseDose": "3 x 20s",
+                  "tip": "crown barely touches, forearms press"
+                },
+                {
+                  "name": "Headstand setup, walk feet in until hips over shoulders",
+                  "dose": "3 x 20s · TIP: lift head 1/2 inch to test",
+                  "baseDose": "3 x 20s",
+                  "tip": "lift head 1/2 inch to test"
+                },
+                {
+                  "name": "GATED: Tucked lift at the wall, feet just off the floor",
+                  "dose": "3 x 5s · NEEDS WALL · TIP: only after the head-lift test and 4 weeks with no left-shoulder episodes",
+                  "baseDose": "3 x 5s",
+                  "tip": "only after the head-lift test and 4 weeks with no left-shoulder episodes"
                 }
               ],
-              "cueFull": "Left shoulder (past dislocations): strength, not stretch. Light weight, slow, perfect control. Avoid the arm out to the side and rotated back position, and never hang or stretch into end range on this side."
+              "baseName": "Forearm headstand prep",
+              "cueFull": "Elbows shoulder-width, press forearms into the floor and push the chest toward your legs. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
             },
             {
-              "id": "pikeCombo",
-              "baseName": "Pike hold + shrugs",
-              "name": "Mat · Pike hold + shrugs",
-              "cue": "Hold, then shrug in the same set. Elbows locked.",
-              "startStep": 2,
+              "id": "sitThrough",
+              "baseName": "Sit-through",
+              "name": "Mat · Sit-through",
+              "cue": "Support hand beside your hip, never behind you. Slow and controlled; stop if the shoulder feels unsteady.",
+              "startStep": 0,
               "steps": [
                 {
-                  "name": "Kneeling pike: 20s hold, then 10 kneeling shrugs",
-                  "baseDose": "3 sets",
-                  "dose": "3 sets · TIP: ears between biceps",
-                  "tip": "ears between biceps"
+                  "name": "Tabletop sit-through, knees down: thread one leg through to sit",
+                  "baseDose": "5 each side",
+                  "tip": "lift the hand, rotate the hips, then the leg",
+                  "dose": "5 each side · TIP: lift the hand, rotate the hips, then the leg"
                 },
                 {
-                  "name": "Bent-knee pike: 20s hold, then 8 shrugs",
-                  "baseDose": "3 sets",
-                  "dose": "3 sets · TIP: full shrug range, pause at the top",
-                  "tip": "full shrug range, pause at the top"
+                  "name": "Bear sit-through, knees 1 inch off the floor",
+                  "baseDose": "5 each side",
+                  "tip": "shift weight onto the planted hand first",
+                  "dose": "5 each side · TIP: shift weight onto the planted hand first"
                 },
                 {
-                  "name": "Full pike: 30s hold, then 10 shrugs",
-                  "baseDose": "3 sets",
-                  "dose": "3 sets · TIP: bend knees if hamstrings pull",
-                  "tip": "bend knees if hamstrings pull"
+                  "name": "Plank sit-through, 2s pause seated",
+                  "baseDose": "5 each side",
+                  "tip": "push the floor away with the support hand",
+                  "dose": "5 each side · TIP: push the floor away with the support hand"
+                },
+                {
+                  "name": "Continuous sit-throughs, alternating sides",
+                  "baseDose": "30s",
+                  "tip": "graduation: smooth rhythm, no rushing",
+                  "dose": "30s · TIP: graduation: smooth rhythm, no rushing"
+                },
+                {
+                  "name": "Continuous sit-throughs, alternating sides",
+                  "baseDose": "45s",
+                  "tip": "breathe, stay relaxed",
+                  "dose": "45s · TIP: breathe, stay relaxed"
+                },
+                {
+                  "name": "Continuous sit-throughs, 2s pause each side",
+                  "baseDose": "60s",
+                  "tip": "graduation: controlled the whole minute",
+                  "dose": "60s · TIP: graduation: controlled the whole minute"
+                }
+              ]
+            },
+            {
+              "id": "hams",
+              "baseName": "Hamstrings & pike stretch",
+              "name": "Mat · Hamstrings & pike stretch",
+              "cue": "Gentle, never bounce. Back stays long.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Lying hamstring stretch with band, other leg flat",
+                  "dose": "2 x 30s each leg · NEEDS BAND · TIP: other leg flat on the floor",
+                  "baseDose": "2 x 30s each leg",
+                  "tip": "other leg flat on the floor"
+                },
+                {
+                  "name": "Band stretch + contract-relax: press leg into band 5s, relax, ease deeper",
+                  "dose": "3 rounds each leg · NEEDS BAND · TIP: press 5s, relax, ease deeper",
+                  "baseDose": "3 rounds each leg",
+                  "tip": "press 5s, relax, ease deeper"
+                },
+                {
+                  "name": "Standing pike fold, knees soft, flat back, hands to shins",
+                  "dose": "2 x 30s · TIP: bend knees as much as needed",
+                  "baseDose": "2 x 30s",
+                  "tip": "bend knees as much as needed"
+                },
+                {
+                  "name": "Seated pike fold, flat back, contract-relax",
+                  "dose": "3 rounds · TIP: lead with the chest",
+                  "baseDose": "3 rounds",
+                  "tip": "lead with the chest"
+                },
+                {
+                  "name": "Elephant walks: standing pike, hands down, straighten one leg at a time",
+                  "dose": "2 x 10 each leg · TIP: straighten one leg at a time",
+                  "baseDose": "2 x 10 each leg",
+                  "tip": "straighten one leg at a time"
+                },
+                {
+                  "name": "Seated pike fold, legs straight, chest toward thighs",
+                  "dose": "2 x 60s · TIP: lead with the chest",
+                  "baseDose": "2 x 60s",
+                  "tip": "lead with the chest"
                 }
               ],
-              "cueFull": "Hold first, then shrug in the same set. Ears between biceps, elbows locked, full shrug range with a pause at the top. Tight hamstrings: bend your knees a little so your back stays flat. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
+              "cueFull": "Gentle, never bounce. Lead with the chest and keep the back long. Progress comes over months, not sessions."
             },
             {
               "id": "glBridge",
@@ -1882,6 +2337,18 @@
                   "baseDose": "3 x 10 each",
                   "tip": "graduation: slow and level",
                   "dose": "3 x 10 each · TIP: graduation: slow and level"
+                },
+                {
+                  "name": "Single-leg bridge, foot on bench",
+                  "baseDose": "3 x 10 each",
+                  "tip": "push through the heel",
+                  "dose": "3 x 10 each · NEEDS BENCH · TIP: push through the heel"
+                },
+                {
+                  "name": "Single-leg bridge, foot on ball",
+                  "baseDose": "3 x 8 each",
+                  "tip": "graduation: ball stays still",
+                  "dose": "3 x 8 each · NEEDS BALL · TIP: graduation: ball stays still"
                 }
               ]
             },
@@ -1915,66 +2382,18 @@
                   "baseDose": "3 x 8 each",
                   "tip": "hips high the whole time",
                   "dose": "3 x 8 each · TIP: hips high the whole time"
-                }
-              ]
-            },
-            {
-              "id": "splitSq",
-              "baseName": "Split squat",
-              "name": "Bench · Split squat",
-              "cue": "Lean slightly forward and push through the front heel: more glutes, less knee.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Split squat, bodyweight, hand on bench for balance",
-                  "baseDose": "3 x 8 each",
-                  "tip": "back knee lowers gently",
-                  "dose": "3 x 8 each · NEEDS BENCH · TIP: back knee lowers gently"
                 },
                 {
-                  "name": "Split squat, 15 lb dumbbells",
-                  "baseDose": "3 x 8 each",
-                  "tip": "torso leans slightly forward",
-                  "dose": "3 x 8 each · NEEDS DUMBBELL · TIP: torso leans slightly forward"
+                  "name": "Full side plank with top-leg lift",
+                  "baseDose": "3 x 6 each",
+                  "tip": "body one straight line",
+                  "dose": "3 x 6 each · TIP: body one straight line"
                 },
                 {
-                  "name": "Rear-foot-elevated split squat, bodyweight",
-                  "baseDose": "3 x 8 each",
-                  "tip": "front foot far enough forward",
-                  "dose": "3 x 8 each · NEEDS BENCH · TIP: front foot far enough forward"
-                },
-                {
-                  "name": "Rear-foot-elevated split squat, 15 lb dumbbells",
-                  "baseDose": "3 x 8 each",
-                  "tip": "graduation: slow, controlled",
-                  "dose": "3 x 8 each · NEEDS BENCH + DUMBBELL · TIP: graduation: slow, controlled"
-                }
-              ]
-            },
-            {
-              "id": "slRdl",
-              "baseName": "Single-leg Romanian deadlift",
-              "name": "Bench · Single-leg Romanian deadlift",
-              "cue": "Hinge at the hip, back flat. Feel it in the standing-leg glute and hamstring.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Single-leg RDL, hand on wall, bodyweight",
-                  "baseDose": "3 x 8 each",
-                  "tip": "soft knee, hips square",
-                  "dose": "3 x 8 each · NEEDS WALL · TIP: soft knee, hips square"
-                },
-                {
-                  "name": "Single-leg RDL, hand on wall, dumbbell in other hand",
-                  "baseDose": "3 x 8 each",
-                  "tip": "weight hangs straight down",
-                  "dose": "3 x 8 each · NEEDS WALL + DUMBBELL · TIP: weight hangs straight down"
-                },
-                {
-                  "name": "Single-leg RDL, free-standing, dumbbell",
-                  "baseDose": "3 x 8 each",
-                  "tip": "graduation: balance without the wall",
-                  "dose": "3 x 8 each · NEEDS DUMBBELL · TIP: graduation: balance without the wall"
+                  "name": "Banded lateral walk, band above knees",
+                  "baseDose": "3 x 12 steps each way",
+                  "tip": "graduation: stay low, toes forward",
+                  "dose": "3 x 12 steps each way · NEEDS BAND · TIP: graduation: stay low, toes forward"
                 }
               ]
             },
@@ -2002,920 +2421,6 @@
                   "baseDose": "3 x 10 each",
                   "tip": "graduation: smooth, no swing",
                   "dose": "3 x 10 each · NEEDS GLUTE MACHINE · TIP: graduation: smooth, no swing"
-                }
-              ]
-            },
-            {
-              "id": "sitThrough",
-              "baseName": "Sit-through",
-              "name": "Mat · Sit-through",
-              "cue": "Support hand beside your hip, never behind you. Slow and controlled; stop if the shoulder feels unsteady.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Tabletop sit-through, knees down: thread one leg through to sit",
-                  "baseDose": "5 each side",
-                  "tip": "lift the hand, rotate the hips, then the leg",
-                  "dose": "5 each side · TIP: lift the hand, rotate the hips, then the leg"
-                },
-                {
-                  "name": "Bear sit-through, knees 1 inch off the floor",
-                  "baseDose": "5 each side",
-                  "tip": "shift weight onto the planted hand first",
-                  "dose": "5 each side · TIP: shift weight onto the planted hand first"
-                },
-                {
-                  "name": "Plank sit-through, 2s pause seated",
-                  "baseDose": "5 each side",
-                  "tip": "push the floor away with the support hand",
-                  "dose": "5 each side · TIP: push the floor away with the support hand"
-                },
-                {
-                  "name": "Continuous sit-throughs, alternating sides",
-                  "baseDose": "30s",
-                  "tip": "graduation: smooth rhythm, no rushing",
-                  "dose": "30s · TIP: graduation: smooth rhythm, no rushing"
-                }
-              ]
-            }
-          ],
-          "graduation": "Reach the last step of every ladder and hit its target.",
-          "extraChecks": [
-            "Wrist rocks: 20 reps, pain-free the next day",
-            "One full week with no shoulder pain or slipping feeling",
-            "Wall test logged: how high your right thumb reaches overhead with back and ribs flat against the wall"
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Phase 2: Strength & Headstand Prep",
-          "status": "active",
-          "goal": "Build pike strength, core control and shoulder endurance, and learn the forearm headstand setup.",
-          "warmup": [
-            "Wrist circles: 10 each direction",
-            "Wrist rocks on all fours: 10 fingers forward, 10 back",
-            "Cat-cow: 8",
-            "Band pull-aparts: 2 x 15",
-            "Band external rotations, light band: 2 x 15 each arm",
-            "Scapular push-ups: 2 x 10",
-            "Wrist push-ups (rock up onto fingers): 2 x 10",
-            "Wall lat stretch: 2 x 30s",
-            "Right shoulder: wall slides, ribs down: 10",
-            "90/90 hip switches: 8"
-          ],
-          "days": [
-            {
-              "name": "Day A: Push · Mat → Machines · BRING: MAT, WALL, DUMBBELLS, BARBELL, DIP BARS, ASSISTED PULL-UP/DIP MACHINE",
-              "ladders": [
-                "p2_pikePushup",
-                "p2_hollow",
-                "p2_compression",
-                "p2_ohp",
-                "p2_dips",
-                "p2_tuck"
-              ],
-              "after": "",
-              "sections": [
-                {
-                  "name": "Mat",
-                  "equipment": "mat, wall",
-                  "ladders": [
-                    "p2_pikePushup",
-                    "p2_hollow",
-                    "p2_compression",
-                    "p2_ohp"
-                  ]
-                },
-                {
-                  "name": "Machines",
-                  "equipment": "dip station, assisted dip machine",
-                  "ladders": [
-                    "p2_dips",
-                    "p2_tuck"
-                  ]
-                }
-              ],
-              "gear": [
-                "MAT",
-                "WALL",
-                "DUMBBELLS",
-                "BARBELL",
-                "DIP BARS",
-                "ASSISTED PULL-UP/DIP MACHINE"
-              ]
-            },
-            {
-              "name": "Day B: Pull · Mat → Bench → Machines · BRING: MAT, DUMBBELLS, KETTLEBELL, BENCH, RACK BAR, ASSISTED PULL-UP/DIP MACHINE",
-              "ladders": [
-                "p2_arch",
-                "p2_lStab",
-                "p2_saHold",
-                "p2_ytw",
-                "p2_row",
-                "p2_vpull"
-              ],
-              "after": "",
-              "sections": [
-                {
-                  "name": "Mat",
-                  "equipment": "mat, kettlebell",
-                  "ladders": [
-                    "p2_arch",
-                    "p2_lStab",
-                    "p2_saHold"
-                  ]
-                },
-                {
-                  "name": "Bench",
-                  "equipment": "incline bench, dumbbells",
-                  "ladders": [
-                    "p2_ytw"
-                  ]
-                },
-                {
-                  "name": "Machines",
-                  "equipment": "Smith or rack bar, assisted pull-up",
-                  "ladders": [
-                    "p2_row",
-                    "p2_vpull"
-                  ]
-                }
-              ],
-              "gear": [
-                "MAT",
-                "DUMBBELLS",
-                "KETTLEBELL",
-                "BENCH",
-                "RACK BAR",
-                "ASSISTED PULL-UP/DIP MACHINE"
-              ]
-            },
-            {
-              "name": "Day C: Skill & Core · Mat · BRING: MAT, WALL, BALL, FOAM ROLLER, DOWEL, BENCH",
-              "ladders": [
-                "p2_rMob",
-                "p2_wallHold",
-                "p2_donkey",
-                "p2_pikeCombo",
-                "p2_headstandPrep",
-                "p2_sitThrough",
-                "p2_hams"
-              ],
-              "after": "",
-              "sections": [
-                {
-                  "name": "Mat",
-                  "equipment": "mat, wall, exercise ball, foam roller, dowel, band",
-                  "ladders": [
-                    "p2_rMob",
-                    "p2_wallHold",
-                    "p2_donkey",
-                    "p2_pikeCombo",
-                    "p2_headstandPrep",
-                    "p2_sitThrough",
-                    "p2_hams"
-                  ]
-                }
-              ],
-              "gear": [
-                "MAT",
-                "WALL",
-                "BALL",
-                "FOAM ROLLER",
-                "DOWEL",
-                "BENCH"
-              ]
-            },
-            {
-              "name": "Day D: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, BAND, BALL, DUMBBELLS, BENCH, GLUTE MACHINE",
-              "sections": [
-                {
-                  "name": "Mat",
-                  "equipment": "mat, band, exercise ball",
-                  "ladders": [
-                    "p2_glBridge",
-                    "p2_glAbd"
-                  ]
-                },
-                {
-                  "name": "Bench",
-                  "equipment": "bench, dumbbells",
-                  "ladders": [
-                    "p2_splitSq",
-                    "p2_slRdl"
-                  ]
-                },
-                {
-                  "name": "Machines",
-                  "equipment": "glute kickback machine",
-                  "ladders": [
-                    "p2_kick"
-                  ]
-                }
-              ],
-              "ladders": [
-                "p2_glBridge",
-                "p2_glAbd",
-                "p2_splitSq",
-                "p2_slRdl",
-                "p2_kick"
-              ],
-              "after": "Machines (optional): leg press or hack squat, leg curl, calf raises.",
-              "gear": [
-                "MAT",
-                "BAND",
-                "BALL",
-                "DUMBBELLS",
-                "BENCH",
-                "GLUTE MACHINE"
-              ]
-            }
-          ],
-          "ladders": [
-            {
-              "id": "p2_wallHold",
-              "name": "Mat · Wall holds",
-              "cue": "Hands planted first. Only your feet walk up and down.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Feet at 3 ft on the wall",
-                  "dose": "3 x 30s · NEEDS WALL · TIP: longer hold at a familiar height",
-                  "baseDose": "3 x 30s",
-                  "tip": "longer hold at a familiar height"
-                },
-                {
-                  "name": "Feet at 4 ft",
-                  "dose": "3 x 20s · NEEDS WALL · TIP: hands a bit closer to the wall",
-                  "baseDose": "3 x 20s",
-                  "tip": "hands a bit closer to the wall"
-                },
-                {
-                  "name": "Feet at 4 ft",
-                  "dose": "3 x 30s · NEEDS WALL · TIP: push tall the whole time",
-                  "baseDose": "3 x 30s",
-                  "tip": "push tall the whole time"
-                },
-                {
-                  "name": "Wall L-hold, hips stacked over hands",
-                  "dose": "3 x 20s · NEEDS WALL · TIP: hips over hands, legs along the wall",
-                  "baseDose": "3 x 20s",
-                  "tip": "hips over hands, legs along the wall"
-                }
-              ],
-              "baseName": "Wall holds",
-              "cueFull": "Hands planted first, a bit closer to the wall for each higher mark. Walk only your feet up and down. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
-            },
-            {
-              "id": "p2_donkey",
-              "name": "Mat · Ball pike → donkey kicks",
-              "startStep": 0,
-              "cue": "3-second lowering every rep. Shoulders stay over hands.",
-              "steps": [
-                {
-                  "name": "Ball plank, shins on ball",
-                  "dose": "3 x 20s · NEEDS BALL · TIP: shins on ball, body straight",
-                  "baseDose": "3 x 20s",
-                  "tip": "shins on ball, body straight"
-                },
-                {
-                  "name": "Ball tuck, roll knees to chest",
-                  "dose": "3 x 8 · NEEDS BALL · TIP: roll the ball in with your knees",
-                  "baseDose": "3 x 8",
-                  "tip": "roll the ball in with your knees"
-                },
-                {
-                  "name": "Ball pike, hips halfway up, 3s return",
-                  "dose": "3 x 6 · NEEDS BALL · TIP: hips up halfway, slow return",
-                  "baseDose": "3 x 6",
-                  "tip": "hips up halfway, slow return"
-                },
-                {
-                  "name": "Ball pike, hips over hands, 3s return",
-                  "dose": "3 x 6 · NEEDS BALL · TIP: hips over hands, slow return",
-                  "baseDose": "3 x 6",
-                  "tip": "hips over hands, slow return"
-                },
-                {
-                  "name": "Rock and hold: feet light 2s, lower toes slowly",
-                  "dose": "3 x 6 · TIP: feet go light, toes down slowly",
-                  "baseDose": "3 x 6",
-                  "tip": "feet go light, toes down slowly"
-                },
-                {
-                  "name": "Small donkey kick, 3s lower, quiet landing",
-                  "dose": "3 x 5 · TIP: small hop, quiet landing",
-                  "baseDose": "3 x 5",
-                  "tip": "small hop, quiet landing"
-                },
-                {
-                  "name": "Donkey kick, hips over hands, 3s lower",
-                  "dose": "3 x 5 · TIP: hips over hands, no drop",
-                  "baseDose": "3 x 5",
-                  "tip": "hips over hands, no drop"
-                }
-              ],
-              "baseName": "Ball pike → donkey kicks",
-              "cueFull": "Every rep: 3-second lowering. Arms locked, shoulders stay over your hands. If you can't control the lowering, go back a step."
-            },
-            {
-              "id": "p2_pikePushup",
-              "name": "Mat · Pike push-ups",
-              "cue": "Head lands in front of hands. Elbows back at 45°.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Full pike push-ups",
-                  "dose": "3 x 5 · TIP: same reps, cleaner form",
-                  "baseDose": "3 x 5",
-                  "tip": "same reps, cleaner form"
-                },
-                {
-                  "name": "Full pike push-ups",
-                  "dose": "3 x 8 · TIP: smooth, no bouncing",
-                  "baseDose": "3 x 8",
-                  "tip": "smooth, no bouncing"
-                },
-                {
-                  "name": "Pike push-ups, feet walked in close",
-                  "dose": "3 x 5 · TIP: feet closer = more on shoulders",
-                  "baseDose": "3 x 5",
-                  "tip": "feet closer = more on shoulders"
-                },
-                {
-                  "name": "Pike push-ups, feet on wall at 1 ft",
-                  "dose": "3 x 5 · NEEDS WALL · TIP: set feet at the mark first",
-                  "baseDose": "3 x 5",
-                  "tip": "set feet at the mark first"
-                },
-                {
-                  "name": "Pike push-ups, feet on wall at 2 ft",
-                  "dose": "3 x 5 · NEEDS WALL · TIP: hips high over hands",
-                  "baseDose": "3 x 5",
-                  "tip": "hips high over hands"
-                },
-                {
-                  "name": "Wall L-pike push-ups, hips over hands",
-                  "dose": "3 x 3 · NEEDS WALL · TIP: graduation: hips over hands, slow",
-                  "baseDose": "3 x 3",
-                  "tip": "graduation: hips over hands, slow"
-                }
-              ],
-              "baseName": "Pike push-ups",
-              "cueFull": "Head lands slightly in front of hands, elbows back at 45°. Wall heights: tape marks (or wall features) at 1 ft, 1.5 ft, 2 ft, 3 ft and 4 ft. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
-            },
-            {
-              "id": "p2_compression",
-              "name": "Mat · Pike compression",
-              "cue": "Sit tall, knees straight. Don't lean back.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Single-leg lifts, hands by knees",
-                  "dose": "3 x 6 each · TIP: lift the heel an inch",
-                  "baseDose": "3 x 6 each",
-                  "tip": "lift the heel an inch"
-                },
-                {
-                  "name": "Single-leg lifts, hands by hips",
-                  "dose": "3 x 8 each · TIP: hands closer, harder",
-                  "baseDose": "3 x 8 each",
-                  "tip": "hands closer, harder"
-                },
-                {
-                  "name": "Both legs, hands by knees",
-                  "dose": "3 x 8 · TIP: both heels lift together",
-                  "baseDose": "3 x 8",
-                  "tip": "both heels lift together"
-                },
-                {
-                  "name": "Both legs, hands by hips",
-                  "dose": "3 x 10 · TIP: graduation: hands by hips",
-                  "baseDose": "3 x 10",
-                  "tip": "graduation: hands by hips"
-                }
-              ],
-              "baseName": "Pike compression",
-              "cueFull": "Sit tall, knees straight, lift the heel an inch or two without leaning back. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves."
-            },
-            {
-              "id": "p2_hollow",
-              "name": "Mat · Hollow body",
-              "cue": "Lower back stays down.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Full hollow hold",
-                  "dose": "3 x 30s · TIP: exhale, ribs down",
-                  "baseDose": "3 x 30s",
-                  "tip": "exhale, ribs down"
-                },
-                {
-                  "name": "Full hollow hold",
-                  "dose": "3 x 45s · TIP: longer hold, same shape",
-                  "baseDose": "3 x 45s",
-                  "tip": "longer hold, same shape"
-                },
-                {
-                  "name": "Hollow rocks",
-                  "dose": "3 x 10 · TIP: small rocks, keep the shape",
-                  "baseDose": "3 x 10",
-                  "tip": "small rocks, keep the shape"
-                }
-              ],
-              "baseName": "Hollow body",
-              "cueFull": "Lower back flat the whole time."
-            },
-            {
-              "id": "p2_dips",
-              "name": "Machines · Dips",
-              "cue": "Only as deep as feels stable. Use the steps, no jumping.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Assisted dip machine, light assist, 3s lowering",
-                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: light assist, 3s down",
-                  "baseDose": "3 x 6",
-                  "tip": "light assist, 3s down"
-                },
-                {
-                  "name": "Partial-range dips on bars",
-                  "dose": "3 x 3 · NEEDS DIP BARS · TIP: halfway down, press up",
-                  "baseDose": "3 x 3",
-                  "tip": "halfway down, press up"
-                },
-                {
-                  "name": "Full dips on bars",
-                  "dose": "3 x 3 · NEEDS DIP BARS · TIP: graduation: full range, shoulders down",
-                  "baseDose": "3 x 3",
-                  "tip": "graduation: full range, shoulders down"
-                }
-              ],
-              "baseName": "Dips",
-              "cueFull": "Only as deep as feels stable. No jumping: use the station's built-in steps to get into position."
-            },
-            {
-              "id": "p2_ohp",
-              "name": "Mat · Half-kneeling dumbbell press",
-              "cue": "Press only as high as ribs stay down.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "25 lb dumbbell",
-                  "dose": "3 x 8 each arm · NEEDS DUMBBELL · TIP: half-kneeling, one arm",
-                  "baseDose": "3 x 8 each arm",
-                  "tip": "half-kneeling, one arm"
-                },
-                {
-                  "name": "30 lb dumbbell",
-                  "dose": "3 x 6 each arm · NEEDS DUMBBELL · TIP: control the lowering",
-                  "baseDose": "3 x 6 each arm",
-                  "tip": "control the lowering"
-                },
-                {
-                  "name": "Landmine press, standing, ribs down",
-                  "dose": "3 x 6 each arm · NEEDS BARBELL · TIP: angled press, easier on the shoulder",
-                  "baseDose": "3 x 6 each arm",
-                  "tip": "angled press, easier on the shoulder"
-                }
-              ],
-              "baseName": "Half-kneeling dumbbell press",
-              "cueFull": "Half-kneeling, one arm at a time. Press only as high as your ribs stay down; stop before your back arches. The right arm may stop short of vertical, that's fine."
-            },
-            {
-              "id": "p2_saHold",
-              "name": "Mat · Single-arm overhead hold",
-              "cue": "One arm at a time. Back stays flat.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Standing hold, 15 lb dumbbell",
-                  "dose": "3 x 20s each arm · NEEDS DUMBBELL · TIP: no lean away from the weight",
-                  "baseDose": "3 x 20s each arm",
-                  "tip": "no lean away from the weight"
-                },
-                {
-                  "name": "Overhead carry, 15–20 lb dumbbell",
-                  "dose": "20 steps each arm · NEEDS DUMBBELL · TIP: walk slowly, arm steady",
-                  "baseDose": "20 steps each arm",
-                  "tip": "walk slowly, arm steady"
-                }
-              ],
-              "baseName": "Single-arm overhead hold",
-              "cueFull": "One arm at a time, no leaning. Ribs down: hold only as high as your back stays flat."
-            },
-            {
-              "id": "p2_tuck",
-              "name": "Machines · Tuck support → L-sit",
-              "cue": "Arms locked, shoulders down. Use the steps, no jumping.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Tuck support, one foot on floor",
-                  "dose": "3 x 10s · NEEDS DIP BARS · TIP: one foot helps balance",
-                  "baseDose": "3 x 10s",
-                  "tip": "one foot helps balance"
-                },
-                {
-                  "name": "Tuck support, both feet up",
-                  "dose": "3 x 10s · NEEDS DIP BARS · TIP: knees up, stay tall",
-                  "baseDose": "3 x 10s",
-                  "tip": "knees up, stay tall"
-                },
-                {
-                  "name": "Tuck support",
-                  "dose": "3 x 20s · NEEDS DIP BARS · TIP: longer hold",
-                  "baseDose": "3 x 20s",
-                  "tip": "longer hold"
-                },
-                {
-                  "name": "One-leg L-sit, switch legs each set",
-                  "dose": "3 x 10s · NEEDS DIP BARS · TIP: switch legs each set",
-                  "baseDose": "3 x 10s",
-                  "tip": "switch legs each set"
-                }
-              ],
-              "baseName": "Tuck support → L-sit",
-              "cueFull": "Parallettes or dip bars. Shoulders pushed down. No jumping: use the station's built-in steps to get into position."
-            },
-            {
-              "id": "p2_arch",
-              "name": "Mat · Arch body hold",
-              "cue": "Glutes squeezed, eyes on the floor.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Superman hold, arms by sides",
-                  "dose": "3 x 20s · TIP: arms by sides, lift chest and legs",
-                  "baseDose": "3 x 20s",
-                  "tip": "arms by sides, lift chest and legs"
-                },
-                {
-                  "name": "Superman hold, arms overhead",
-                  "dose": "3 x 20s · TIP: arms overhead, as far as comfortable",
-                  "baseDose": "3 x 20s",
-                  "tip": "arms overhead, as far as comfortable"
-                },
-                {
-                  "name": "Superman hold, arms overhead",
-                  "dose": "3 x 30s · TIP: graduation: longer hold",
-                  "baseDose": "3 x 30s",
-                  "tip": "graduation: longer hold"
-                }
-              ],
-              "baseName": "Arch body hold",
-              "cueFull": "Squeeze glutes, look at the floor."
-            },
-            {
-              "id": "p2_row",
-              "name": "Machines · Inverted rows",
-              "cue": "Body straight, chest to the bar.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Rows, bar at hip height",
-                  "dose": "3 x 8 · NEEDS RACK BAR · TIP: squeeze shoulder blades",
-                  "baseDose": "3 x 8",
-                  "tip": "squeeze shoulder blades"
-                },
-                {
-                  "name": "Rows, bar at hip height",
-                  "dose": "3 x 12 · NEEDS RACK BAR · TIP: more reps, same form",
-                  "baseDose": "3 x 12",
-                  "tip": "more reps, same form"
-                },
-                {
-                  "name": "Rows, bar lowered, body nearly horizontal",
-                  "dose": "3 x 8 · NEEDS RACK BAR · TIP: lower bar, harder",
-                  "baseDose": "3 x 8",
-                  "tip": "lower bar, harder"
-                }
-              ],
-              "baseName": "Inverted rows",
-              "cueFull": "Body straight, chest to the bar."
-            },
-            {
-              "id": "p2_vpull",
-              "name": "Machines · Assisted pull-ups",
-              "cue": "Shoulders down first. Step up, never jump. 3s lowering.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Assisted pull-up machine, heavy assist",
-                  "dose": "3 x 8 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: heavy assist, full range",
-                  "baseDose": "3 x 8",
-                  "tip": "heavy assist, full range"
-                },
-                {
-                  "name": "Assisted pull-up machine, moderate assist",
-                  "dose": "3 x 6 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: less assist, same control",
-                  "baseDose": "3 x 6",
-                  "tip": "less assist, same control"
-                },
-                {
-                  "name": "Assisted pull-up machine, light assist",
-                  "dose": "3 x 5 · NEEDS ASSISTED PULL-UP/DIP MACHINE · TIP: graduation: light assist",
-                  "baseDose": "3 x 5",
-                  "tip": "graduation: light assist"
-                }
-              ],
-              "baseName": "Assisted pull-ups",
-              "cueFull": "No jumping. Step up onto the machine's platform to reach the bar. Shoulders pulled down first, then pull with the arms. Lower slowly. Slow 3s lowering on each rep. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
-            },
-            {
-              "id": "p2_ytw",
-              "name": "Bench · Y-T-W raises",
-              "cue": "Slow, thumbs up.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "5 lb dumbbells",
-                  "dose": "2 x 10 each letter · NEEDS BENCH + DUMBBELL · TIP: squeeze shoulder blades each rep",
-                  "baseDose": "2 x 10 each letter",
-                  "tip": "squeeze shoulder blades each rep"
-                },
-                {
-                  "name": "8 lb dumbbells",
-                  "dose": "2 x 8 each letter · NEEDS BENCH + DUMBBELL · TIP: stop if the left shoulder pinches",
-                  "baseDose": "2 x 8 each letter",
-                  "tip": "stop if the left shoulder pinches"
-                }
-              ],
-              "baseName": "Y-T-W raises",
-              "cueFull": "Slow and controlled. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
-            },
-            {
-              "id": "p2_headstandPrep",
-              "name": "Mat · Forearm headstand prep",
-              "cue": "Forearms carry the weight. Any neck pain: stop.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Dolphin push-ups (rock forward and back)",
-                  "dose": "3 x 6 · TIP: head stays off the floor, back long",
-                  "baseDose": "3 x 6",
-                  "tip": "head stays off the floor, back long"
-                },
-                {
-                  "name": "Headstand setup: hands clasped, crown lightly on floor, knees down",
-                  "dose": "3 x 20s · TIP: crown barely touches, forearms press",
-                  "baseDose": "3 x 20s",
-                  "tip": "crown barely touches, forearms press"
-                },
-                {
-                  "name": "Headstand setup, walk feet in until hips over shoulders",
-                  "dose": "3 x 20s · TIP: lift head 1/2 inch to test",
-                  "baseDose": "3 x 20s",
-                  "tip": "lift head 1/2 inch to test"
-                },
-                {
-                  "name": "Tucked lift at the wall, feet just off the floor",
-                  "dose": "3 x 5s · NEEDS WALL · TIP: back of head near wall, tiny lift",
-                  "baseDose": "3 x 5s",
-                  "tip": "back of head near wall, tiny lift"
-                }
-              ],
-              "baseName": "Forearm headstand prep",
-              "cueFull": "Forearms carry the weight, never your head and neck. Any neck pain: stop. Back of the head near the wall for the tuck. Tight hamstrings: bend your knees a little so your back stays flat and arms stay in line with your ears. Legs straighten as flexibility improves. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
-            },
-            {
-              "id": "p2_hams",
-              "baseName": "Hamstrings & pike stretch",
-              "name": "Mat · Hamstrings & pike stretch",
-              "cue": "Gentle, never bounce. Back stays long.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Seated pike fold, contract-relax",
-                  "dose": "3 rounds · TIP: press 5s, relax, ease deeper",
-                  "baseDose": "3 rounds",
-                  "tip": "press 5s, relax, ease deeper"
-                },
-                {
-                  "name": "Elephant walks: standing pike, hands down, straighten one leg at a time",
-                  "dose": "2 x 10 each leg · TIP: straighten one leg at a time",
-                  "baseDose": "2 x 10 each leg",
-                  "tip": "straighten one leg at a time"
-                },
-                {
-                  "name": "Seated pike fold, legs straight, chest toward thighs",
-                  "dose": "2 x 60s · TIP: lead with the chest",
-                  "baseDose": "2 x 60s",
-                  "tip": "lead with the chest"
-                }
-              ],
-              "cueFull": "Gentle, never bounce. Back stays long. Hands down on the floor, or on your shins if they don't reach."
-            },
-            {
-              "id": "p2_rMob",
-              "baseName": "Right shoulder mobility",
-              "name": "Mat · Right shoulder mobility",
-              "cue": "Right shoulder. Gentle, never force. Stop when your back arches.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Full routine from Phase 1 + wall slides",
-                  "dose": "2 x 10 · NEEDS FOAM ROLLER + DOWEL + BENCH + WALL · TIP: full routine, then wall slides",
-                  "baseDose": "2 x 10",
-                  "tip": "full routine, then wall slides"
-                },
-                {
-                  "name": "Add: dowel overhead reach standing at the wall, back flat",
-                  "dose": "2 x 10 · NEEDS FOAM ROLLER + DOWEL + BENCH + WALL · TIP: back flat against the wall",
-                  "baseDose": "2 x 10",
-                  "tip": "back flat against the wall"
-                },
-                {
-                  "name": "Add: active overhead holds, right arm, back against wall, ribs down",
-                  "dose": "3 x 15s · NEEDS FOAM ROLLER + DOWEL + BENCH + WALL · TIP: arm hovers off the wall, ribs down",
-                  "baseDose": "3 x 15s",
-                  "tip": "arm hovers off the wall, ribs down"
-                }
-              ],
-              "cueFull": "Right (repaired) shoulder. Slow, gentle, never force or bounce. Ribs down and lower back flat: the moment your back arches, you've reached your real range. Left shoulder: do the upper-back and lat parts, but skip the end-range shoulder stretches on that side."
-            },
-            {
-              "id": "p2_lStab",
-              "baseName": "Left shoulder stability",
-              "name": "Mat · Left shoulder stability",
-              "cue": "Left shoulder: strength, not stretch. Light and slow.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Bottoms-up kettlebell carry, light",
-                  "dose": "3 x 20 steps · NEEDS KETTLEBELL · TIP: bell upside down, walk slowly",
-                  "baseDose": "3 x 20 steps",
-                  "tip": "bell upside down, walk slowly"
-                },
-                {
-                  "name": "Bottoms-up kettlebell press, half-kneeling, ribs down",
-                  "dose": "3 x 6 · NEEDS KETTLEBELL · TIP: press only as high as ribs stay down",
-                  "baseDose": "3 x 6",
-                  "tip": "press only as high as ribs stay down"
-                },
-                {
-                  "name": "Bottoms-up kettlebell press, slightly heavier",
-                  "dose": "3 x 6 · NEEDS KETTLEBELL · TIP: small jump in weight",
-                  "baseDose": "3 x 6",
-                  "tip": "small jump in weight"
-                }
-              ],
-              "cueFull": "Left shoulder (past dislocations): strength, not stretch. Light weight, slow, perfect control. Avoid the arm out to the side and rotated back position, and never hang or stretch into end range on this side."
-            },
-            {
-              "id": "p2_pikeCombo",
-              "baseName": "Pike hold + shrugs",
-              "name": "Mat · Pike hold + shrugs",
-              "cue": "Hold, then shrug in the same set. Elbows locked.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Full pike: 30s hold, then 10 shrugs",
-                  "baseDose": "3 sets",
-                  "dose": "3 sets · TIP: ears between biceps",
-                  "tip": "ears between biceps"
-                },
-                {
-                  "name": "Feet walked in close: 20s hold, then 8 shrugs",
-                  "baseDose": "3 sets",
-                  "dose": "3 sets · TIP: feet closer to hands",
-                  "tip": "feet closer to hands"
-                },
-                {
-                  "name": "Feet on wall at 1 ft: 20s hold, then 8 shrugs",
-                  "baseDose": "3 sets",
-                  "dose": "3 sets · NEEDS WALL · TIP: feet at the 1 ft mark",
-                  "tip": "feet at the 1 ft mark"
-                },
-                {
-                  "name": "Feet on wall at 2 ft, hips high: 30s hold, then 10 shrugs",
-                  "baseDose": "3 sets",
-                  "dose": "3 sets · NEEDS WALL · TIP: hips high over hands",
-                  "tip": "hips high over hands"
-                }
-              ],
-              "cueFull": "Hold first, then shrug in the same set. Push tall, elbows locked. Tight hamstrings: bend your knees a little so your back stays flat. Ribs down: if your back arches to get your arms overhead, bring your hands forward. Your right shoulder has less range; don't force it."
-            },
-            {
-              "id": "p2_glBridge",
-              "baseName": "Glute bridge",
-              "name": "Mat · Glute bridge",
-              "cue": "Ribs down, tuck the pelvis at the top. Squeeze glutes, don't arch your back.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Single-leg glute bridge, 3s hold at top",
-                  "baseDose": "3 x 10 each",
-                  "tip": "hips stay level",
-                  "dose": "3 x 10 each · TIP: hips stay level"
-                },
-                {
-                  "name": "Single-leg bridge, foot on bench",
-                  "baseDose": "3 x 10 each",
-                  "tip": "push through the heel",
-                  "dose": "3 x 10 each · NEEDS BENCH · TIP: push through the heel"
-                },
-                {
-                  "name": "Single-leg bridge, foot on ball",
-                  "baseDose": "3 x 8 each",
-                  "tip": "graduation: ball stays still",
-                  "dose": "3 x 8 each · NEEDS BALL · TIP: graduation: ball stays still"
-                }
-              ]
-            },
-            {
-              "id": "p2_glAbd",
-              "baseName": "Side glutes",
-              "name": "Mat · Side glutes",
-              "cue": "Hips stacked. Slow.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Side plank (knees down) with top-leg lift",
-                  "baseDose": "3 x 10 each",
-                  "tip": "hips high",
-                  "dose": "3 x 10 each · TIP: hips high"
-                },
-                {
-                  "name": "Full side plank with top-leg lift",
-                  "baseDose": "3 x 6 each",
-                  "tip": "body one straight line",
-                  "dose": "3 x 6 each · TIP: body one straight line"
-                },
-                {
-                  "name": "Banded lateral walk, band above knees",
-                  "baseDose": "3 x 12 steps each way",
-                  "tip": "graduation: stay low, toes forward",
-                  "dose": "3 x 12 steps each way · NEEDS BAND · TIP: graduation: stay low, toes forward"
-                }
-              ]
-            },
-            {
-              "id": "p2_splitSq",
-              "baseName": "Split squat",
-              "name": "Bench · Split squat",
-              "cue": "Lean slightly forward and push through the front heel.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Rear-foot-elevated split squat, 20 lb dumbbells",
-                  "baseDose": "3 x 8 each",
-                  "tip": "slow on the way down",
-                  "dose": "3 x 8 each · NEEDS BENCH + DUMBBELL · TIP: slow on the way down"
-                },
-                {
-                  "name": "Rear-foot-elevated split squat, 25 lb dumbbells",
-                  "baseDose": "3 x 8 each",
-                  "tip": "front knee tracks over toes",
-                  "dose": "3 x 8 each · NEEDS BENCH + DUMBBELL · TIP: front knee tracks over toes"
-                },
-                {
-                  "name": "Rear-foot-elevated split squat, 25 lb, 3s lowering",
-                  "baseDose": "3 x 8 each",
-                  "tip": "graduation: steady and controlled",
-                  "dose": "3 x 8 each · NEEDS BENCH + DUMBBELL · TIP: graduation: steady and controlled"
-                }
-              ]
-            },
-            {
-              "id": "p2_slRdl",
-              "baseName": "Single-leg Romanian deadlift",
-              "name": "Bench · Single-leg Romanian deadlift",
-              "cue": "Hinge at the hip, back flat.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Single-leg RDL, 20 lb dumbbell",
-                  "baseDose": "3 x 8 each",
-                  "tip": "hips square",
-                  "dose": "3 x 8 each · NEEDS DUMBBELL · TIP: hips square"
-                },
-                {
-                  "name": "Single-leg RDL, 25 lb dumbbell",
-                  "baseDose": "3 x 8 each",
-                  "tip": "weight close to the leg",
-                  "dose": "3 x 8 each · NEEDS DUMBBELL · TIP: weight close to the leg"
-                },
-                {
-                  "name": "Single-leg RDL, 30 lb dumbbell, 3s lowering",
-                  "baseDose": "3 x 8 each",
-                  "tip": "graduation: no wobble",
-                  "dose": "3 x 8 each · NEEDS DUMBBELL · TIP: graduation: no wobble"
-                }
-              ]
-            },
-            {
-              "id": "p2_kick",
-              "baseName": "Glute kickback machine",
-              "name": "Machines · Glute kickback machine",
-              "cue": "Chest on the pad, hips square. Push through the heel; stop before your back arches.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Glute kickback machine, heavier, slow 3s return",
-                  "baseDose": "3 x 10 each",
-                  "tip": "no swing",
-                  "dose": "3 x 10 each · NEEDS GLUTE MACHINE · TIP: no swing"
                 },
                 {
                   "name": "Glute kickback machine, 2s hold at the top",
@@ -2932,35 +2437,382 @@
               ]
             },
             {
-              "id": "p2_sitThrough",
-              "baseName": "Sit-through",
-              "name": "Mat · Sit-through",
-              "cue": "Support hand beside your hip, never behind you. Slow and controlled; stop if the shoulder feels unsteady.",
+              "id": "splitSq",
+              "baseName": "Split squat",
+              "name": "Bench · Split squat",
+              "cue": "Lean slightly forward, push through the front heel. 2 sets only. Move on after two sessions with no soreness lasting more than two days.",
               "startStep": 0,
               "steps": [
                 {
-                  "name": "Continuous sit-throughs, alternating sides",
-                  "baseDose": "30s",
-                  "tip": "smooth rhythm",
-                  "dose": "30s · TIP: smooth rhythm"
+                  "name": "Split squat, bodyweight, hand on bench",
+                  "baseDose": "2 x 6 each",
+                  "tip": "back knee lowers gently",
+                  "dose": "2 x 6 each · NEEDS BENCH · TIP: back knee lowers gently"
                 },
                 {
-                  "name": "Continuous sit-throughs, alternating sides",
-                  "baseDose": "45s",
-                  "tip": "breathe, stay relaxed",
-                  "dose": "45s · TIP: breathe, stay relaxed"
+                  "name": "Split squat, bodyweight",
+                  "baseDose": "2 x 8 each",
+                  "tip": "torso leans slightly forward",
+                  "dose": "2 x 8 each · TIP: torso leans slightly forward"
                 },
                 {
-                  "name": "Continuous sit-throughs, 2s pause each side",
-                  "baseDose": "60s",
-                  "tip": "graduation: controlled the whole minute",
-                  "dose": "60s · TIP: graduation: controlled the whole minute"
+                  "name": "Split squat, 10 lb dumbbells",
+                  "baseDose": "2 x 8 each",
+                  "tip": "slow on the way down",
+                  "dose": "2 x 8 each · NEEDS DUMBBELLS · TIP: slow on the way down"
+                },
+                {
+                  "name": "Split squat, 15 lb dumbbells",
+                  "baseDose": "2 x 8 each",
+                  "tip": "front knee over toes",
+                  "dose": "2 x 8 each · NEEDS DUMBBELLS · TIP: front knee over toes"
+                },
+                {
+                  "name": "Rear-foot-elevated split squat, bodyweight",
+                  "baseDose": "2 x 6 each",
+                  "tip": "front foot far enough forward",
+                  "dose": "2 x 6 each · NEEDS BENCH · TIP: front foot far enough forward"
+                },
+                {
+                  "name": "Rear-foot-elevated split squat, bodyweight",
+                  "baseDose": "2 x 8 each",
+                  "tip": "steady balance",
+                  "dose": "2 x 8 each · NEEDS BENCH · TIP: steady balance"
+                },
+                {
+                  "name": "Rear-foot-elevated split squat, 15 lb dumbbells",
+                  "baseDose": "2 x 8 each",
+                  "tip": "slow and controlled",
+                  "dose": "2 x 8 each · NEEDS BENCH + DUMBBELLS · TIP: slow and controlled"
+                },
+                {
+                  "name": "Rear-foot-elevated split squat, 20 lb dumbbells",
+                  "baseDose": "2 x 8 each",
+                  "tip": "graduation: smooth, no wobble",
+                  "dose": "2 x 8 each · NEEDS BENCH + DUMBBELLS · TIP: graduation: smooth, no wobble"
+                }
+              ]
+            },
+            {
+              "id": "slRdl",
+              "baseName": "Single-leg Romanian deadlift",
+              "name": "Bench · Single-leg Romanian deadlift",
+              "cue": "Hinge at the hip, back flat. 2 sets only. Move on after two sessions with no soreness lasting more than two days.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Single-leg RDL, hand on wall, bodyweight",
+                  "baseDose": "2 x 6 each",
+                  "tip": "soft knee, hips square",
+                  "dose": "2 x 6 each · NEEDS WALL · TIP: soft knee, hips square"
+                },
+                {
+                  "name": "Single-leg RDL, hand on wall, bodyweight",
+                  "baseDose": "2 x 8 each",
+                  "tip": "reach the free leg back",
+                  "dose": "2 x 8 each · NEEDS WALL · TIP: reach the free leg back"
+                },
+                {
+                  "name": "Single-leg RDL, hand on wall, 10 lb dumbbell",
+                  "baseDose": "2 x 8 each",
+                  "tip": "weight hangs straight down",
+                  "dose": "2 x 8 each · NEEDS WALL + DUMBBELLS · TIP: weight hangs straight down"
+                },
+                {
+                  "name": "Single-leg RDL, hand on wall, 15 lb dumbbell",
+                  "baseDose": "2 x 8 each",
+                  "tip": "slow lowering",
+                  "dose": "2 x 8 each · NEEDS WALL + DUMBBELLS · TIP: slow lowering"
+                },
+                {
+                  "name": "Single-leg RDL, free-standing, bodyweight",
+                  "baseDose": "2 x 8 each",
+                  "tip": "find your balance first",
+                  "dose": "2 x 8 each · TIP: find your balance first"
+                },
+                {
+                  "name": "Single-leg RDL, free-standing, 15 lb dumbbell",
+                  "baseDose": "2 x 8 each",
+                  "tip": "weight close to the leg",
+                  "dose": "2 x 8 each · NEEDS DUMBBELLS · TIP: weight close to the leg"
+                },
+                {
+                  "name": "Single-leg RDL, free-standing, 20 lb dumbbell",
+                  "baseDose": "2 x 8 each",
+                  "tip": "graduation: no wobble",
+                  "dose": "2 x 8 each · NEEDS DUMBBELLS · TIP: graduation: no wobble"
+                }
+              ]
+            },
+            {
+              "id": "wallPushPlus",
+              "baseName": "Wall push-up plus",
+              "name": "Mat · Wall push-up plus",
+              "cue": "At the top, push the wall away so your shoulder blades spread. Great for the left shoulder.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Wall push-up plus",
+                  "baseDose": "2 x 10",
+                  "tip": "elbows at 45°, slow",
+                  "dose": "2 x 10 · NEEDS WALL · TIP: elbows at 45°, slow"
+                },
+                {
+                  "name": "Wall push-up plus",
+                  "baseDose": "2 x 15",
+                  "tip": "pause 1s at the push-away",
+                  "dose": "2 x 15 · NEEDS WALL · TIP: pause 1s at the push-away"
+                },
+                {
+                  "name": "Wall push-up plus, feet farther from the wall",
+                  "baseDose": "2 x 12",
+                  "tip": "body stays straight",
+                  "dose": "2 x 12 · NEEDS WALL · TIP: body stays straight"
+                },
+                {
+                  "name": "Incline push-up plus, hands on bench",
+                  "baseDose": "2 x 10",
+                  "tip": "graduation: full push-away each rep",
+                  "dose": "2 x 10 · NEEDS BENCH · TIP: graduation: full push-away each rep"
+                }
+              ]
+            },
+            {
+              "id": "pushUp",
+              "baseName": "Push-up progression",
+              "name": "Mat · Push-up progression",
+              "cue": "Elbows at 45°, body straight, push the floor away at the top.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Incline push-up, hands on bench",
+                  "baseDose": "3 x 8",
+                  "tip": "chest to the bench edge",
+                  "dose": "3 x 8 · NEEDS BENCH · TIP: chest to the bench edge"
+                },
+                {
+                  "name": "Knee push-ups",
+                  "baseDose": "3 x 8",
+                  "tip": "hips in line with shoulders",
+                  "dose": "3 x 8 · TIP: hips in line with shoulders"
+                },
+                {
+                  "name": "Full push-ups",
+                  "baseDose": "3 x 5",
+                  "tip": "slow lowering",
+                  "dose": "3 x 5 · TIP: slow lowering"
+                },
+                {
+                  "name": "Full push-ups",
+                  "baseDose": "3 x 8",
+                  "tip": "same form, more reps",
+                  "dose": "3 x 8 · TIP: same form, more reps"
+                },
+                {
+                  "name": "Full push-ups, 2s pause at the bottom",
+                  "baseDose": "3 x 8",
+                  "tip": "graduation: no sagging",
+                  "dose": "3 x 8 · TIP: graduation: no sagging"
+                }
+              ]
+            },
+            {
+              "id": "birdDog",
+              "baseName": "Bird dog → plank bird dog",
+              "name": "Mat · Bird dog → plank bird dog",
+              "cue": "Hips level, reach long, slow. Push the floor away with the planted hand.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Bird dog from tabletop",
+                  "baseDose": "2 x 8 each side",
+                  "tip": "opposite arm and leg",
+                  "dose": "2 x 8 each side · TIP: opposite arm and leg"
+                },
+                {
+                  "name": "Bird dog, 3s hold",
+                  "baseDose": "2 x 6 each side",
+                  "tip": "no hip rocking",
+                  "dose": "2 x 6 each side · TIP: no hip rocking"
+                },
+                {
+                  "name": "Bird dog, elbow to knee between reps",
+                  "baseDose": "2 x 8 each side",
+                  "tip": "slow crunch, long reach",
+                  "dose": "2 x 8 each side · TIP: slow crunch, long reach"
+                },
+                {
+                  "name": "Plank bird dog: lift opposite hand and foot",
+                  "baseDose": "3 x 5 each side",
+                  "tip": "graduation: wide feet, hips still",
+                  "dose": "3 x 5 each side · TIP: graduation: wide feet, hips still"
+                }
+              ]
+            },
+            {
+              "id": "facePull",
+              "baseName": "High row to face",
+              "name": "Machines · High row to face",
+              "cue": "Elbows stay below shoulder height. Don't force the rotation, especially on the left.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Band high row to face",
+                  "baseDose": "2 x 15",
+                  "tip": "squeeze shoulder blades",
+                  "dose": "2 x 15 · NEEDS BAND · TIP: squeeze shoulder blades"
+                },
+                {
+                  "name": "Cable high row to face, light",
+                  "baseDose": "3 x 12",
+                  "tip": "pull the rope toward your forehead",
+                  "dose": "3 x 12 · NEEDS CABLE · TIP: pull the rope toward your forehead"
+                },
+                {
+                  "name": "Cable high row to face, moderate",
+                  "baseDose": "3 x 12",
+                  "tip": "control the return",
+                  "dose": "3 x 12 · NEEDS CABLE · TIP: control the return"
+                },
+                {
+                  "name": "Cable high row to face, 2s hold",
+                  "baseDose": "3 x 12",
+                  "tip": "graduation: smooth, no shrugging",
+                  "dose": "3 x 12 · NEEDS CABLE · TIP: graduation: smooth, no shrugging"
+                }
+              ]
+            },
+            {
+              "id": "flow",
+              "baseName": "Flow finisher",
+              "name": "Mat · Flow finisher",
+              "cue": "Slow and smooth. Ribs down; support hand never behind you.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Inchworm",
+                  "baseDose": "5 reps",
+                  "tip": "bend knees as needed",
+                  "dose": "5 reps · TIP: bend knees as needed"
+                },
+                {
+                  "name": "Inchworm + down dog rock",
+                  "baseDose": "5 rounds",
+                  "tip": "plank to pike, smooth",
+                  "dose": "5 rounds · TIP: plank to pike, smooth"
+                },
+                {
+                  "name": "Inchworm + down dog rock + spiderman lunge reach",
+                  "baseDose": "3 rounds",
+                  "tip": "reach up only as far as comfortable",
+                  "dose": "3 rounds · TIP: reach up only as far as comfortable"
+                },
+                {
+                  "name": "Continuous flow: inchworm, down dog rock, spiderman lunge, bear crawl",
+                  "baseDose": "2 min",
+                  "tip": "graduation: steady breathing",
+                  "dose": "2 min · TIP: graduation: steady breathing"
+                }
+              ]
+            },
+            {
+              "id": "legPress",
+              "baseName": "Leg press",
+              "name": "Machines · Leg press",
+              "cue": "Back flat on the pad. Don't let your lower back round at the bottom.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Leg press, light",
+                  "baseDose": "2 x 12",
+                  "tip": "feet high on the plate = more glutes",
+                  "dose": "2 x 12 · NEEDS LEG PRESS · TIP: feet high on the plate = more glutes"
+                },
+                {
+                  "name": "Leg press, moderate",
+                  "baseDose": "2 x 12",
+                  "tip": "slow lowering",
+                  "dose": "2 x 12 · NEEDS LEG PRESS · TIP: slow lowering"
+                },
+                {
+                  "name": "Single-leg leg press, light",
+                  "baseDose": "2 x 10 each",
+                  "tip": "graduation: knee tracks over toes",
+                  "dose": "2 x 10 each · NEEDS LEG PRESS · TIP: graduation: knee tracks over toes"
+                }
+              ]
+            },
+            {
+              "id": "hipAbd",
+              "baseName": "Hip abductor machine",
+              "name": "Machines · Hip abductor machine",
+              "cue": "Sit tall, slow, squeeze at the end.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Hip abductor machine, light",
+                  "baseDose": "2 x 15",
+                  "tip": "control the return",
+                  "dose": "2 x 15 · NEEDS ABDUCTOR MACHINE · TIP: control the return"
+                },
+                {
+                  "name": "Hip abductor machine, moderate",
+                  "baseDose": "3 x 15",
+                  "tip": "1s squeeze",
+                  "dose": "3 x 15 · NEEDS ABDUCTOR MACHINE · TIP: 1s squeeze"
+                },
+                {
+                  "name": "Hip abductor machine, leaning forward",
+                  "baseDose": "3 x 12",
+                  "tip": "graduation: lean hits more glute",
+                  "dose": "3 x 12 · NEEDS ABDUCTOR MACHINE · TIP: graduation: lean hits more glute"
+                }
+              ]
+            },
+            {
+              "id": "balance",
+              "baseName": "Balance",
+              "name": "Mat · Balance",
+              "cue": "Stand near the wall for safety. Soft knee.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Single-leg stand",
+                  "baseDose": "3 x 30s each",
+                  "tip": "eyes on a fixed point",
+                  "dose": "3 x 30s each · NEEDS WALL · TIP: eyes on a fixed point"
+                },
+                {
+                  "name": "Single-leg stand, slow head turns",
+                  "baseDose": "3 x 20s each",
+                  "tip": "keep the hips level",
+                  "dose": "3 x 20s each · NEEDS WALL · TIP: keep the hips level"
+                },
+                {
+                  "name": "Single-leg stand, eyes closed",
+                  "baseDose": "3 x 15s each",
+                  "tip": "hand near the wall",
+                  "dose": "3 x 15s each · NEEDS WALL · TIP: hand near the wall"
+                },
+                {
+                  "name": "Single-leg stand on a folded mat",
+                  "baseDose": "3 x 20s each",
+                  "tip": "ankle does the work",
+                  "dose": "3 x 20s each · NEEDS WALL · TIP: ankle does the work"
+                },
+                {
+                  "name": "Folded mat, eyes closed",
+                  "baseDose": "3 x 10s each",
+                  "tip": "graduation: steady",
+                  "dose": "3 x 10s each · NEEDS WALL · TIP: graduation: steady"
                 }
               ]
             }
           ],
-          "graduation": "Reach the last step of every ladder and hit its target.",
+          "graduation": "Reach the top of every ladder to unlock the forearm headstand phase.",
           "extraChecks": [
+            "Wrist rocks: 20 reps, pain-free the next day",
+            "One full week with no shoulder pain or slipping feeling",
             "Wrist rocks: 20 reps, pain-free the next day",
             "One full week with no shoulder pain or slipping feeling",
             "Wall test: right thumb touches the wall overhead with back and ribs flat (needed before chest-to-wall work)",
@@ -2968,16 +2820,16 @@
           ]
         },
         {
-          "id": 3,
-          "name": "Phase 3: Forearm Headstand",
+          "id": 2,
+          "name": "Phase 2: Forearm Headstand",
           "status": "coming soon",
           "goal": "Main goal: forearm headstand at the wall, then a few seconds away from it with a practiced, controlled exit. Plus full L-sit and strict pull-ups.",
           "days": [],
           "ladders": []
         },
         {
-          "id": 4,
-          "name": "Phase 4: Wall Handstand (optional)",
+          "id": 3,
+          "name": "Phase 3: Wall Handstand (optional)",
           "status": "coming soon",
           "goal": "Only if the right-shoulder wall test passes and the left shoulder has been solid for months: wall walks, chest-to-wall holds, wall shoulder taps. No kick-ups or freestanding work.",
           "days": [],
