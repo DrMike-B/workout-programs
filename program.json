@@ -1080,35 +1080,6 @@
               "after": ""
             },
             {
-              "name": "1B: Push · Mat · BRING: MAT, WALL, BALL, DUMBBELLS, BARBELL, BENCH",
-              "gear": [
-                "MAT",
-                "WALL",
-                "BALL",
-                "DUMBBELLS",
-                "BARBELL",
-                "BENCH"
-              ],
-              "sections": [
-                {
-                  "name": "Mat",
-                  "ladders": [
-                    "wallPushPlus",
-                    "pushUp",
-                    "ohp",
-                    "ballRollout"
-                  ]
-                }
-              ],
-              "ladders": [
-                "wallPushPlus",
-                "pushUp",
-                "ohp",
-                "ballRollout"
-              ],
-              "after": ""
-            },
-            {
               "name": "2A: Pull · Mat → Machines · BRING: MAT, DUMBBELLS, KETTLEBELL, RACK BAR, PULLDOWN MACHINE, ASSISTED PULL-UP/DIP MACHINE",
               "gear": [
                 "MAT",
@@ -1139,6 +1110,103 @@
                 "sidePlank",
                 "row",
                 "vpull"
+              ],
+              "after": ""
+            },
+            {
+              "name": "3A: Skill & Core · Mat · BRING: MAT, WALL, FOAM ROLLER, DOWEL, BENCH, LOW BAR",
+              "gear": [
+                "MAT",
+                "WALL",
+                "FOAM ROLLER",
+                "DOWEL",
+                "BENCH",
+                "LOW BAR"
+              ],
+              "sections": [
+                {
+                  "name": "Mat",
+                  "ladders": [
+                    "rMob",
+                    "plankCombo",
+                    "pikeCombo",
+                    "hollow"
+                  ]
+                }
+              ],
+              "ladders": [
+                "rMob",
+                "plankCombo",
+                "pikeCombo",
+                "hollow"
+              ],
+              "after": ""
+            },
+            {
+              "name": "4A: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, BAND, BALL, DUMBBELLS, BENCH, GLUTE MACHINE",
+              "gear": [
+                "MAT",
+                "BAND",
+                "BALL",
+                "DUMBBELLS",
+                "BENCH",
+                "GLUTE MACHINE"
+              ],
+              "sections": [
+                {
+                  "name": "Mat",
+                  "ladders": [
+                    "glBridge",
+                    "glAbd"
+                  ]
+                },
+                {
+                  "name": "Bench",
+                  "ladders": [
+                    "splitSq"
+                  ]
+                },
+                {
+                  "name": "Machines",
+                  "ladders": [
+                    "kick"
+                  ]
+                }
+              ],
+              "ladders": [
+                "glBridge",
+                "glAbd",
+                "splitSq",
+                "kick"
+              ],
+              "after": ""
+            },
+            {
+              "name": "1B: Push · Mat · BRING: MAT, WALL, BALL, DUMBBELLS, BARBELL, BENCH",
+              "gear": [
+                "MAT",
+                "WALL",
+                "BALL",
+                "DUMBBELLS",
+                "BARBELL",
+                "BENCH"
+              ],
+              "sections": [
+                {
+                  "name": "Mat",
+                  "ladders": [
+                    "wallPushPlus",
+                    "pushUp",
+                    "ohp",
+                    "ballRollout"
+                  ]
+                }
+              ],
+              "ladders": [
+                "wallPushPlus",
+                "pushUp",
+                "ohp",
+                "ballRollout"
               ],
               "after": ""
             },
@@ -1184,35 +1252,6 @@
               "after": ""
             },
             {
-              "name": "3A: Skill & Core · Mat · BRING: MAT, WALL, FOAM ROLLER, DOWEL, BENCH, LOW BAR",
-              "gear": [
-                "MAT",
-                "WALL",
-                "FOAM ROLLER",
-                "DOWEL",
-                "BENCH",
-                "LOW BAR"
-              ],
-              "sections": [
-                {
-                  "name": "Mat",
-                  "ladders": [
-                    "rMob",
-                    "plankCombo",
-                    "pikeCombo",
-                    "hollow"
-                  ]
-                }
-              ],
-              "ladders": [
-                "rMob",
-                "plankCombo",
-                "pikeCombo",
-                "hollow"
-              ],
-              "after": ""
-            },
-            {
               "name": "3B: Skill & Core · Mat · BRING: MAT, WALL, BAND, FOAM ROLLER, DOWEL, BENCH",
               "gear": [
                 "MAT",
@@ -1240,45 +1279,6 @@
                 "sitThrough",
                 "flow",
                 "hams"
-              ],
-              "after": ""
-            },
-            {
-              "name": "4A: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, BAND, BALL, DUMBBELLS, BENCH, GLUTE MACHINE",
-              "gear": [
-                "MAT",
-                "BAND",
-                "BALL",
-                "DUMBBELLS",
-                "BENCH",
-                "GLUTE MACHINE"
-              ],
-              "sections": [
-                {
-                  "name": "Mat",
-                  "ladders": [
-                    "glBridge",
-                    "glAbd"
-                  ]
-                },
-                {
-                  "name": "Bench",
-                  "ladders": [
-                    "splitSq"
-                  ]
-                },
-                {
-                  "name": "Machines",
-                  "ladders": [
-                    "kick"
-                  ]
-                }
-              ],
-              "ladders": [
-                "glBridge",
-                "glAbd",
-                "splitSq",
-                "kick"
               ],
               "after": ""
             },
