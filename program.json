@@ -1195,16 +1195,16 @@
                 {
                   "name": "Mat",
                   "ladders": [
-                    "wallPushPlus",
                     "pushUp",
+                    "bear",
                     "ohp",
                     "ballRollout"
                   ]
                 }
               ],
               "ladders": [
-                "wallPushPlus",
                 "pushUp",
+                "bear",
                 "ohp",
                 "ballRollout"
               ],
@@ -2545,17 +2545,17 @@
               ]
             },
             {
-              "id": "wallPushPlus",
-              "baseName": "Wall push-up plus",
-              "name": "Mat · Wall push-up plus",
-              "cue": "At the top, push the wall away so your shoulder blades spread. Great for the left shoulder.",
+              "id": "pushUp",
+              "baseName": "Push-up progression",
+              "name": "Mat · Push-up progression",
+              "cue": "Elbows at 45°, body straight. At the top, push away so your shoulder blades spread.",
               "startStep": 0,
               "steps": [
                 {
                   "name": "Wall push-up plus",
                   "baseDose": "2 x 10",
-                  "tip": "elbows at 45°, slow",
-                  "dose": "2 x 10 · NEEDS WALL · TIP: elbows at 45°, slow"
+                  "tip": "push the wall away at the top",
+                  "dose": "2 x 10 · NEEDS WALL · TIP: push the wall away at the top"
                 },
                 {
                   "name": "Wall push-up plus",
@@ -2571,21 +2571,6 @@
                 },
                 {
                   "name": "Incline push-up plus, hands on bench",
-                  "baseDose": "2 x 10",
-                  "tip": "graduation: full push-away each rep",
-                  "dose": "2 x 10 · NEEDS BENCH · TIP: graduation: full push-away each rep"
-                }
-              ]
-            },
-            {
-              "id": "pushUp",
-              "baseName": "Push-up progression",
-              "name": "Mat · Push-up progression",
-              "cue": "Elbows at 45°, body straight, push the floor away at the top.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Incline push-up, hands on bench",
                   "baseDose": "3 x 8",
                   "tip": "chest to the bench edge",
                   "dose": "3 x 8 · NEEDS BENCH · TIP: chest to the bench edge"
@@ -2805,6 +2790,39 @@
                   "baseDose": "3 x 10s each",
                   "tip": "graduation: steady",
                   "dose": "3 x 10s each · NEEDS WALL · TIP: graduation: steady"
+                }
+              ]
+            },
+            {
+              "id": "bear",
+              "baseName": "Bear hold → bear crawl",
+              "name": "Mat · Bear hold → bear crawl",
+              "cue": "Knees an inch off the floor, back flat. Slow, quiet steps; push the floor away.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Bear hold",
+                  "baseDose": "3 x 20s",
+                  "tip": "hips level with shoulders",
+                  "dose": "3 x 20s · TIP: hips level with shoulders"
+                },
+                {
+                  "name": "Bear hold shoulder taps",
+                  "baseDose": "3 x 6 each",
+                  "tip": "shift weight slowly first",
+                  "dose": "3 x 6 each · TIP: shift weight slowly first"
+                },
+                {
+                  "name": "Bear crawl forward and back",
+                  "baseDose": "3 x 5 steps each way",
+                  "tip": "opposite hand and foot move together",
+                  "dose": "3 x 5 steps each way · TIP: opposite hand and foot move together"
+                },
+                {
+                  "name": "Lateral bear crawl",
+                  "baseDose": "3 x 5 steps each way",
+                  "tip": "graduation: hips stay low and level",
+                  "dose": "3 x 5 steps each way · TIP: graduation: hips stay low and level"
                 }
               ]
             }
