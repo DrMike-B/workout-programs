@@ -1252,20 +1252,17 @@
               "after": ""
             },
             {
-              "name": "3B: Skill & Core · Mat · BRING: MAT, WALL, BAND, FOAM ROLLER, DOWEL, BENCH",
+              "name": "3B: Skill & Core · Mat · BRING: MAT, WALL, BAND",
               "gear": [
                 "MAT",
                 "WALL",
-                "BAND",
-                "FOAM ROLLER",
-                "DOWEL",
-                "BENCH"
+                "BAND"
               ],
               "sections": [
                 {
                   "name": "Mat",
                   "ladders": [
-                    "rMob",
+                    "rMobQuick",
                     "headstandPrep",
                     "sitThrough",
                     "flow",
@@ -1274,7 +1271,7 @@
                 }
               ],
               "ladders": [
-                "rMob",
+                "rMobQuick",
                 "headstandPrep",
                 "sitThrough",
                 "flow",
@@ -1283,13 +1280,13 @@
               "after": ""
             },
             {
-              "name": "4B: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, WALL, DUMBBELLS, LEG PRESS, ABDUCTOR MACHINE",
+              "name": "4B: Legs & Glutes · Mat → Bench → Machines · BRING: MAT, WALL, DUMBBELLS, LEG PRESS, LEG CURL MACHINE",
               "gear": [
                 "MAT",
                 "WALL",
                 "DUMBBELLS",
                 "LEG PRESS",
-                "ABDUCTOR MACHINE"
+                "LEG CURL MACHINE"
               ],
               "sections": [
                 {
@@ -1308,7 +1305,7 @@
                   "name": "Machines",
                   "ladders": [
                     "legPress",
-                    "hipAbd"
+                    "legCurl"
                   ]
                 }
               ],
@@ -1316,7 +1313,7 @@
                 "balance",
                 "slRdl",
                 "legPress",
-                "hipAbd"
+                "legCurl"
               ],
               "after": ""
             }
@@ -2728,33 +2725,6 @@
               ]
             },
             {
-              "id": "hipAbd",
-              "baseName": "Hip abductor machine",
-              "name": "Machines · Hip abductor machine",
-              "cue": "Sit tall, slow, squeeze at the end.",
-              "startStep": 0,
-              "steps": [
-                {
-                  "name": "Hip abductor machine, light",
-                  "baseDose": "2 x 15",
-                  "tip": "control the return",
-                  "dose": "2 x 15 · NEEDS ABDUCTOR MACHINE · TIP: control the return"
-                },
-                {
-                  "name": "Hip abductor machine, moderate",
-                  "baseDose": "3 x 15",
-                  "tip": "1s squeeze",
-                  "dose": "3 x 15 · NEEDS ABDUCTOR MACHINE · TIP: 1s squeeze"
-                },
-                {
-                  "name": "Hip abductor machine, leaning forward",
-                  "baseDose": "3 x 12",
-                  "tip": "graduation: lean hits more glute",
-                  "dose": "3 x 12 · NEEDS ABDUCTOR MACHINE · TIP: graduation: lean hits more glute"
-                }
-              ]
-            },
-            {
               "id": "balance",
               "baseName": "Balance",
               "name": "Mat · Balance",
@@ -2823,6 +2793,72 @@
                   "baseDose": "3 x 5 steps each way",
                   "tip": "graduation: hips stay low and level",
                   "dose": "3 x 5 steps each way · TIP: graduation: hips stay low and level"
+                }
+              ]
+            },
+            {
+              "id": "legCurl",
+              "baseName": "Leg curl machine",
+              "name": "Machines · Leg curl machine",
+              "cue": "Hips stay pressed down. Slow lowering. 2 sets; move on after two sessions without lingering soreness.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Leg curl machine, light",
+                  "baseDose": "2 x 12",
+                  "tip": "set the pad just above the heels",
+                  "dose": "2 x 12 · NEEDS LEG CURL MACHINE · TIP: set the pad just above the heels"
+                },
+                {
+                  "name": "Leg curl machine, moderate",
+                  "baseDose": "2 x 12",
+                  "tip": "squeeze at the top",
+                  "dose": "2 x 12 · NEEDS LEG CURL MACHINE · TIP: squeeze at the top"
+                },
+                {
+                  "name": "Leg curl machine, 3s lowering",
+                  "baseDose": "2 x 10",
+                  "tip": "control the way down",
+                  "dose": "2 x 10 · NEEDS LEG CURL MACHINE · TIP: control the way down"
+                },
+                {
+                  "name": "Single-leg leg curl, light",
+                  "baseDose": "2 x 10 each",
+                  "tip": "graduation: smooth both sides",
+                  "dose": "2 x 10 each · NEEDS LEG CURL MACHINE · TIP: graduation: smooth both sides"
+                }
+              ]
+            },
+            {
+              "id": "rMobQuick",
+              "baseName": "Right shoulder quick drill",
+              "name": "Mat · Right shoulder quick drill",
+              "cue": "Back and ribs stay on the wall. Raise the arms only as high as they do.",
+              "startStep": 0,
+              "steps": [
+                {
+                  "name": "Wall slides, ribs down",
+                  "baseDose": "2 x 10",
+                  "tip": "forearms slide up the wall",
+                  "dose": "2 x 10 · NEEDS WALL · TIP: forearms slide up the wall"
+                },
+                {
+                  "name": "Wall slides, 3s hold at the top",
+                  "baseDose": "2 x 8",
+                  "tip": "no arch, breathe",
+                  "dose": "2 x 8 · NEEDS WALL · TIP: no arch, breathe"
+                },
+                {
+                  "name": "Back to wall, active overhead hold, right arm",
+                  "baseDose": "3 x 10s",
+                  "tip": "arm hovers, doesn't rest on the wall",
+                  "dose": "3 x 10s · NEEDS WALL · TIP: arm hovers, doesn't rest on the wall"
+                },
+                {
+                  "name": "Active overhead holds, both arms",
+                  "baseDose": "3 x 15s",
+                  "tip": "graduation: back flat the whole time",
+                  "dose": "3 x 15s · NEEDS WALL · TIP: graduation: back flat the whole time"
                 }
               ]
             }
